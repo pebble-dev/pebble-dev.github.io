@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "About"
+title: "Team"
 date:   2016-12-09 11:21:42
 
-permalink: /about/
+permalink: /team/
 
 # categories: 
 ---
