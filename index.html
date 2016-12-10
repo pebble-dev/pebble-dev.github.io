@@ -1,0 +1,23 @@
+---
+layout: page
+title: "Welcome"
+date:   2015-06-12 11:56:42
+# categories: 
+---
+            {% capture index_include %}{% include index.md %}{% endcapture %}
+            {{ index_include | markdownify }}
+
+            <hr>
+
+            {% for post in site.posts limit:5 %}
+
+            <p class="small pull-right">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+              {% comment %} NO NEED FOR <p> WRAPPER {% endcomment %}
+              {{ post.excerpt }}
+
+            <hr>
+
+            {% endfor %}

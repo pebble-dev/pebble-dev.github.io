@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+{% include head.html %}
+
+    <body>
+
+{% include header.html %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+
+{{ content }}
+
+                </div><!-- /.col-sm-8 -->
+                <div class="col-sm-3 col-sm-offset-1">
+
+{% include sidebar.html %}
+
+                </div><!-- /.col-sm-3 -->
+            </div><!-- /.row -->
+
+            <hr>
+
+{% include footer.html %}
+
+        </div> <!-- /container -->        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ "/js/vendor/jquery-1.11.2.min.js" | prepend: site.baseurl }}"><\/script>')</script>
+
+        <script src="{{ "/js/vendor/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+        <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+        
+    </body>
+</html>

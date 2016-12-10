@@ -1,0 +1,63 @@
+                    <div class="about well">
+                        <h4>About</h4>
+                        <p>{{ site.about }}</p>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            {% if site.github_username %}
+                            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-lg fa-fw fa-github"></i></a>
+                            {% endif %}
+                            {% if site.twitter_username %}
+                            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-lg fa-fw fa-twitter"></i></a>
+                            {% endif %}
+                            {% if site.facebook_username %}
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}"><i class="fa fa-lg fa-fw fa-facebook"></i></a>
+                            {% endif %}
+                            {% if site.linkedin_username %}
+                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-lg fa-fw fa-linkedin"></i></a>
+                            {% endif %}
+                            {% if site.google_username %}
+                            <a href="https://plus.google.com/+{{ site.google_username }}/"><i class="fa fa-lg fa-fw fa-google-plus"></i>+</a>
+                            {% endif %}
+                            {% if site.youtube_username %}
+                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}"><i class="fa fa-lg fa-fw fa-youtube"></i></a>
+                            {% endif %}
+                            {% if site.instagram_username %}
+                            <a href="https://instagram.com/{{ site.instagram_username }}"><i class="fa fa-lg fa-fw fa-instagram"></i></a>
+                            {% endif %}
+                            {% if site.reddit_username %}
+                            <a href="http://www.reddit.com/user/{{ site.reddit_username }}"><i class="fa fa-lg fa-fw fa-reddit"></i></a>
+                            {% endif %}
+                            {% if site.tumblr_username %}
+                            <a href="https://www.tumblr.com/blog/{{ site.tumblr_username }}"><i class="fa fa-lg fa-fw fa-tumblr"></i></a>
+                            {% endif %}
+                            {% if site.lastfm_username %}
+                            <a href="http://www.last.fm/user/{{ site.lastfm_username }}"><i class="fa fa-lg fa-fw fa-lastfm"></i></a>
+                            {% endif %}
+                            {% if site.soundcloud_username %}
+                            <a href="https://soundcloud.com/{{ site.soundcloud_username }}"><i class="fa fa-lg fa-fw fa-soundcloud"></i></a>
+                            {% endif %}
+                            {% if site.miiverse_username %}
+                            <a href="https://miiverse.nintendo.net/users/{{ site.miiverse_username }}"><i class="fa fa-fw fa-lg fa-gamepad"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Recent Posts</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ol class="list-unstyled">
+                            {% for post in site.posts limit:20 %}
+                                <li>
+                                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                </li>
+                        {% endfor %}
+                            </ol>
+
+                            <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-lg fa-rss-square"></i> RSS</a></p>
+
+                        </div>
+                    </div>

@@ -1,0 +1,35 @@
+
+# Site settings
+title: pebble-dev.github.io
+# email: your-email@domain.com
+description: > 
+  TODO
+baseurl: ""		# no trailing slash
+url: "http://pebble-dev.github.io"	# no trailing slash
+excerpt_separator: <!--more—->
+
+about: > 
+  TODO
+footer: > 
+  TODO
+twitter_username:    pebble_dev
+github_username:     pebble-dev
+#facebook_username:   TODO
+#linkedin_username:   TODO
+#google_username:     TODO
+#youtube_username:    TODO
+#instagram_username:  TODO
+#reddit_username:     TODO
+#tumblr_username:     TODO
+#lastfm_username:  	 TODO
+#soundcloud_username: TODO
+#miiverse_username:   TODO
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+gems:
+- jemoji
