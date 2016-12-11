@@ -1,11 +1,11 @@
 
 # Site settings
-title: pebble-dev.github.io
+title: REBBLE
 # email: your-email@domain.com
 description: > 
   TODO
 baseurl: ""		# no trailing slash
-url: "http://pebble-dev.github.io"	# no trailing slash
+url: "http://rebble.io"	# no trailing slash
 excerpt_separator: <!--more—->
 
 about: > 
