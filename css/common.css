@@ -100,10 +100,45 @@ header .separator {
 /* --- Common Footer Styles --- */
 
 footer {
+    background-color: #e6e6e6;
     display: flex;
-    flex-flow: row;
-    margin: -1rem 0 1rem;
+    flex-flow: column;
+    padding-bottom: 2rem;
+    margin: -1rem 0 0;
+    align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+/* --- Mailing list registration --- */
+
+div.email-signup {
+    text-align: center;
+    margin: 1rem 0 .5rem;
+}
+
+div.email-signup input[type="email"],
+div.email-signup input[type="submit"] {
+    margin: 0;
+    padding: 0.6rem;
+    line-height: normal;
+    font-size: 0.9em;
+}
+
+div.email-signup input[type="email"] {
+    border: 1px solid #777;
+    border-right: none;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+}
+
+div.email-signup input[type="submit"] {
+    background: #D40;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #910;
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
 }
 
 /* --- Index --- */
@@ -168,7 +203,7 @@ footer {
 section, .post {
     display: block;
     margin: 0 auto 2rem;
-    padding: 3rem;
+    padding: 2rem 3rem;
     max-width: 36rem;
     width: 100vw;
     box-sizing: border-box;
@@ -176,14 +211,6 @@ section, .post {
     box-shadow: 0 0 1rem -0.6rem black;
     overflow: hidden;
     line-height: 1.2;
-}
-
-.text-content > *:first-child {
-    margin-top: 0;
-}
-
-.text-content > *:last-child {
-    margin-bottom: 0;
 }
 
 .text-content > h2 {

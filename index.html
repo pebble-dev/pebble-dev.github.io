@@ -15,3 +15,16 @@ date:   2015-06-12 11:56:42
         </article>
     {% endfor %}
 </div>
+{% if !site.posts %}
+    <section>
+        <div class="text-content">
+            <p><em>There's nothing here (yet...)</em></p>
+            <p>
+                In the meantime, check out the <a href="https://discordapp.com/invite/aRUAYFN">
+                    Discord Server</a> or subscribe to the mailing list:
+            </p>
+            {% include mailinglist.html %}
+        </div>
+    </section>
+    <style> footer { display: none; } </style>
+{% endif %}
