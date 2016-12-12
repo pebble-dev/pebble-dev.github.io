@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Team"
+date:   2016-12-09 11:21:42
+
+permalink: /team/
+---
+
+<section>
+    <h2>Meet the team</h2>
+    <ul class="people">
+        {% for person in site.data.team %}
+            <li>
+                <div class="person">
+                    <img src="{{ person.avatar | prepend: "/images/avatars/" | prepend: site.baseurl | prepend: site.url }}"/>
+                    <p><strong>{{person.name}}</strong> {{person.blurb}}</p>
+                </div>
+                {% if person.bio %}
+                    <article>
+                        {{person.bio}}
+                    </article>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>

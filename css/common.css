@@ -1,27 +1,39 @@
 @font-face {
     font-family: Lato;
     font-weight: normal;
-    src: url(../fonts/Lato-Regular.ttf)
+    src: url(../fonts/lato/Lato-Regular.ttf)
 }
 
 @font-face {
     font-family: Lato;
     font-weight: normal;
     font-style: italic;
-    src: url(../fonts/Lato-Italic.ttf)
+    src: url(../fonts/lato/Lato-Italic.ttf)
 }
 
 @font-face {
     font-family: Lato;
     font-weight: bold;
-    src: url(../fonts/Lato-Bold.ttf)
+    src: url(../fonts/lato/Lato-Bold.ttf)
 }
 
 @font-face {
     font-family: Lato;
     font-weight: bold;
     font-style: italic;
-    src: url(../fonts/Lato-BoldItalic.ttf)
+    src: url(../fonts/lato/Lato-BoldItalic.ttf)
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: normal;
+    src: url(../fonts/source-code-pro/SourceCodePro-Regular.ttf)
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: bold;
+    src: url(../fonts/source-code-pro/SourceCodePro-Bold.ttf)
 }
 
 
@@ -90,6 +102,7 @@ header .separator {
 footer {
     display: flex;
     flex-flow: row;
+    margin: -1rem 0 1rem;
     justify-content: center;
 }
 
@@ -162,22 +175,23 @@ section, .post {
     background: #f8f8f8;
     box-shadow: 0 0 1rem -0.6rem black;
     overflow: hidden;
+    line-height: 1.2;
 }
 
-section > *:first-child, .post > *:first-child {
+.text-content > *:first-child {
     margin-top: 0;
 }
 
-section > *:last-child, .post > *:last-child {
+.text-content > *:last-child {
     margin-bottom: 0;
 }
 
-section > h2, .post > h2 {
+.text-content > h2 {
     text-align: center;
     font-size: 2em;
 }
 
-section > h2 a, .post > h2 a {
+.text-content > h2 a {
     color: #444;
     text-decoration: none;
     text-shadow: 2px 0 #f8f8f8, -2px 0 #f8f8f8, 0 2px #f8f8f8, 0 -2px #f8f8f8;
@@ -187,10 +201,26 @@ section > h2 a, .post > h2 a {
     background-position: center 95%;
 }
 
-.post > .metadata {
+.text-content > .metadata {
     color: #888;
     text-align: right;
     margin: -1rem 0 -0.75rem;
+}
+
+.text-content ul, .text-content ol {
+    padding-left: 2em;
+}
+
+.text-content a {
+    color: #444;
+    text-decoration: underline;
+}
+
+.text-content code {
+    font-family: SourceCodePro, sans-serif;
+    background: #DDD;
+    padding: 0.1em 0.2em;
+    border-radius: 0.4em;
 }
 
 section > ul.people {
@@ -206,6 +236,10 @@ section > ul.people li div.person {
 
 section > ul.people li:nth-child(2n) div.person {
     flex-direction: row-reverse;
+}
+
+section > ul.people li:nth-child(2n) p {
+    text-align: right;
 }
 
 section > ul.people li + li {
@@ -238,6 +272,11 @@ section > ul.people li article:before {
     border-bottom: 1rem solid #444;
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
+}
+
+section > ul.people li article a {
+    color: #DDD;
+    text-decoration: underline;
 }
 
 article > ul.people li:nth-child(2n) p:before {
