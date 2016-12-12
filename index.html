@@ -1,23 +1,30 @@
 ---
-layout: page
-title: "Welcome"
+layout: default
+title: "Rebble"
 date:   2015-06-12 11:56:42
-# categories: 
+# categories:
 ---
-            {% capture index_include %}{% include index.md %}{% endcapture %}
-            {{ index_include | markdownify }}
-
-            <hr>
-
-            {% for post in site.posts limit:5 %}
-
-            <p class="small pull-right">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-
-              {% comment %} NO NEED FOR <p> WRAPPER {% endcomment %}
-              {{ post.excerpt }}
-
-            <hr>
-
-            {% endfor %}
+<div id="posts">
+    {% for post in site.posts limit:5 %}
+        <article class="post">
+            <div class="text-content">
+                <p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </div>
+        </article>
+    {% endfor %}
+</div>
+{% if !site.posts %}
+    <section>
+        <div class="text-content">
+            <p><em>There's nothing here (yet...)</em></p>
+            <p>
+                In the meantime, check out the <a href="https://discordapp.com/invite/aRUAYFN">
+                    Discord Server</a> or subscribe to the mailing list:
+            </p>
+            {% include mailinglist.html %}
+        </div>
+    </section>
+    <style> footer { display: none; } </style>
+{% endif %}
