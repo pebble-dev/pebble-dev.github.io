@@ -1,7 +1,7 @@
 <header>
     <i class="rebble-logo-light large-icon"></i>
     <span class="headertext">
-        <span class="sitename"><a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">rebble</a></span>
+        <span class="sitename"><a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></span>
         {% if page.title and page.title != 'Rebble' and page.layout != 'post' %}
             <span class="separator">·</span>
             <span class="pagename">{{page.title}}</span>
