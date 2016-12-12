@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Common Header Styles --- */
 
 header {
-    background-color: #313131;
+    background-color: #373a3c;
     padding: 3rem 2em 15em;
     margin-bottom: calc(-17em + 3rem);
     text-align: center;
@@ -220,7 +220,7 @@ section, .post {
     width: 100vw;
     box-sizing: border-box;
     background: #f8f8f8;
-    box-shadow: 0 0 1rem -0.6rem black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     overflow: hidden;
 }
 @media only screen and (min-width : 768px) {
