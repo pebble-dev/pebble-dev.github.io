@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: text-page
 title: "FAQ"
 date:   2016-12-09 11:21:42
 
 permalink: /faq/
 
-# categories: 
+# categories:
 ---
 
 ## `pebble-dev`
