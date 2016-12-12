@@ -41,8 +41,13 @@ body {
     margin: 0;
     background-color: #e6e6e6;
     font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  line-height: 1.8em;
+}
 /* --- Common Header Styles --- */
 
 header {
@@ -94,7 +99,7 @@ header a {
 }
 
 header .separator {
-    color: #999;
+    color: #ff4700;
 }
 
 /* --- Common Footer Styles --- */
@@ -103,9 +108,12 @@ footer {
     background-color: #e6e6e6;
     display: flex;
     flex-flow: column;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 2rem;
     margin: -1rem 0 0;
     align-items: center;
+    text-align: center;
     justify-content: center;
     position: relative;
 }
@@ -203,21 +211,25 @@ div.email-signup input[type="submit"] {
 section, .post {
     display: block;
     margin: 0 auto 2rem;
-    padding: 2rem 3rem;
-    max-width: 36rem;
+    padding: 15px;
+    max-width: 46rem;
     width: 100vw;
     box-sizing: border-box;
     background: #f8f8f8;
     box-shadow: 0 0 1rem -0.6rem black;
     overflow: hidden;
-    line-height: 1.2;
 }
-
+@media only screen and (min-width : 768px) {
+  section, .post {
+    padding: 2rem 3rem;
+  }
+}
 .text-content > h2 {
-    text-align: center;
     font-size: 2em;
 }
-
+.post h2 {
+  text-align: center;
+}
 .text-content > h2 a {
     color: #444;
     text-decoration: none;
@@ -231,14 +243,18 @@ section, .post {
 .text-content > .metadata {
     color: #888;
     text-align: right;
-    margin: -1rem 0 -0.75rem;
+    margin: 0;
 }
 
 .text-content ul, .text-content ol {
     padding-left: 2em;
+    color: #ff4700;
 }
-
-.text-content a {
+.text-content ol ol,
+.text-content ul ul {
+  padding-left: 1em;
+}
+a {
     color: #444;
     text-decoration: underline;
 }
@@ -246,8 +262,8 @@ section, .post {
 .text-content code {
     font-family: SourceCodePro, sans-serif;
     background: #DDD;
-    padding: 0.1em 0.2em;
-    border-radius: 0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.2em;
 }
 
 section > ul.people {
