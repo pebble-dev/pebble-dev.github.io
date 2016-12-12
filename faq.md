@@ -8,20 +8,20 @@ permalink: /faq/
 # categories:
 ---
 
-## `pebble-dev`
+## Rebble
 
-### What is `pebble-dev`?
+### What is Rebble?
 
-`pebble-dev` began as a supplement to the [official Pebble documentation](https://developer.pebble.com/).  After [Pebble ceased operations](https://blog.getpebble.com/2016/12/07/fitbit/), it morphed into the unofficial spearhead organization for continuing the advancement of the Pebble platform via the amazing Pebble developer community.  
+Rebble began as a supplement to the [official Pebble documentation](https://developer.pebble.com/).  After [Pebble ceased operations](https://blog.getpebble.com/2016/12/07/fitbit/), it morphed into the unofficial spearhead organization for continuing the advancement of the Pebble platform via the amazing Pebble developer community.  
 
-### What does `pebble-dev` do?
+### What does Rebble do?
 
-Our present focus is on replacing key pieces of the Pebble ecosystem: the appstore, firmware, and mobile apps.  At a higher level, our goal is to maintain and advance Pebble functionality, in the absence of *Pebble Technology Corp.*.  
+Our present focus is on replacing key pieces of the Pebble ecosystem: the appstore, firmware, and mobile apps.  At a higher level, our goal is to maintain and advance Pebble functionality, in the absence of *Pebble Technology Corp*.  
 
-### Who is `pebble-dev`?
+### Who is Rebble?
 
 Find out on our [team](/team) page!  
 
-### Where can I learn more about `pebble-dev`?
+### Where can I learn more about Rebble?
 
-Join us on the ~~official~~ unofficial [Pebble Dev Discord server](http://discord.gg/aRUAYFN), then head to `#rebirth` to find out what we're up to! :bowtie:  
+Join us on the *officially* unofficial [Pebble Dev Discord server](http://discord.gg/aRUAYFN), then head to `#rebirth` to find out what we're up to! :bowtie:  
