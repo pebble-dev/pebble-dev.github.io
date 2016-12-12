@@ -1,0 +1,13 @@
+- name: "Ish Ot Jr."
+  blurb: "wrote a <a href=\"http://ishotjr.com/a-love-letter-to-pebble-and-the\
+          -pebble-community/\">love letter – to his watch!</a>"
+  avatar: "ishotjr.png"
+  bio: "I have a lot of energy and motivation and tend to find myself at the center of projects like this (see also e.g. <a href=\"https://apps.getpebble.com/en_US/application/579841731482cdda2b000061\">Pokemon GO Radar</a>).  I enjoy bringing people together, harnessing enthusiasm, fostering teams, and building amazing things.<br>  <a href=\"https://github.com/jneubrand\">@jneubrand</a> and I started the <a href=\"https://github.com/pebble-dev/wiki/wiki\">wiki</a>/<a href=\"https://github.com/pebble-dev\">org</a> that eventually mutated to become <a href=\"http://rebble.io/\">Rebble</a>. :heart: to everyone else who's joined in since - what we're going to accomplish here is mind-blowing! :bowtie:"
+
+- name: "Johannes Neubrand"
+  blurb: "has a boring avatar."
+  avatar: "johannesn.png"
+
+- name: "Katharine Berry"
+  blurb: "is secretly a pink horse. <!--except everybody knows-->"
+  avatar: "katieberry.png"

@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: text-page
 title: "Projects"
 date:   2016-12-09 11:21:42
 
 permalink: /projects/
 
-# categories: 
 ---
 
 ## wiki
@@ -15,12 +14,16 @@ permalink: /projects/
 ## Appstore replacement
 
 * [The Panic Store](https://github.com/pebble-dev/The-Panic-Store)
+	* [home](http://rebble.io/The-Panic-Store/) *(preview)*
+	* [watchfaces](http://rebble.io/The-Panic-Store/app-details.html) *(preview)*
+	* [watchapps](http://rebble.io/The-Panic-Store/apps.html) *(preview)*
 * [Appstore wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
 
 ## Firmware
 
-* [Hardware & Firmware](https://github.com/pebble-dev/wiki/wiki/Hardware-%26-Firmware)
+* [Hardware & Firmware wiki](https://github.com/pebble-dev/wiki/wiki/Hardware-%26-Firmware)
+* [ufw](https://github.com/pebble-dev/ufw) - *an extremely tiny "hello world" firmware*
 
 ## Mobile Apps
 
-***TODO***
+We're currently working on an iOS rewrite and potential augmentations to [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) - more detail to come soon... :sweat_smile:  
