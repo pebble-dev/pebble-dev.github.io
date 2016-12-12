@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="rebble copy 2.svg"
+   sodipodi:docname="rebble-dark.svg"
    inkscape:export-filename="/Users/johannes/Desktop/rebble1010.png"
    inkscape:export-xdpi="344.11752"
    inkscape:export-ydpi="344.11752">
@@ -590,7 +590,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="57.4614"
+     inkscape:cx="0.49711429"
      inkscape:cy="65.131663"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -636,7 +636,7 @@
        id="path4929"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ff4700;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 87.965741,973.53512 L 64,988.36216 l -15.02158,-9.71824"
        id="path4967"
        inkscape:connector-curvature="0"
