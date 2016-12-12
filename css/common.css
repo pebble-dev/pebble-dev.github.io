@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Common Header Styles --- */
 
 header {
-    background-color: #373a3c;
+    background-color: #313131;
     padding: 3rem 2em 15em;
     margin-bottom: calc(-17em + 3rem);
     text-align: center;
