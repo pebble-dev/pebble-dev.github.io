@@ -159,8 +159,12 @@ div.email-signup input[type="submit"] {
 
 #index li a {
     text-decoration: none;
-    margin: 0 .75em;
+    padding: .75em .75em;
     color: #FFF;
+}
+
+#index li a.selected {
+    border-bottom: 2px solid #FFF;
 }
 
 /* --- Logo --- */

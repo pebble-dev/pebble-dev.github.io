@@ -4,8 +4,6 @@ title: "FAQ"
 date:   2016-12-09 11:21:42
 
 permalink: /faq/
-
-# categories:
 ---
 
 ## Rebble
