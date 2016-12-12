@@ -1,0 +1,11 @@
+- display: "home"
+  permalink: "/"
+
+- display: "faq"
+  permalink: "/faq/"
+
+- display: "team"
+  permalink: "/team/"
+
+- display: "projects"
+  permalink: "/projects/"
