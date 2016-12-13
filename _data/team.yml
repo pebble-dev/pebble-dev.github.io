@@ -12,7 +12,17 @@
   blurb: "is secretly a pink horse. <!--except everybody knows-->"
   avatar: "katieberry.png"
 
-- name: "Stefano Gerli"
+- name: "Konrad Iturbe"
+  blurb: "is who you think he is"
+  avatar: "konraditurbe.jpg"
+  bio: "I'm a high school student, software developer and network security enthusiast. I mostly do projects that benefit me and others in my free time, I mostly do Android programming and other languages such as Python or Go. I maintain an <a href=\"http://github.com/konradit/goprowifihack\">unofficial GoPro WiFi API</a>, extend camera functionality via <a href=\"http://github.com/konradit/autoexechack\">Automated scripts for GoPro cameras</a> and several Android apps. I tried several smartwatches and I can finally say that Pebble rocks, I know it, you know it, everybody knows it! I joined Rebble to help maintaining Pebble alive, and I encourage you do the same. My role is front-end website, firmware and Android app development."
+
+- name: "Gary Daigle (Zetaphor)"
+  blurb: "really likes tea."
+  avatar: "zetaphor.png"
+
+  - name: "Stefano Gerli"
   blurb: "loves to design websites, watchafeces, and apps."
   avatar: "sgerli.png"
   bio: "I am a High School student that loves technology, programming, design, and Pebble smartwatches.<br>I started The Panic Store project and the designed it, but the design ended up being completely different as how it was supposed to be, it ended up being <b>better</b>.."
+
