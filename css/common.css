@@ -314,7 +314,7 @@ section > ul.people li article {
 section > ul.people li article:before {
     position: absolute;
     top: -1rem;
-    left: 5rem;
+    left: 5.5rem;
     content: "";
     border-bottom: 1rem solid #444;
     border-left: 1rem solid transparent;
@@ -322,7 +322,7 @@ section > ul.people li article:before {
 }
 
 section > ul.people li:nth-child(2n) article:before {
-    right: 5rem;
+    right: 5.5rem;
     left: auto;
 }
 
