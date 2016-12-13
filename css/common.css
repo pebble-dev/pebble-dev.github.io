@@ -39,7 +39,7 @@
 
 body {
     margin: 0;
-    background-color: #e6e6e6;
+    background-color: #F4F3F4;
     font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.6em;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- Common Header Styles --- */
 
 header {
-    background-color: #313131;
+    background-color: #373a3c;
     padding: 3rem 2em 15em;
     margin-bottom: calc(-17em + 3rem);
     text-align: center;
@@ -105,7 +105,7 @@ header .separator {
 /* --- Common Footer Styles --- */
 
 footer {
-    background-color: #e6e6e6;
+    background: none;
     display: flex;
     flex-flow: column;
     padding-left: 15px;
@@ -219,8 +219,8 @@ section, .post {
     max-width: 46rem;
     width: 100vw;
     box-sizing: border-box;
-    background: #f8f8f8;
-    box-shadow: 0 0 1rem -0.6rem black;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     overflow: hidden;
 }
 @media only screen and (min-width : 768px) {
@@ -320,6 +320,12 @@ section > ul.people li article:before {
     border-left: 1rem solid transparent;
     border-right: 1rem solid transparent;
 }
+
+section > ul.people li:nth-child(2n) article:before {
+    right: 5rem;
+    left: auto;
+}
+
 
 section > ul.people li article a {
     color: #DDD;
