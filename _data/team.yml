@@ -26,3 +26,22 @@
   avatar: "sgerli.png"
   bio: "I am a High School student that loves technology, programming, design, and Pebble smartwatches.<br>I started The Panic Store project and designed it, but the design ended up being completely different as how it was supposed to be, it ended up being <b>better</b>."
 
+- name: "Jakob Riepler (XDjackieXD)"
+  blurb: "knows his chaos."
+  avatar: "xdjackiexd.png"
+  bio: "I'm Jakob, student of a higher technical college in Austria. I'm interested in embedded hardware and software design, RF circuit design, software development and a lot of other things and gained a lot of knowledge in these fields during the last years."
+
+- name: "Miles Kjeller"
+  blurb: ", fox in a human outfit. Shh, don't tell anyone."
+  avatar: "mileskjeller.jpg"
+  bio: "I originally joined the Pebble Dev Community Discord to thank the remaining team members for such a wonderful product. What I found was a passionate and empowered community looking to salvage and maintain whatever they could of the great Pebble Legacy. It was at that point that I suggested that everyone working on archiving and rebuilding group together in a team, then known as \"#rebirth\". From there we've grouped together and are working on not just keeping our Pebbles running, but making them more than they were. I can't wait to see where Rebble takes us next!<br>My main skills lie in server management, general tech support, community management and customer services."
+
+- name: "ardaozkal"
+  blurb: "will sell Pebbles of offenders to FitBit."
+  avatar: "ardaozkal.jpg"
+  bio: "I'm a high school student, a pebble enthusiast and a C# developer. I maintain the pebble archive. I joined rebble to help keep the smartwatch we all love alive. I'm mostly dealing with my archive now, but will probably work on store backend soon."
+
+- name: "Chris Kratz"
+  blurb: "has more ambition than hours in the day."
+  avatar: "kratz9.png"
+  bio: "Professional software developer and Pebble fan, I am an electronics hobbiest that has grown bored with my day job. I am working to return to my true passions and grow my skillset in new directions."
