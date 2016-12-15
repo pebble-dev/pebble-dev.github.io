@@ -45,3 +45,8 @@
   blurb: "has more ambition than hours in the day."
   avatar: "kratz9.png"
   bio: "Professional software developer and Pebble fan, I am an electronics hobbiest that has grown bored with my day job. I am working to return to my true passions and grow my skillset in new directions."
+
+- name: "Ester Sanchez"
+  blurb: "makes beer in a fridge in Amsterdam, though hails from Spain"
+  avatar: "misato.jpg"
+  bio: "I am a mobile developer and Pebble enthusiast. I am part of the <a href=\"https://www.kiezelwatchfaces.com/\">Kiezel Watchfaces</a> Team and helped building not only Pebble faces/apps but also KiezelPay. I've been working on native mobile apps (mostly iOS) for the last 7 years so joining this with my Pebble knowdlege I'd like to build an iOS library and app for our watches."
