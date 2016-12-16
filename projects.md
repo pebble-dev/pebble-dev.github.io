@@ -12,7 +12,7 @@ permalink: /projects/
 
 ## Appstore replacement
 
-* [The Panic Store](https://github.com/pebble-dev/The-Panic-Store)
+* [The Rebble Store](https://github.com/pebble-dev/The-Panic-Store) (formerly The Panic Store)
 	* [home](http://rebble.io/The-Panic-Store/) *(preview)*
 	* [watchfaces](http://rebble.io/The-Panic-Store/app-details.html) *(preview)*
 	* [watchapps](http://rebble.io/The-Panic-Store/apps.html) *(preview)*
