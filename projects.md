@@ -12,7 +12,7 @@ permalink: /projects/
 
 ## Appstore replacement
 
-* [The Rebble Store](https://github.com/pebble-dev/The-Panic-Store) (formerly The Panic Store)
+* [The Rebble Store](https://github.com/pebble-dev/The-Panic-Store) *(formerly The Panic Store)*
 	* [home](http://rebble.io/The-Panic-Store/) *(preview)*
 	* [watchfaces](http://rebble.io/The-Panic-Store/app-details.html) *(preview)*
 	* [watchapps](http://rebble.io/The-Panic-Store/apps.html) *(preview)*
@@ -22,6 +22,7 @@ permalink: /projects/
 
 * [Hardware & Firmware wiki](https://github.com/pebble-dev/wiki/wiki/Hardware-%26-Firmware)
 * [ufw](https://github.com/pebble-dev/ufw) - *an extremely tiny "hello world" firmware*
+* [FreeRTOS-Pebble](https://github.com/ginge/FreeRTOS-Pebble) - *Basic FreeRTOS implementation for Pebble Time*
 
 ## Mobile Apps
 
