@@ -386,16 +386,8 @@ section > ul.people li .expando-toggle {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-}
-
-section > ul.people li .expando-toggle:before {
     display: block;
-    content: "less...";
-}
-
-section > ul.people li.collapsed .expando-toggle:before {
-    display: block;
-    content: "more...";
+    cursor: pointer;
 }
 
 /* --- General text styles --- */

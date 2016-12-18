@@ -30,17 +30,21 @@ permalink: /team/
         for (var i = 0; i < users.length; i++) {
             if (!users[i].querySelector('article'))
                 continue
-            var toggle = function(user) {
+            users[i].classList.add('collapsed')
+            var toggle = function(user, more) {
                 return function() {
-                    user.classList.toggle('collapsed');
+                    user.classList.toggle('collapsed')
+                    more.innerText = user.classList.contains('collapsed') ? 'more...' : 'less...'
                 }
             }
-            users[i].classList.add('collapsed')
-            users[i].querySelector('img').addEventListener('click', toggle(users[i]))
+
             var more = document.createElement('a')
             more.classList.add('expando-toggle')
+            more.innerText = 'more...'
             users[i].querySelector('p').appendChild(more)
-            more.addEventListener('click', toggle(users[i]), false)
+
+            users[i].querySelector('img').addEventListener('click', toggle(users[i], more))
+            more.addEventListener('click', toggle(users[i], more), true)
         }
     </script>
     <center><em>Additional team profiles coming soon...</em>:sweat_smile:</center>
