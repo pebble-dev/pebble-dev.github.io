@@ -36,18 +36,23 @@
     src: url(../fonts/source-code-pro/SourceCodePro-Bold.ttf)
 }
 
-
 body {
     margin: 0;
     background-color: #F4F3F4;
     font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.6em;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  line-height: 1.8em;
+    margin-top: 0;
+    line-height: 1.8em;
+    margin-bottom: .4em;
 }
+
 /* --- Common Header Styles --- */
 
 header {
@@ -56,9 +61,6 @@ header {
     margin-bottom: calc(-17em + 3rem);
     text-align: center;
     font-size: 1em;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
 }
 
 header .sitename, header .separator, header .pagename {
@@ -75,10 +77,9 @@ header .headertext {
     margin: 0 1rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     header {
         text-align: left;
-        font-size: 2.6vw;
     }
     header .headertext {
         width: auto;
@@ -86,6 +87,12 @@ header .headertext {
     }
     header .rebble-logo-spacer {
         display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        font-size: 2.6vw;
     }
 }
 
@@ -99,7 +106,7 @@ header a {
 }
 
 header .separator {
-    color: #ff4700;
+    color: #888;
 }
 
 /* --- Common Footer Styles --- */
@@ -130,7 +137,8 @@ div.email-signup input[type="submit"] {
     margin: 0;
     padding: 0.6rem;
     line-height: normal;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    border-radius: 0;
 }
 
 div.email-signup input[type="email"] {
@@ -147,6 +155,7 @@ div.email-signup input[type="submit"] {
     border: 1px solid #910;
     border-top-right-radius: 0.2em;
     border-bottom-right-radius: 0.2em;
+    -webkit-appearance: none;
 }
 
 /* --- Index --- */
@@ -158,6 +167,12 @@ div.email-signup input[type="submit"] {
     margin: 0 auto 2rem;
     padding: 0;
     max-width: 36rem;
+}
+
+@media (max-width: 700px) {
+    #index {
+        font-size: 0.8em;
+    }
 }
 
 #index li {
@@ -172,7 +187,8 @@ div.email-signup input[type="submit"] {
 }
 
 #index li a.selected {
-    border-bottom: 2px solid #FFF;
+    text-shadow: 0 0 1px black;
+    border-bottom: 3px solid #FFF;
 }
 
 /* --- Logo --- */
@@ -222,18 +238,25 @@ section, .post {
     background: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     overflow: hidden;
+    user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
 }
-@media only screen and (min-width : 768px) {
+
+@media (min-width: 700px) {
   section, .post {
     padding: 2rem 3rem;
   }
 }
-.text-content > h2 {
+
+h2 {
     font-size: 2em;
 }
+
 .post h2 {
-  text-align: center;
+    text-align: center;
 }
+
 .text-content > h2 a {
     color: #444;
     text-decoration: none;
@@ -252,12 +275,13 @@ section, .post {
 
 .text-content ul, .text-content ol {
     padding-left: 2em;
-    color: #ff4700;
 }
+
 .text-content ol ol,
 .text-content ul ul {
-  padding-left: 1em;
+    padding-left: 1em;
 }
+
 a {
     color: #444;
     text-decoration: underline;
@@ -287,6 +311,11 @@ section > ul.people li:nth-child(2n) div.person {
 
 section > ul.people li:nth-child(2n) p {
     text-align: right;
+    margin-left: 2rem;
+}
+
+section > ul.people li:nth-child(2n+1) p {
+    margin-right: 2rem;
 }
 
 section > ul.people li + li {
@@ -303,38 +332,62 @@ section > ul.people li div.person img {
     box-shadow: 0 0 1rem -.6rem black;
 }
 
-section > ul.people li article {
+section > ul.people li .bio {
     margin: 2rem -3rem 1.5rem;
     padding: 1.5rem 3rem;
+    box-sizing: border-box;
     background: #444;
     position: relative;
     color: white;
+    opacity: 1;
+    transition: margin .2s ease, padding .2s ease, opacity .2s ease;
 }
 
-section > ul.people li article:before {
+section > ul.people li.collapsed .bio {
+    margin: 0 -3rem;
+    padding: 0 3rem;
+    max-height: 0;
+    opacity: 0;
+}
+
+section > ul.people li .bio article {
+    overflow: hidden;
+    max-height: 50rem;
+    transition: max-height .2s ease;
+}
+
+section > ul.people li.collapsed .bio article {
+    max-height: 0;
+}
+
+section > ul.people li .bio:before {
     position: absolute;
-    top: -1rem;
-    left: 5.5rem;
+    top: -.5rem;
+    left: 6rem;
     content: "";
-    border-bottom: 1rem solid #444;
-    border-left: 1rem solid transparent;
-    border-right: 1rem solid transparent;
+    border-bottom: .5rem solid #444;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    transition: opacity .2s ease;
 }
 
-section > ul.people li:nth-child(2n) article:before {
-    right: 5.5rem;
+section > ul.people li:nth-child(2n) .bio:before {
+    right: 6rem;
     left: auto;
 }
 
-
-section > ul.people li article a {
+section > ul.people li .bio a {
     color: #DDD;
     text-decoration: underline;
 }
 
-article > ul.people li:nth-child(2n) p:before {
-    left: auto;
-    right: 5rem;
+section > ul.people li .expando-toggle {
+    font-size: 80%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: block;
+    cursor: pointer;
 }
 
 /* --- General text styles --- */

@@ -10,18 +10,42 @@ permalink: /team/
     <h2>Meet the team</h2>
     <ul class="people">
         {% for person in site.data.team %}
-            <li>
+            <li id="person-{{person.name}}">
                 <div class="person">
                     <img src="{{ person.avatar | prepend: "/images/avatars/" | prepend: site.baseurl | prepend: site.url }}"/>
                     <p><strong>{{person.name}}</strong> {{person.blurb}}</p>
                 </div>
                 {% if person.bio %}
-                    <article>
-                        {{person.bio}}
-                    </article>
+                    <div class="bio">
+                        <article>
+                            {{person.bio}}
+                        </article>
+                    </div>
                 {% endif %}
             </li>
         {% endfor %}
     </ul>
+    <script>
+        var users = document.body.querySelectorAll('.people li')
+        for (var i = 0; i < users.length; i++) {
+            if (!users[i].querySelector('article'))
+                continue
+            users[i].classList.add('collapsed')
+            var toggle = function(user, more) {
+                return function() {
+                    user.classList.toggle('collapsed')
+                    more.innerText = user.classList.contains('collapsed') ? 'more...' : 'less...'
+                }
+            }
+
+            var more = document.createElement('a')
+            more.classList.add('expando-toggle')
+            more.innerText = 'more...'
+            users[i].querySelector('p').appendChild(more)
+
+            users[i].querySelector('img').addEventListener('click', toggle(users[i], more))
+            more.addEventListener('click', toggle(users[i], more), true)
+        }
+    </script>
     <center><em>Additional team profiles coming soon...</em>:sweat_smile:</center>
 </section>
