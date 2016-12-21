@@ -6,6 +6,8 @@ date:   2016-12-09 11:21:42
 permalink: /projects/
 ---
 
+[Click here](/status/) for a list of all of Pebble's current cloud services.
+
 ## wiki
 
 * [Pebble Development wiki](https://github.com/pebble-dev/wiki/wiki)
