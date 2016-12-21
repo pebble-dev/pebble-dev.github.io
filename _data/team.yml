@@ -50,3 +50,8 @@
   blurb: "makes beer in a fridge in Amsterdam, though hails from Spain"
   avatar: "misato.jpg"
   bio: "I am a mobile developer and Pebble enthusiast. I am part of the <a href=\"https://www.kiezelwatchfaces.com/\">Kiezel Watchfaces</a> Team and helped building not only Pebble faces/apps but also KiezelPay. I've been working on native mobile apps (mostly iOS) for the last 7 years so joining this with my Pebble knowledge I'd like to build an iOS library and app for our watches."
+
+- name: "Zhang Qichuan"
+  blurb: "plays guitar/PS4/3DS"
+  avatar: "qichuan.jpg"
+  bio: "I am a software engineer and Pebble enthusiast in Singapore, have been working on native Android app development for the past 6 years. I would like to revamp the original webview based Pebble app store and build a native Android app for better user experience"
