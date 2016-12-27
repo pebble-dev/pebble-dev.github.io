@@ -6,18 +6,16 @@ date:   2016-12-09 11:21:42
 permalink: /projects/
 ---
 
-[Click here](/status/) for a list of all of Pebble's current cloud services.
-
 ## wiki
 
 * [Pebble Development wiki](https://github.com/pebble-dev/wiki/wiki)
 
 ## Appstore replacement
 
-* [The Rebble Store](https://github.com/pebble-dev/The-Panic-Store) *(formerly The Panic Store)*
-	* [home](http://rebble.io/The-Panic-Store/) *(preview)*
-	* [watchfaces](http://rebble.io/The-Panic-Store/app-details.html) *(preview)*
-	* [watchapps](http://rebble.io/The-Panic-Store/apps.html) *(preview)*
+* [The Rebble Store](https://github.com/pebble-dev/rebble-store) *(formerly The Panic Store)*
+	* [home](http://rebble.io/rebble-store/) *(preview)*
+	* [watchfaces](http://rebble.io/rebble-store/app-details.html) *(preview)*
+	* [watchapps](http://rebble.io/rebble-store/apps.html) *(preview)*
 * [Appstore wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
 
 ## Firmware
@@ -29,3 +27,7 @@ permalink: /projects/
 ## Mobile Apps
 
 We're currently working on an iOS rewrite and potential augmentations to [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) - more detail to come soon... :sweat_smile:  
+
+## Miscellaneous
+
+* [Pebble cloud services status](/status/)
