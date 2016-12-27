@@ -26,7 +26,9 @@ permalink: /projects/
 
 ## Mobile Apps
 
-We're currently working on an iOS rewrite and potential augmentations to [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) - more detail to come soon... :sweat_smile:  
+* [Android mobile app](https://github.com/pebble-dev/android-store-app)
+* iOS mobile app *(source link coming soon)*
+* [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) *(unaffiliated existing OSS Pebble app alternative for Android users)*
 
 ## Miscellaneous
 
