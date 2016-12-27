@@ -3,7 +3,7 @@
 title: Rebble
 # email: your-email@domain.com
 description: >
-  TODO
+  The goal of Rebble is to maintain and advance Pebble functionality in the absence of Pebble Technology Corp.
 baseurl: ""		# no trailing slash
 url: "http://rebble.io"	# no trailing slash
 excerpt_separator: <!--more—->
