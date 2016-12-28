@@ -13,9 +13,9 @@ permalink: /projects/
 ## Appstore replacement
 
 * [The Rebble Store](https://github.com/pebble-dev/rebble-store) *(formerly The Panic Store)*
-	* [home](http://rebble.io/rebble-store/) *(preview)*
-	* [watchfaces](http://rebble.io/rebble-store/app-details.html) *(preview)*
-	* [watchapps](http://rebble.io/rebble-store/apps.html) *(preview)*
+	* [home](http://store.rebble.io) *(preview)*
+	* [watchfaces](http://store.rebble.io/#/app-details) *(preview)*
+	* [watchapps](http://store.rebble.io/#/apps) *(preview)*
 * [Appstore wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
 
 ## Firmware
