@@ -260,7 +260,7 @@ h2 {
 .text-content > h2 a {
     color: #444;
     text-decoration: none;
-    text-shadow: 2px 0 #f8f8f8, -2px 0 #f8f8f8, 0 2px #f8f8f8, 0 -2px #f8f8f8;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff;
     background-image: linear-gradient(to bottom, #888, #888);
     background-size: auto 2px;
     background-repeat: repeat-x;
