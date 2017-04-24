@@ -17,7 +17,10 @@ Part of the reason that an update has not been forthcoming is due to the continu
 
 Beyond the low-level hardware interfacing work, there is a lot of software that has to be written before "basic" functionality such as drawing shapes and text is possible.  With this in mind, [@jneubrand](https://github.com/jneubrand) began work on [neographics](https://github.com/pebble-dev/neographics), an open-source replacement for Pebble's [graphics routines](https://developer.pebble.com/docs/c/Graphics/), long before there existed firmware sufficiently advanced to support it.  [@ginge](https://github.com/ginge) was then able to drop this code into the firmware, once low-level display support had been developed, and the combination of graphics primitives, fonts, and now image loading (once the various palletised PNG bit-depth formats had been accounted for) allowed for the working system app and even watchfaces seen here:  
 
-![RebbleOS system app menus and watchfaces](http://i.imgur.com/fn81ynN.png)
+![RebbleOS system app menu](http://i.imgur.com/Yk2Ug2z.png)
+![RebbleOS - Simple clock](http://i.imgur.com/Eowb3qB.png)
+![RebbleOS - Simply Squares](http://i.imgur.com/OCFTsh5.png)  
+*see [@ginge's RebbleOS gallery](http://imgur.com/a/idc75) for more / ongoing updates!*
 
 [@NiVZ78](https://github.com/NiVZ78) created the *Simply Squares* watchface depicted above, to which @ginge added colour, as a way for RebbleOS to show off its new capabilities.  While we're not yet able to dynamically load watchfaces (what's pictured, while being a legitimate watchface, still had to be compiled into the firmware), extensive new API support means that the following app-enabling features are now available in Rebble OS:  
 
@@ -43,5 +46,5 @@ Hopefully you found this detailed look at the state of Rebble firmware insightfu
 
 ## News and Miscellany
 
-* TODO: pupdate and what it means for Rebble
-* TODO: status page?
+* The fabulous folks at Fitbit have [released updated versions of the Android and iOS Pebble apps](https://developer.pebble.com/blog/2017/04/04/transitioning-update/#new-options-for-community-developers) which aim to free Pebble devices from existing tethers to cloud-based services; the most exciting part of this is added support for `pebble://custom-boot-config-url/CUSTOM_URL` - essentially a direct gift to Rebble, allowing us to override and replace the official appstore when it goes offline (which we'd [already made strides towards](https://github.com/pebble-dev/wiki/wiki/Appstore), but official support is especially appreciated! :heart_eyes:)
+* keep an eye on the [Status page](http://rebble.io/status/) - while we originally intended for this to be a summary of how Pebble's backend services' availability would impact usage of our devices, we're planning on expanding it to convey at-a-glance summaries of our own project and services' status, as a way to provide updates between...Updates! :sweat_smile:
