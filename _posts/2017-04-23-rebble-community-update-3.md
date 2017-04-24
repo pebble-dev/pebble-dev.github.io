@@ -17,10 +17,13 @@ Part of the reason that an update has not been forthcoming is due to the continu
 
 Beyond the low-level hardware interfacing work, there is a lot of software that has to be written before "basic" functionality such as drawing shapes and text is possible.  With this in mind, [@jneubrand](https://github.com/jneubrand) began work on [neographics](https://github.com/pebble-dev/neographics), an open-source replacement for Pebble's [graphics routines](https://developer.pebble.com/docs/c/Graphics/), long before there existed firmware sufficiently advanced to support it.  [@ginge](https://github.com/ginge) was then able to drop this code into the firmware, once low-level display support had been developed, and the combination of graphics primitives, fonts, and now image loading (once the various palletised PNG bit-depth formats had been accounted for) allowed for the working system app and even watchfaces seen here:  
 
-![RebbleOS system app menu](http://i.imgur.com/Yk2Ug2z.png)
-![RebbleOS - Simple clock](http://i.imgur.com/Eowb3qB.png)
-![RebbleOS - Simply Squares](http://i.imgur.com/OCFTsh5.png)  
-*see [@ginge's RebbleOS gallery](http://imgur.com/a/idc75) for more / ongoing updates!*
+<div class="image-gallery">
+	<img src="http://i.imgur.com/Yk2Ug2z.png" alt="RebbleOS system app menu">
+	<img src="http://i.imgur.com/Eowb3qB.png" alt="RebbleOS - Simple clock">
+	<img src="http://i.imgur.com/OCFTsh5.png" alt="RebbleOS - Simply Squares">
+	<br>
+	<em>see <a href="http://imgur.com/a/idc75">@ginge's RebbleOS gallery</a> for more / ongoing updates!</em>
+</div>  
 
 [@NiVZ78](https://github.com/NiVZ78) created the *Simply Squares* watchface depicted above, to which @ginge added colour, as a way for RebbleOS to show off its new capabilities.  While we're not yet able to dynamically load watchfaces (what's pictured, while being a legitimate watchface, still had to be compiled into the firmware), extensive new API support means that the following app-enabling features are now available in Rebble OS:  
 
