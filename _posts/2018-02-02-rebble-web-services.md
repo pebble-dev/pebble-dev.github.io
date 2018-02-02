@@ -21,10 +21,8 @@ _(Disclaimer: absolutely everything in this post is subject to change)_
 
 Running these services will cost money. Potentially, quite a lot of money. To that end, we will be
 setting up a Patreon page, so that the generous among you can donate to keep the services running.
-Some services are particularly expensive to provide, and so for those we will be requiring that
-a small sum of money be pledged each month. This will enable us to both provide you with the service
-you want, and to support it sustainably for everyone. If you are generous and inclined to donate
-more, we welcome that as well.
+As a reward for donating and helping us keep the basic service free for everyone, we will enable
+some services that cost us more to provide for you.
 
 # What to expect
 
@@ -50,7 +48,7 @@ them again.
 
 As mentioned in [previous community updates](http://rebble.io/2017/01/31/rebble-community-update-2.html),
 work started on a Pebble Appstore replacement almost as soon as Pebble announced that it was ceasing
-operations. The Rebble Appstore should be ready to go by the time the original Pebble appstore
+operations. The Rebble Store should be ready to go by the time the original Pebble appstore
 shuts down, with all the original functionality. We might even be able to import the list of apps
 you have installed!
 
@@ -88,9 +86,9 @@ interruption for as long as the APIs they use continue to function.
 
 Unfortunately, dictation is already broken when using iPhones running iOS 11+ with either a Pebble 2
 or Pebble Time Round. There is nothing that we can do to fix this. For Android users, as well as
-Pebble Time and Pebble Time Steel users, we will be replacing Pebble's Nuance dictation with Google
-Cloud Speech. This, again, will cost us some money each time you use it. In order to run this
-sustainably, we will require that you pledge at least **$2/month** on Patreon in order to access
+iOS users with a Pebble Time or Pebble Time Steel, we will be replacing Pebble's Nuance dictation with Google
+Cloud Speech. Like weather, this will cost us some money each time you use it. In order to run this
+sustainably, we will request that you pledge at least **$2/month** on Patreon in order to access
 dictation (which will also include weather).
 
 ## iOS SMS and Email replies/actions
@@ -99,7 +97,7 @@ Pebble had agreements in place with several carriers and service providers in or
 ability to reply to text messages on iOS. Unfortunately, there is no way that we can provide this
 service. Pebble also provided email actions by requesting access to your email account. The privacy
 and security implications of having this access are greater than we are willing to tolerate. As
-such, we will not be providing either iOS or email action support.
+such, we will not be providing either SMS or email action support for iOS.
 
 ## CloudPebble
 
