@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pebbling after Fitbit: introducing the Rebble Web Services
-date:   2018-02-02 11:42:42
+title: "Pebbling after Fitbit: introducing the Rebble Web Services"
+date:   2018-02-01 11:42:42
 # categories: community
 ---
 
@@ -17,22 +17,22 @@ _(Disclaimer: absolutely everything in this post is subject to change)_
 
 ------
 
-# Funding
+## Funding
 
 Running these services will cost money. Potentially, quite a lot of money. To that end, we will be
 setting up a Patreon page, so that the generous among you can donate to keep the services running.
 As a reward for donating and helping us keep the basic service free for everyone, we will enable
 some services that cost us more to provide for you.
 
-# What to expect
+## What to expect
 
-## Apps and firmware
+### Apps and firmware
 
 You will continue to use Pebble's latest Pebble mobile apps and Pebble firmware for the forseeable
 future. All of the Rebble Web Services will work with these; you'll just have to create a Rebble
 account and tap a button to switch.
 
-## Accounts
+### Accounts
 
 Once Fitbit shuts down the Pebble services, you won't even be able to log in! We are going to
 replace your Pebble logins with brand new Rebble logins. Because nobody wants to have _yet more_
@@ -44,7 +44,7 @@ apps using the email address you originally used to purchase the app. This shoul
 once, after which your apps should continue to work as they did before. You will _not_ have to buy
 them again.
 
-## Appstore
+### Appstore
 
 As mentioned in [previous community updates](http://rebble.io/2017/01/31/rebble-community-update-2.html),
 work started on a Pebble Appstore replacement almost as soon as Pebble announced that it was ceasing
@@ -52,7 +52,7 @@ operations. The Rebble Store should be ready to go by the time the original Pebb
 shuts down, with all the original functionality. We might even be able to import the list of apps
 you have installed!
 
-## Timeline
+### Timeline
 
 Even without Rebble, you could still expect to see your calendar entries on the timeline. _With_
 Rebble, it's more complicated: you can expect more, but probably not everything.
@@ -70,7 +70,7 @@ immediately when a service sends you a pin or notification, for technical reason
 for any entity other than Fitbit to provide that service. Using the Rebble timeline service, updates
 will instead occur every fifteen minutes.
 
-## Weather
+### Weather
 
 Pebble uses the weather in a couple of places: there's the official weather app, and there are the
 sunrise and sunset pins in the Timeline. Today, Pebble fetches this information from The Weather
@@ -82,7 +82,7 @@ everyone. If you do _not_ donate on Patreon, the system weather app and timeline
 appear. However, all third-party watchfaces will continue displaying the weather without
 interruption for as long as the APIs they use continue to function.
 
-## Dictation
+### Dictation
 
 Unfortunately, dictation is already broken when using iPhones running iOS 11+ with either a Pebble 2
 or Pebble Time Round. There is nothing that we can do to fix this. For Android users, as well as
@@ -91,7 +91,7 @@ Cloud Speech. Like weather, this will cost us some money each time you use it. I
 sustainably, we will request that you pledge at least **$2/month** on Patreon in order to access
 dictation (which will also include weather).
 
-## iOS SMS and Email replies/actions
+### iOS SMS and Email replies/actions
 
 Pebble had agreements in place with several carriers and service providers in order to provide the
 ability to reply to text messages on iOS. Unfortunately, there is no way that we can provide this
@@ -99,7 +99,7 @@ service. Pebble also provided email actions by requesting access to your email a
 and security implications of having this access are greater than we are willing to tolerate. As
 such, we will not be providing either SMS or email action support for iOS.
 
-## CloudPebble
+### CloudPebble
 
 CloudPebble, Pebble's online development environment, is unique among these services in that the
 original source code is available (and, in fact, I wrote it). We will be bringing up our own
@@ -110,7 +110,7 @@ soon. We will be running an initial, limited version of the Rebble services for 
 It will continue to work with Pebble's existing appstore, timeline, etc. but will support the
 Rebble CloudPebble, as well as using Rebble services for the CloudPebble Developer Connection.
 
-# tl;dr
+## tl;dr
 
 * We will be providing replacements for almost all Pebble services 🎉
 * Timeline apps may require developer changes to remain functional
