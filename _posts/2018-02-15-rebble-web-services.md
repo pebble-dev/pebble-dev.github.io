@@ -6,7 +6,7 @@ date:   2018-02-15 18:00:00
 ---
 
 Hey there! [Katharine Berry](https://twitter.com/KatharineBerry) here. As you may well have heard
-by now, Fitbit will be shutting down all Pebble services at the end of June of this year. After that, if nothing was to be done,
+by now, Fitbit will be shutting down all Pebble services at the end of June of this year. After that, if nothing were to be done,
 then no services that require a Pebble server would work any more — which includes the appstore,
 weather, dictation, some parts of timeline, iOS SMS/email actions, the CloudPebble IDE, and more.
 
