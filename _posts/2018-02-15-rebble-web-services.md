@@ -160,7 +160,7 @@ Rebble, we'll enable some services that cost us some more.
 For right now, we plan to have a couple of options.  The first option, as I mentioned, is to pay nothing
 at all: if you don't, you'll still get access to your Rebble account, the app store, timeline, and
 CloudPebble. Alternatively, while the exact numbers are up in the air, we expect that for around two dollars per month
-not only will you be helping keep rebble alive for everyone, but you will get everything that we
+not only will you be helping keep Rebble alive for everyone, but you will get everything that we
 can provide -- weather, dictation, and the rest of the Rebble
 services keeping your beloved watch ticking.
 
