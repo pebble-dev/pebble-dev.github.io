@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pebbling after Fitbit: introducing the Rebble Web Services"
-date:   2018-02-01 11:42:42
+date:   2018-02-15 18:00:00
 # categories: community
 ---
 
@@ -57,7 +57,8 @@ accounts on the internet, we will back your Rebble login with a Google, Facebook
 Don't worry if you happen to dislike one or another of those ... the choice
 of which you'll use to log in will be yours!
 
-**For KiezelPay users**: once you switch to using a Rebble account, you will have to re-claim your
+**For KiezelPay users**: once you switch to using a Rebble account, if you do not perform an import
+from your old Pebble account, you will have to re-claim your
 apps using the email address you originally used to purchase the app. This should only be necessary
 once, after which your apps should continue to work as they did before. You will _not_ have to buy
 them again.
@@ -156,10 +157,11 @@ so that the generous among you can donate to keep the services running.  We want
 experience to be free for everyone -- so if you donate to help us defray the cost of running
 Rebble, we'll enable some services that cost us some more.
 
-For right now, we plan to have three options.  The first option, as I mentioned, is to pay nothing
+For right now, we plan to have a couple of options.  The first option, as I mentioned, is to pay nothing
 at all: if you don't, you'll still get access to your Rebble account, the app store, timeline, and
-CloudPebble.  For $1/month, you get access to weather (and help keep Rebble alive!).  And, for
-$2/month, you get everything that we can provide -- weather, dictation, and the rest of the Rebble
+CloudPebble. Alternatively, while the exact numbers are up in the air, we expect that for around two dollars per month
+not only will you be helping keep rebble alive for everyone, but you will get everything that we
+can provide -- weather, dictation, and the rest of the Rebble
 services keeping your beloved watch ticking.
 
 ### A brief moment of Fitbit love
@@ -190,7 +192,7 @@ few things to take away, here you go:
 * Timeline apps may require developer changes to remain functional
 * Timeline updates will be limited to every fifteen minutes
 * We will have a Patreon page for you to donate to keep the services running
-* We will require that you pledge $2/month for dictation and weather, or $1/month for just weather.
+* We will require that you pledge around a couple of dollars a month for weather and dictation.
   All other services will remain free.
 * iOS SMS/email actions/replies will not be supported
 * Fitbit are our friends
