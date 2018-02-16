@@ -102,8 +102,7 @@ paid, feature._
 
 Pebble uses the weather in a couple of places: there's the official weather app, and there are the
 sunrise and sunset pins in the Timeline. Today, Pebble fetches this information from The Weather
-Channel. We will replace this with information from the Dark Sky API. Unfortunately, this API (like
-all reliable, high-quality, global weather APIs) costs
+Channel. We will replace this with information from another weather API. Unfortunately, these APIs cost
 us some money to access, so we will be providing weather access as part of a donation-based package (see below).
 If you choose to pay for it, that'll enable full weather functionality, and help support the service for
 everyone.  If you do _not_ donate, the system weather app and timeline pins won't
