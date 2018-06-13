@@ -44,7 +44,10 @@ as quickly as we can, and indeed already have some backend services in place.
 However, Pebble is a complicated system, and we ended up with
 less time than we had hoped. I still expect that we will have at least some
 services up and running in time for the cutoff. I dare not speculate as to which
-but I promise we will have more updates before the end of the month.
+but I promise we will have more updates before the end of the month. Even after
+Pebble's services shut down, we will continue to work to bring up the remaining
+services, eventually reaching the collection of services described in my
+[previous post](/2018/02/15/rebble-web-services.html).
 
 Many of you have been asking what they will have to do to start using the Rebble
 Web Services. It should actually be very easy: tap a link from our website on
@@ -59,5 +62,10 @@ previously mentioned, we intend to offer basic service for free, and charge
 a small monthly fee for access to Weather and Dictation, thereby funding the
 service. In order to avoid the risk of disappointing those who have paid us,
 we do not intend to open up payments until there is something to pay for.
+
+Finally, we would like to extend our thanks to Fitbit once again: they have been
+extremely helpful in working with us to enable us to continue Pebble long after
+the original Pebble services shut down.
+
 
 That's all for now. More news coming soon!
