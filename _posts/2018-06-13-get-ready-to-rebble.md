@@ -30,6 +30,10 @@ We are also going to use the number of accounts created to assist us in
 determining service usage and attempt to validate our assumptions about the
 number of users we expect to see.
 
+That's all there is to do right now: there is no app to install, and we are not
+yet ready for users to switch over to Rebble services. We will be sure to update
+you when we are!
+
 So to repeat myself: **please go and
 [make your Rebble account](https://auth.rebble.io) right now.** You must do so
 before the end of this month, and it only takes a minute!
@@ -56,7 +60,8 @@ still be entirely functional. Pebble apps and watchfaces will still work fine,
 too, except for those that create timeline pins.
 
 Many of you have been asking what they will have to do to start using the Rebble
-Web Services. It should actually be very easy: tap a link from our website on
+Web Services. We aren't ready yet, but when we are, it should actually be very
+easy: tap a link from our website on
 your phone, and you will be switched over to our services. Rebble Web Services
 will continue to work with the existing iOS and Android apps, so you have
 nothing to download or install. We _may_ have an updated Pebble firmware with
