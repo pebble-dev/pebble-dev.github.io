@@ -49,6 +49,12 @@ Pebble's services shut down, we will continue to work to bring up the remaining
 services, eventually reaching the collection of services described in my
 [previous post](/2018/02/15/rebble-web-services.html).
 
+Here's some good news to go with that: a lot of Pebble functionality will keep
+working regardless of what we manage to put together. Your apps will still be
+installed, your notifications will still come through, and Pebble Health will
+still be entirely functional. Pebble apps and watchfaces will still work fine,
+too, except for those that create timeline pins.
+
 Many of you have been asking what they will have to do to start using the Rebble
 Web Services. It should actually be very easy: tap a link from our website on
 your phone, and you will be switched over to our services. Rebble Web Services
