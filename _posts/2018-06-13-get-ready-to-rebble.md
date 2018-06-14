@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Ready for Rebble"
-date:   2018-06-13 12:00:00
+date:   2018-06-13 18:15:00
 # categories: community
 ---
 
