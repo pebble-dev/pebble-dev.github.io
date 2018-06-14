@@ -8,7 +8,8 @@ date:   2018-06-13 12:00:00
 Hi again! I'm [Katharine Berry](https://twitter.com/KatharineBerry), back
 with a brief update about the Rebble Web Services. As you have all probably noticed,
 we've been a bit quiet since my [last post](/2018/02/15/rebble-web-services.html).
-Unfortunately, life happened for all of us, as it tends to. But we're back on
+We've all been very busy, so we haven't had much time to blog lately. However,
+we're still on
 the case, and before we go any further, we have something important for you to
 do!
 
@@ -44,7 +45,9 @@ Okay, now that that's out of the way...
 
 So here's the bad news: we are probably not going to have _everything_ in place
 in time for Fitbit's shutdown. We are working hard to bring up services
-as quickly as we can, and indeed already have some backend services in place.
+as quickly as we can. Indeed already have some backend services in place,
+such as auth, cohorts, and boot, with active work ongoing on the appstore
+and related services.
 However, Pebble is a complicated system, and we ended up with
 less time than we had hoped. I still expect that we will have at least some
 services up and running in time for the cutoff. I dare not speculate as to which
