@@ -4,7 +4,7 @@
             <a {% if item.permalink and page.permalink == item.permalink %} class="selected" {% endif %}
                {% if item.link %}
                    href="{{ item.link }}"
-               {% else %
+               {% else %}
                    href="{{ site.url | append: site.baseurl | append: item.permalink }}"
                {% endif %}
                >{{item.display}}
