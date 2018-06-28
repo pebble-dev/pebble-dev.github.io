@@ -1,6 +1,6 @@
 ---
 layout: text-page
-title: "Rebble Terms of Service"
+title: "ToS"
 date:   2018-06-26 23:21:42
 
 permalink: /tos/
