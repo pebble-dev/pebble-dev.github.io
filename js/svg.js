@@ -5,5 +5,6 @@ let minute = document.getElementsByClassName('minute')[0];
 let offset = 60; // initialy watch arrows are on 2 o'clock.
 let degHour = 30;
 let degMinute = 6;
-hour.style.transform = `rotate(${curentHour * degHour - offset}deg)`;
+let degMinuteInHour = 0.5;
+hour.style.transform = `rotate(${curentHour * degHour - offset + curentMinute * degMinuteInHour}deg)`;
 minute.style.transform = `rotate(${curentMinute * degMinute - offset}deg)`;
