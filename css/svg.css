@@ -1,0 +1,34 @@
+/* 
+  because of changing "i" tag with "svg" element, some restyling had to be done.
+*/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header .watch {
+  width: 75px;
+  height: 108px;
+}
+
+header .headertext {
+  margin-bottom: 40px;
+}
+
+/* --- end of restyling --- */
+
+/* styling for arrows inside the watch */
+
+.arrows {
+  transform-origin: 64px 988px;
+}
+
+.minute {
+  transform: rotate(-120deg);
+}
+
+.hour {
+  transform: rotate(0deg);
+}
