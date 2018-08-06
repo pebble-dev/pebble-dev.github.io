@@ -14,7 +14,7 @@ Welcome to the first *Rebble Community Update* of 2018! :heart: :rocket:  One of
 Do you know how simple it is to build the firmware and run it in an emulator?  If you're a Pebble developer with all of the standard tools already in place, building and running the firmware in an emulator is as simple as:  
 
 * cloning the [repo](https://github.com/ginge/FreeRTOS-Pebble#building)
-* [copying the resources](https://github.com/ginge/FreeRTOS-Pebble/blob/master/Utilities/mk_resources.sh) and firmware blob *(see pinned resources in `#firmware` on [Discord](http://discord.gg/aRUAYFN))*
+* [copying the resources](https://github.com/ginge/FreeRTOS-Pebble/blob/master/Utilities/mk_resources.sh) and firmware blob *(see pinned resources in `#firmware` on [Discord](https://discord.gg/aRUAYFN))*
 * running `make snowy_qemu`
 
 This will launch `QEMU` and you'll see something like this:  
@@ -25,7 +25,7 @@ which is the actual RebbleOS firmware running on your machine! :muscle:
 
 Once you're up and running with the firmware, you can be like [@CTKRocks](https://github.com/CTKRocks), [@TerttyCurlyfries](https://github.com/TerttyCurlyfries), [@Stubenhocker1399](https://github.com/Stubenhocker1399) and [@zbsz](https://github.com/zbsz) and work alongside [@ginge](https://github.com/ginge) and [@jwise](https://github.com/jwise) to flesh out the UI, system apps, and OS functionality.  Contributing to an *operating system* might seem intimidating - but developers of all levels can make meaningful contributions to RebbleOS!  
 
-If you're not a developer, you can help by testing and [reporting issues](https://github.com/pebble-dev/RebbleOS/issues), creating graphical assets, or assisting with [documentation](https://github.com/ginge/FreeRTOS-Pebble#rebbleos) or [the wiki](https://github.com/pebble-dev/wiki/wiki).  We're feeling a lot of this out as we go as well, and we're excited to have you come and learn alongside us.  So don't be shy -- we'd love to have you come and [join us](http://discord.gg/aRUAYFN), no matter who you are! :sparkling_heart:  
+If you're not a developer, you can help by testing and [reporting issues](https://github.com/pebble-dev/RebbleOS/issues), creating graphical assets, or assisting with [documentation](https://github.com/ginge/FreeRTOS-Pebble#rebbleos) or [the wiki](https://github.com/pebble-dev/wiki/wiki).  We're feeling a lot of this out as we go as well, and we're excited to have you come and learn alongside us.  So don't be shy -- we'd love to have you come and [join us](https://discord.gg/aRUAYFN), no matter who you are! :sparkling_heart:  
 
 
 
@@ -35,7 +35,7 @@ So, what's new?  Here's some highlights:
 
 #### Real, working watchfaces and watchapps
 
-Previously, the watchfaces you saw were all [baked into the firmware](http://rebble.io/2017/04/23/rebble-community-update-3.html) -- everything had to be compiled in with the OS.  We've added preliminary support for reading the Pebble filesystem, so you can see the apps that PebbleOS installed on the watch; and, to our surprise, some of them even run!  We're working on adding more features and more API compatibility every day! :soon:  
+Previously, the watchfaces you saw were all [baked into the firmware](https://rebble.io/2017/04/23/rebble-community-update-3.html) -- everything had to be compiled in with the OS.  We've added preliminary support for reading the Pebble filesystem, so you can see the apps that PebbleOS installed on the watch; and, to our surprise, some of them even run!  We're working on adding more features and more API compatibility every day! :soon:  
 
 #### Notifications, scrolling, and status bar
 
