@@ -6,7 +6,7 @@ date:   2019-02-11 21:56:42
 permalink: /howto/
 ---
 
-## Start using Rebble
+## Getting started using Rebble
 
 ### On iOS
 
@@ -64,7 +64,24 @@ Part two: connect the Pebble app to the Rebble Web Services.
 * If your Pebble disconnects, just tap the usual connect button.
 * You're done! Go to "Watchfaces", tap the big red "+" in the lower right corner and find and install watchfaces you like from the Rebble store.
 
-## Issues
+### Weather and dication services
+
+So, you started using the Rebble Web Services, but want to add the paid plan for weather and dictation. There are a few things to consider, before you order it:
+* On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages.
+* Weather services is solely for the native Pebble weather app and for weather info in timeline. Watchfaces and 3rd party apps that offer weather info, have their own means to fetch weather info. You don't need the Rebble paid plan for them.
+* Payment is handled by Stripe, which only offers payment by credit card.
+
+Still want it? Let's go!
+* Open the default browser on your phone and head to [Rebble Account](https://auth.rebble.io/account/).
+* **Very important: make sue you are signed in with the same account you used when you first made the switch to Rebble!**
+* Choose your plan ($3.00/month or $33/year).
+* You are forwarded to Stripe. Enter your card info and finish the payment.
+* You are redirected to the Rebble site. Voice / Weather subscription should now be **Active**.
+* In the last paragraph, tap the "repeat the initial setup" link. Then, follow the rest of the procedure for stap 2 above.
+
+In the Pebble app, under Apps, the app "The Weather Channel" should now be there. Tap the gear button to configure it to your needs.
+
+## Common issues
 
 ### Cannot add watchface, store says its added, but it's not on the phone of watch
 
