@@ -33,7 +33,7 @@ Part one: connect the watch to the phone.
 Part two: connect the Pebble app to the Rebble Web Services.
 
 * On the phone, open Safari, and go to [auth.rebble.io](https://auth.rebble.io/).
-* You are greeted with a number of ways to sign in. Choose one (and remember which you chose!!) and sign in. You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
+* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with "Here we go!". Read the page, then tap the "switch to rebble" button. Safari asks if you want to open it with Pebble. Tap "Open".
 * The Pebble app opens, and gives a popup "Configuration Change". Tap "Change".
 * Now, wait at least 15 seconds before you go to the next step.
@@ -52,7 +52,7 @@ Part one: connect the watch to the phone. This procedure is basically the same a
 Part two: connect the Pebble app to the Rebble Web Services.
 
 * On the phone, open the default browser (most likely Chrome), and go to [auth.rebble.io](https://auth.rebble.io/).
-* You are greeted with a number of ways to sign in. Choose one (and remember which you chose!!!) and sign in. You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
+* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with "Here we go!". Read the page, then tap the "switch to rebble" button. The browser asks if you want to open it with Pebble. Tap "Open".
 * The Pebble app opens. One of three things will then happen:
 * * A Rebble screen will appear. It may have an orange spinner above it; you may ignore this.
@@ -86,10 +86,6 @@ In order to fix "Unknown caller" or altogether missing notifications on incoming
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Cal Log, Dialer and SMS on your phone.
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble and on you Phone.
-
-### Issue
-
-Fix
 
 ## More help
 
