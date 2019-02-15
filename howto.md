@@ -66,6 +66,17 @@ Part two: connect the Pebble app to the Rebble Web Services.
 
 ## Issues
 
+### Cannot add watchface, store says its added, but it's not on the phone of watch
+
+Sometimes, the locker gets out of sync with reality. To get it back in sync, do this:
+* Start the default browser of your phone and head to [the Rebble app store on the web](https://apps.rebble.io/en_US/watchfaces?dev_settings=true).
+* Find the watchface or app and tap it.
+* On the bottom, tap "download pwb".
+* Open the file with the Pebble app.
+* The Pebble app opens, and asks to install the watchface or app. Tap "OK".
+
+Now, the watchface or app is installed, and the locker is no longer out of sync for this watchface. You might have to repeat this for every watchface or app that shows this behaviour.
+
 ### On Android (9.0+), incoming calls are displayed on the watch as "Unknown caller"
 
 In order to fix "Unknown caller" or altogether missing notifications on incoming calls for Pebble paired with Android 9.0 devices, there is a workaround with Dialer for Pebble app:
