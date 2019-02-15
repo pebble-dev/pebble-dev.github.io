@@ -42,6 +42,8 @@ Part two: connect the Pebble app to the Rebble Web Services.
 * You get to a screen "Pebble Account" and "Welcome to Rebble". Tap "IT'S REBBLE TIME!"
 * You're done! Go to "Watchfaces", choose "Get Watchfaces" and find and install watchfaces you like from the Rebble store.
 
+Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_0UMw).
+
 ### On Android
 
 Howto on Android
