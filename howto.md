@@ -6,13 +6,21 @@ date:   2019-02-11 21:56:42
 permalink: /howto/
 ---
 
+## Why Rebble Web Services?
+
+The Pebble watch is called a smartwatch. That's because it's smarter than a normal watch. Part of that intelligence is incorporated into the watch, and part of it is being delivered through web services. Originally, these web servers were provided by Pebble Inc. However, Pebble Inc. halted operation, and after some time these webservices have disappeared as well. That made the Pebble watch a lot dumber. Not as dumb as a normal watch, but things that were possibe, aren't possible any more. Time to ditch your Pebble? No, because...
+
+Enter Rebble! The Rebble Alliance has created Rebble Web Services, to fill in the void left by the disappearance of Pebble Inc. Most of the services that have disappeared, have replacements now. There's however one thing The Rebble Alliance cannot do: change every Pebble so it will use the Rebble Web Services. This needs some action by the user. No need to worry, we'll help you step by step! Read on...
+
 ## Getting started using Rebble Web Services
+
+So, you have a Pebble watch, and want to start using it. Let's go!
 
 ### On iOS
 
-So, you got yourself a Pebble, and found that you need something like Rebble to get it going. Ok, let's go!
-
 Part one: connect the watch to the phone.
+
+Note: you can skip this step if you're already a Pebble user.
 
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
@@ -46,8 +54,25 @@ Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_
 
 ### On Android
 
-Part one: connect the watch to the phone. This procedure is basically the same as for iOS. Notable exception for part 1:
-* Install the [Pebble app from the Play store](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt).
+Part one: connect the watch to the phone.
+
+Note: you can skip this step if you're already a Pebble user.
+
+* Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
+* If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
+* If you see a clock face, press middle right button, go to settings, then system, and choose factory reset. This might take a few minutes.
+* Get your phone and install the [Pebble app from the Play store](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt). Then, start the app.
+* You'll be greeted by a "Pebble Account" page. Simply tap the "Skip" in the top left corner to continue.
+* Choose your language for voice input. Then, choose the type of Pebble you have. The phone asks for permission to use Bluetooth, choose "OK".
+* The app starts looking for nearby Pebbles. It should shortly see your Pebble, as "Pebble xxxx". This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
+* The watch asks to pair. Press the upper right button. Tap "Pair" on the phone.
+* If the Pebble has an old firmware, it will now be updated. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
+* In the Pebble app, choose the language of the menu's, notifications and messages on the watch.
+* Many Pebbles need to use a second Bluetooth connection. If you have one of those, the app now asks to pair the watch again. Tap "Enable", press the upper right button on the watch to pair, and tap "pair" on the phone.
+* Tap "grant access", and tap accept if you want notifications from your phone to be sent to your watch.
+* Tap "grant access", and tap accept always if you want your watch and apps on it to know where you are.
+* Tap "grant access", and tap accept if you want you calendar items for the next couple of days appear on your watch.
+* You're done. Well, the Pebble part is done. Tap "done".
 
 Part two: connect the Pebble app to Rebble Web Services.
 
@@ -103,6 +128,11 @@ In order to fix "Unknown caller" or altogether missing notifications on incoming
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Call Log, Dialer and SMS on your phone.
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble and on your Phone.
+
+## General hints
+
+* As many services on the watch are actually implemented in the phone and in web services, many issues are located there as well. A reboot of your phone has better chance to fix issues, than a reboot of your watch. Restoring your watch to factory settings is hardly ever needed.
+* If you have issues with dictation, you should check the weather service to rule out issues with your subscription. If weather works in Timeline or through The Weather Channel app, then your subscription is working fine.
 
 ## More help
 
