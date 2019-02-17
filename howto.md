@@ -102,7 +102,7 @@ In order to fix "Unknown caller" or altogether missing notifications on incoming
 * Go to Dialer for Pebble app on your phone and enable Call Popup for Incoming and Outgoing calls.
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Call Log, Dialer and SMS on your phone.
 
-This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble and on you Phone.
+This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble and on your Phone.
 
 ## More help
 
