@@ -136,6 +136,14 @@ In order to fix "Unknown caller" or altogether missing notifications on incoming
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble (*Settings* and then *Background App*) and on your phone.
 
+### I subscribed to the Weather and Dictation services plan, but the Weather Channel app and dictation isn't available
+
+Check your Rebble account and payment info.
+* Head to [Rebble account](https://auth.rebble.io/account/)
+* Look at the line *Voice / Weather subscription*. If it's **Active**, go through [boot.rebble.io](https://boot.rebble.io/) again.
+* If it's expired, the credit card used while subscribing might be invalid. You can simply subscribe again.
+* If it's not active, you might be signed in with a different account than when you first subscribed. Delete the cookies from your browser (thus signing out), and sign in at [Rebble account](https://auth.rebble.io/account/) with the right account. Then, check your account and payment info again.
+
 ### This watchface doesn't show weather info any more, or the info is wrong
 
 Unfortunately, some often used weather services have folded, or changed their API. Watchfaces using those APIs now can't fetch their weather info any more. See if the watchface can switch API, or choose another watchface. Please note that this is unrelated to the Rebble Weather and Dictation services plan.
