@@ -77,7 +77,7 @@ Still want it? Let's go!
 * Choose your plan ($3.00/month or $33/year).
 * You are forwarded to Stripe. Enter your card info and finish the payment.
 * You are redirected to the Rebble site. Voice / Weather subscription should now be **Active**.
-* In the last paragraph, tap the "repeat the initial setup" link. Then, follow the rest of the procedure for stap 2 above.
+* In the last paragraph, tap the "repeat the initial setup" link. Then, follow the rest of the procedure for step 2 above.
 
 In the Pebble app, under Apps, the app "The Weather Channel" should now be there. Tap the gear button to configure it to your needs.
 
