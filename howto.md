@@ -20,7 +20,7 @@ So, you have a Pebble watch, and want to start using it. Let's go!
 
 Part one: connect the watch to the phone.
 
-Note: you can skip this step if you're already a Pebble user.
+Note: you can skip this part if you're already a Pebble user.
 
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
@@ -56,7 +56,7 @@ Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_
 
 Part one: connect the watch to the phone.
 
-Note: you can skip this step if you're already a Pebble user.
+Note: you can skip this part if you're already a Pebble user.
 
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
