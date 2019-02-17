@@ -6,7 +6,7 @@ date:   2019-02-11 21:56:42
 permalink: /howto/
 ---
 
-## Getting started using Rebble
+## Getting started using Rebble Web Services
 
 ### On iOS
 
