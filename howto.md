@@ -99,7 +99,7 @@ So, you started using the Rebble Web Services, but want to add the paid plan for
 * Your money will help the Rebel Alliance to keep all Rebble Web Services (including the free ones) running.
 
 That being said, these are the steps to add the plan:
-* Open your browser on your phone (Safari on iOS or Chrome on Android) and head to [Rebble Account](https://auth.rebble.io/account/).
+* On the phone, open your browser (Safari on iOS or Chrome on Android) and head to [Rebble Account](https://auth.rebble.io/account/).
 * **Very important: make sure you are signed in with the same account you used when you first made the switch to Rebble!**
 * Choose your plan ($3.00/month or $33/year).
 * You are forwarded to Stripe. Enter your card info and finish the payment.
@@ -109,18 +109,22 @@ That being said, these are the steps to add the plan:
 
 In the Pebble app, under Apps, the app *The Weather Channel* should now be there. Tap the gear button to configure it to your needs.
 
-## Common issues
+### Sideloading watchfaces or apps
 
-### Cannot add watchface, store says its added, but it's not on the phone of watch
-
-Sometimes, the locker gets out of sync with reality. To get it back in sync, do this:
-* Start the default browser of your phone and head to [the Rebble app store on the web](https://apps.rebble.io/en_US/watchfaces?dev_settings=true).
+Under very rare circumstances, installing watchfaces or apps through the app store within the Pebble app doesn't work. In this case, you could try if sideloading the watchface works.
+* On the phone, open your browser (Safari on iOS or Chrome on Android) and head to [the Rebble app store on the web](https://apps.rebble.io/en_US/watchfaces?dev_settings=true).
 * Find the watchface or app and tap it.
 * On the bottom, tap *download pwb*.
 * Open the file with the Pebble app.
 * The Pebble app opens, and asks to install the watchface or app. Tap *OK*.
 
-Now, the watchface or app is installed, and the locker is no longer out of sync for this watchface. You might have to repeat this for every watchface or app that shows this behaviour.
+Now, the watchface or app gets installed on the phone and the watch.
+
+## Common issues
+
+### Cannot add watchface, store says its added, but it's not on the phone of watch
+
+Sometimes, the locker can get out of sync with reality. Although this situation should resolve itself over time, it's easy to fix. Simply sideload the watchface (see above). The locker now is no longer out of sync for this watchface. You might have to repeat this for every watchface or app that shows this behaviour.
 
 ### On Android (9.0+), incoming calls are displayed on the watch as "Unknown caller"
 
@@ -131,6 +135,14 @@ In order to fix "Unknown caller" or altogether missing notifications on incoming
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Call Log, Dialer and SMS on your phone.
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble (*Settings* and then *Background App*) and on your phone.
+
+### This watchface doesn't show weather info any more, or the info is wrong
+
+Unfortunately, some often used weather services have folded, or changed their API. Watchfaces using those APIs now can't fetch their weather info any more. See if the watchface can switch API, or choose another watchface. Please note that this is unrelated to the Rebble Weather and Dictation services plan.
+
+### Dictation doesn't work: "Error occurred. Try again."
+
+Go in the Pebble App to *Settings* and choose *Voice Language*. Change it to an other language. Then, change it back to your preferred language.
 
 ## General hints
 
