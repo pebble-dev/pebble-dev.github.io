@@ -49,7 +49,7 @@ Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_
 Part one: connect the watch to the phone. This procedure is basically the same as for iOS. Notable exception for part 1:
 * Install the [Pebble app from the Play store](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt).
 
-Part two: connect the Pebble app to the Rebble Web Services.
+Part two: connect the Pebble app to Rebble Web Services.
 
 * On the phone, open the default browser (most likely Chrome), and go to [auth.rebble.io](https://auth.rebble.io/).
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
