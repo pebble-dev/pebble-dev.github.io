@@ -41,13 +41,13 @@ Note: you can skip this part if you're already a Pebble user.
 Part two: connect the Pebble app to Rebble Web Services.
 
 * On the phone, open Safari, and go to [auth.rebble.io](https://auth.rebble.io/).
-* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!*. Read the page, then tap the *get started now* link in the first paragraph.
-* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!*. Read the page, then tap the *switch to Rebble* button. Safari asks if you want to open it with Pebble. Tap *Open*.
+* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!* Read the page, then tap the *get started now* link in the first paragraph.
+* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. Safari asks if you want to open it with Pebble. Tap *Open*.
 * The Pebble app opens, and gives a popup *Configuration Change*. Tap *Change*.
 * Now, wait at least 15 seconds before you go to the next step.
 * Meanwhile, in the top left corner, a yellow exclamation mark appeared. Tap it.
 * You get to a screen titled *Fixes* and *Logged out*. Tap *log in*.
-* You get to a screen *Pebble Account* and *Welcome to Rebble*. Tap *IT'S REBBLE TIME*"
+* You get to a screen *Pebble Account* and *Welcome to Rebble*. Tap *IT'S REBBLE TIME*.
 * You're done! Go to *Watchfaces*, choose *Get Watchfaces* and find and install watchfaces you like from the Rebble store.
 
 Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_0UMw).
@@ -77,8 +77,8 @@ Note: you can skip this part if you're already a Pebble user.
 Part two: connect the Pebble app to Rebble Web Services.
 
 * On the phone, open a decent browser (like Chrome), and go to [auth.rebble.io](https://auth.rebble.io/).
-* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!*. Read the page, then tap the *get started now* link in the first paragraph.
-* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!*. Read the page, then tap the *switch to Rebble* button. The browser asks if you want to open it with Pebble. Tap *Open*.
+* You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!* Read the page, then tap the *get started now* link in the first paragraph.
+* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. The browser asks if you want to open it with Pebble. Tap *Open*.
 * If it won't open with Pebble, you'll need to use another browser and restart from the first bullet of this part two.
 * The Pebble app opens. One of three things will then happen:
 * * A Rebble screen will appear. It may have an orange spinner above it; you can safely ignore this.
