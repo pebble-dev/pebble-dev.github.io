@@ -64,7 +64,7 @@ Part two: connect the Pebble app to Rebble Web Services.
 * If your Pebble disconnects, just tap the usual connect button.
 * You're done! Go to "Watchfaces", tap the big red "+" in the lower right corner and find and install watchfaces you like from the Rebble store.
 
-### Weather and dication services
+### Weather and Dictation services
 
 So, you started using the Rebble Web Services, but want to add the paid plan for weather and dictation. There are a few things to consider, before you order it:
 * On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages.
