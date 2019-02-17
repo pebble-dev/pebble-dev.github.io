@@ -73,7 +73,7 @@ So, you started using the Rebble Web Services, but want to add the paid plan for
 
 Still want it? Let's go!
 * Open the default browser on your phone and head to [Rebble Account](https://auth.rebble.io/account/).
-* **Very important: make sue you are signed in with the same account you used when you first made the switch to Rebble!**
+* **Very important: make sure you are signed in with the same account you used when you first made the switch to Rebble!**
 * Choose your plan ($3.00/month or $33/year).
 * You are forwarded to Stripe. Enter your card info and finish the payment.
 * You are redirected to the Rebble site. Voice / Weather subscription should now be **Active**.
