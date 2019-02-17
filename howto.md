@@ -93,7 +93,7 @@ Part two: connect the Pebble app to Rebble Web Services.
 ### Weather and Dictation services
 
 So, you started using the Rebble Web Services, but want to add the paid plan for Weather and Dictation services. There are a few things to consider, before you order it:
-* On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages.
+* On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages. Unless you jailbreak your phone...
 * Weather services is solely for the native Pebble weather app and for weather info in timeline. Watchfaces and 3rd party apps that offer weather info, have their own means to fetch weather info. You don't need the Rebble paid plan for them.
 * Payment is handled by Stripe, which only offers payment by credit card.
 * Your money will help the Rebel Alliance to keep all Rebble Web Services (including the free ones) running.
