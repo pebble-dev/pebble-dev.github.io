@@ -30,7 +30,7 @@ Part one: connect the watch to the phone.
 * Tap "grant access", and tap accept if you want you calendar items for the next couple of days appear on your watch.
 * You're done. Well, the Pebble part is done. Tap "done".
 
-Part two: connect the Pebble app to the Rebble Web Services.
+Part two: connect the Pebble app to Rebble Web Services.
 
 * On the phone, open Safari, and go to [auth.rebble.io](https://auth.rebble.io/).
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
