@@ -53,7 +53,7 @@ Part two: connect the Pebble app to Rebble Web Services.
 
 * On the phone, open the default browser (most likely Chrome), and go to [auth.rebble.io](https://auth.rebble.io/).
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with "You're all set!". Read the page, then tap the "get started now" link in the first paragraph.
-* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with "Here we go!". Read the page, then tap the "switch to rebble" button. The browser asks if you want to open it with Pebble. Tap "Open".
+* You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with "Here we go!". Read the page, then tap the "switch to Rebble" button. The browser asks if you want to open it with Pebble. Tap "Open".
 * The Pebble app opens. One of three things will then happen:
 * * A Rebble screen will appear. It may have an orange spinner above it; you may ignore this.
 * * The old Pebble login screen will appear. If this happens, close the app from the app switcher and open it again. A Rebble screen should now appear.
