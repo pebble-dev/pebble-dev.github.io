@@ -29,7 +29,7 @@ Note: you can skip this part if you're already a Pebble user.
 * You'll be greeted by a *Pebble Account* page. Simply tap the *Skip* in the top left corner to continue.
 * Choose your language for voice input. Then, choose the type of Pebble you have. iOS asks for permission to use Bluetooth, choose *OK*.
 * The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
-* The watch asks to pair. Press the upper right button. Tap "Pair" on the phone.
+* The watch asks to pair. Press the upper right button. Tap *Pair* on the phone.
 * If the Pebble has an old firmware, it will now automatically be updated. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
 * In the Pebble app, choose the language of the menus, notifications and messages on the watch.
 * Many Pebbles need to use a second Bluetooth connection. If you have one of those, the app now asks to pair the watch again. Tap *Enable*, press the upper right button on the watch to pair, and tap *pair* on the phone.
