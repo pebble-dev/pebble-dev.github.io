@@ -163,6 +163,10 @@ To sign out from the Rebble website, you have to remove cookies (for *.rebble.io
 
 To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
 
+### Events from my calendars don't show up in Timeline
+
+Start the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
+
 ## General hints
 
 * As many services on the watch are actually implemented in the phone and in web services, many issues are located there as well. A reboot of your phone has better chance to fix issues, than a reboot of your watch. Restoring your watch to factory settings is hardly ever needed.
