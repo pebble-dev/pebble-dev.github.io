@@ -112,7 +112,7 @@ That being said, these are the steps to add the plan:
 * In the last paragraph, tap the *repeat the initial setup* link. Then, follow the rest of the procedure for step 2 above.
 * Thank you for supporting Rebble. Really!
 
-In the Pebble app, under Apps, the app *The Weather Channel* should now be there. Tap the gear button to configure it to your needs.
+In the Pebble app, under *Apps*, the app *The Weather Channel* should now be there. Tap the gear button to configure it to your needs.
 
 ### Sideloading watchfaces or apps
 
@@ -135,8 +135,8 @@ Sometimes, the locker can get out of sync with reality. Although this situation 
 
 In order to fix "Unknown caller" or altogether missing notifications on incoming calls for Pebble paired with Android 9.0 devices, there is a workaround with Dialer for Pebble app:
 * Install [Dialer for Pebble](https://play.google.com/store/apps/details?id=com.matejdro.pebbledialer) companion app and a respective App for Pebble.
-* Open the Pebble app on your phone and go to *Notifications*. Then disable notifications for Phone Calls.
-* Open the Dialer for Pebble app on your phone and enable Call Popup for Incoming and Outgoing calls.
+* Open the Pebble app on your phone, and go to *Notifications*. Then disable notifications for Phone Calls.
+* Open the Dialer for Pebble app on your phone, and enable Call Popup for Incoming and Outgoing calls.
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Call Log, Dialer and SMS on your phone.
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble (*Settings* and then *Background App*) and on your phone.
@@ -155,7 +155,7 @@ Unfortunately, some often used weather services have folded, or changed their AP
 
 ### Dictation doesn't work: "Error occurred. Try again."
 
-Open the Pebble App on your phone, and go to *Settings*. Tap *Voice Language*. Change it to any other language. Then, change it back to your preferred language.
+Open the Pebble app on your phone, and go to *Settings*. Tap *Voice Language*. Change it to any other language. Then, change it back to your preferred language.
 
 ### I need to switch accounts, or I removed and reinstalled the Pebble app
 
