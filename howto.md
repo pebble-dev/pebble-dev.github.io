@@ -157,6 +157,12 @@ Unfortunately, some often used weather services have folded, or changed their AP
 
 Go in the Pebble App to *Settings* and choose *Voice Language*. Change it to an other language. Then, change it back to your preferred language.
 
+### I need to switch accounts, or I removed and reinstalled the Pebble app
+
+To sign out from the Rebble website, you have to remove cookies (for .rebble.io and auth.rebble.io) from your browser. How to do that, depends on the browser. Now head to [Rebble auth](https://auth.rebble.io/) and sign in with the right account.
+
+To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
+
 ## General hints
 
 * As many services on the watch are actually implemented in the phone and in web services, many issues are located there as well. A reboot of your phone has better chance to fix issues, than a reboot of your watch. Restoring your watch to factory settings is hardly ever needed.
