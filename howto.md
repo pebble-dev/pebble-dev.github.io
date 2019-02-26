@@ -159,7 +159,7 @@ Go in the Pebble App to *Settings* and choose *Voice Language*. Change it to an 
 
 ### I need to switch accounts, or I removed and reinstalled the Pebble app
 
-To sign out from the Rebble website, you have to remove cookies (for .rebble.io and auth.rebble.io) from your browser. How to do that, depends on the browser. Now head to [Rebble auth](https://auth.rebble.io/) and sign in with the right account.
+To sign out from the Rebble website, you have to remove cookies (for *.rebble.io* and *auth.rebble.io*) from your browser. How to do that, depends on the browser. Now head to [Rebble auth](https://auth.rebble.io/) and sign in with the right account.
 
 To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
 
