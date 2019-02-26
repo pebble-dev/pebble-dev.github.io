@@ -135,8 +135,8 @@ Sometimes, the locker can get out of sync with reality. Although this situation 
 
 In order to fix "Unknown caller" or altogether missing notifications on incoming calls for Pebble paired with Android 9.0 devices, there is a workaround with Dialer for Pebble app:
 * Install [Dialer for Pebble](https://play.google.com/store/apps/details?id=com.matejdro.pebbledialer) companion app and a respective App for Pebble.
-* Go to your Pebble App > Notifications tab and Disable notifications for Phone Calls.
-* Go to Dialer for Pebble app on your phone and enable Call Popup for Incoming and Outgoing calls.
+* Open the Pebble app on your phone and go to *Notifications*. Then disable notifications for Phone Calls.
+* Open the Dialer for Pebble app on your phone and enable Call Popup for Incoming and Outgoing calls.
 * Make sure Dialer for Pebble app has system permissions to access Contacts, Call Log, Dialer and SMS on your phone.
 
 This should fix the issue. In case if Dialer for Pebble works inconsistently, make sure it runs in background both on your Pebble (*Settings* and then *Background App*) and on your phone.
@@ -155,7 +155,7 @@ Unfortunately, some often used weather services have folded, or changed their AP
 
 ### Dictation doesn't work: "Error occurred. Try again."
 
-Go in the Pebble App to *Settings* and choose *Voice Language*. Change it to an other language. Then, change it back to your preferred language.
+Open the Pebble App on your phone, and go to *Settings*. Tap *Voice Language*. Change it to any other language. Then, change it back to your preferred language.
 
 ### I need to switch accounts, or I removed and reinstalled the Pebble app
 
@@ -165,7 +165,7 @@ To configure the Pebble app to use the account you just signed in to, go through
 
 ### Events from my calendars don't show up in Timeline
 
-Start the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
+Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
 
 ## General hints
 
