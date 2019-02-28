@@ -163,7 +163,7 @@ To sign out from the Rebble website, you have to remove cookies (for *.rebble.io
 
 To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
 
-### Events from my calendars don't show up in Timeline
+### Events from my calendars don't show up in Timeline or Quick View
 
 Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
 
