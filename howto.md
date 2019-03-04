@@ -86,11 +86,11 @@ Part two: connect the Pebble app to Rebble Web Services.
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. The browser asks if you want to open it with Pebble. Tap *Open*.
 * If it won't open with Pebble, you'll need to use another browser and restart from the first bullet of this part two.
 * The Pebble app opens. One of three things will then happen:
-* * A Rebble screen will appear. It may have an orange spinner above it; you can safely ignore this.
-* * The old Pebble login screen will appear. If this happens, close the app from the app switcher and open it again. A Rebble screen should now appear.
-* * Nothing. If this happens, tap "⋮" in the top right corner, then tap *Settings*. At this point, either:
-* * * A Rebble screen will appear, or
-* * * Nothing interesting. In this case, scroll down to *ACCOUNT* and make sure you are logged out. If not, tap it to log out. Now, tap to log in. A Rebble screen should appear.
+    * A Rebble screen will appear. It may have an orange spinner above it; you can safely ignore this.
+    * The old Pebble login screen will appear. If this happens, close the app from the app switcher and open it again. A Rebble screen should now appear.
+    * Nothing. If this happens, tap "⋮" in the top right corner, then tap *Settings*. At this point, either:
+        * A Rebble screen will appear, or
+        * Nothing interesting. In this case, scroll down to *ACCOUNT* and make sure you are logged out. If not, tap it to log out. Now, tap to log in. A Rebble screen should appear.
 * In any case, once you tap the button on the Pebble app's *Welcome to Rebble* screen, you are done!
 * If your Pebble disconnects, just tap the usual connect button.
 * You're done! Go to *Watchfaces*, tap the big red "*+*" in the lower right corner and find and install watchfaces you like from the Rebble store.
