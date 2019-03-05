@@ -68,7 +68,7 @@ them again.
 **Impact**: _Rebble users will automatically get the Rebble Store as a
 replacement._
 
-As mentioned in [previous community updates](http://rebble.io/2017/01/31/rebble-community-update-2.html),
+As mentioned in [previous community updates](https://rebble.io/2017/01/31/rebble-community-update-2.html),
 work started on a Pebble Appstore replacement almost as soon as Pebble announced that it was ceasing
 operations. The Rebble Store should be ready to go by the time the original Pebble appstore
 shuts down, with all the original functionality. We might even be able to import the list of apps
