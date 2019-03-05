@@ -1,6 +1,9 @@
 - display: "home"
   permalink: "/"
 
+- display: "howto"
+  permalink: "/howto/"
+
 - display: "faq"
   permalink: "/faq/"
 
@@ -10,5 +13,5 @@
 - display: "projects"
   permalink: "/projects/"
 
-- display: "your account"
+- display: "account"
   link: "https://auth.rebble.io"
