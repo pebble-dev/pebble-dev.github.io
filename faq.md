@@ -8,6 +8,10 @@ permalink: /faq/
 
 ## Rebble
 
+### Where is the FAQ?
+
+Well, right here! At least, for frequently asked questions about *The Rebble Alliance*. For frequently asked questions about how to use the Rebble Web Services with your Pebble smartwatch, head to [howto](/howto) and scroll down.
+
 ### What is Rebble?
 
 Rebble began as a supplement to the [official Pebble documentation](https://developer.pebble.com/).  After [Pebble ceased operations](https://blog.getpebble.com/2016/12/07/fitbit/), it morphed into the unofficial spearhead organization for continuing the advancement of the Pebble platform via the amazing Pebble developer community.  
