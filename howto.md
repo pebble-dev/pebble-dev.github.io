@@ -169,7 +169,7 @@ Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calen
 
 ### I want to add an original Pebble or Pebble Steel, but the firmware upgrade step displays "Migration Failed"
 
-The update screen also shows "Could not find any migration firmware to install." This can be resolved by removing the Pebble app from your phone and reinstalling it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
+The update screen also shows *Could not find any migration firmware to install.* This can be resolved by removing the Pebble app from your phone and reinstalling it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
 
 ## General hints
 
