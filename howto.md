@@ -109,7 +109,7 @@ That being said, these are the steps to add the plan:
 * Choose your plan ($3.00/month or $33/year).
 * You are forwarded to Stripe. Enter your card info and finish the payment.
 * You are redirected to the Rebble site. Voice / Weather subscription should now be **Active**.
-* In the last paragraph, tap the *repeat the initial setup* link. Then, follow the rest of the procedure for step 2 above.
+* In the last paragraph, tap the *repeat the initial setup* link. Then, follow the rest of the procedure for part 2 above.
 * Thank you for supporting Rebble. Really!
 
 In the Pebble app, under *Apps*, the app *The Weather Channel* should now be there. Tap the gear button to configure it to your needs.
@@ -166,6 +166,10 @@ To configure the Pebble app to use the account you just signed in to, go through
 ### Events from my calendars don't show up in Timeline or Quick View
 
 Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
+
+### I want to add an original Pebble or Pebble Steel, but the firmware upgrade step displays "Migration Failed"
+
+The update screen also shows "Could not find any migration firmware to install." This can be resolved by removing the Pebble app from your phone and reinstalling it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
 
 ## General hints
 
