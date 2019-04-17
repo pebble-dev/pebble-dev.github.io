@@ -13,9 +13,8 @@ permalink: /projects/
 ## Appstore replacement
 
 * [The Rebble Store](https://github.com/pebble-dev/rebble-store) *(formerly The Panic Store)*
-	* [home](http://store.rebble.io/) *(preview)*
-	* [app details](http://store.rebble.io/#/app-details) *(preview)*
-	* [watchapps](http://store.rebble.io/#/apps) *(preview)*
+	* [home](http://apps.rebble.io/)
+	* [search](https://apps.rebble.io/en_US/search/watchapps/1)
 * [Appstore wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
 
 ## Firmware
@@ -26,8 +25,8 @@ permalink: /projects/
 
 ## Mobile Apps
 
-* [Android mobile app](https://github.com/pebble-dev/android-store-app)
-* iOS mobile app *(source link coming soon)*
+* [Pebble Android app](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/) *(site unaffiliated with Rebble, go to rebble.io/howto for full installation and setup instructions)*
+* [Panic Store Android Mobile app](https://github.com/pebble-dev/android-store-app) *(unmaintained, use official Pebble app or Gadgetbridge instead)*
 * [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) *(unaffiliated existing OSS Pebble app alternative for Android users)*
 
 ## Miscellaneous
