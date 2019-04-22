@@ -10,7 +10,7 @@ permalink: /faq/
 
 ### Where is the FAQ?
 
-Well, right here! At least, for frequently asked questions about *The Rebble Alliance*. For frequently asked questions about how to use the Rebble Web Services with your Pebble smartwatch, head to [the setup how-to](/howto) and scroll down.
+Well, right here! At least, for frequently asked questions about *The Rebble Alliance*. For frequently asked questions about how to use the Rebble Web Services with your Pebble smartwatch, head to [the setup and troubleshooting how-to](/howto) and scroll down.
 
 ### What is Rebble?
 
