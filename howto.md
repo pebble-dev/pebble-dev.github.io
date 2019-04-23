@@ -10,7 +10,7 @@ permalink: /howto/
 
 The Pebble watch is called a smartwatch. That's because it's smarter than a normal watch. Part of that intelligence is incorporated into the watch, and part of it is being delivered through web services. Originally, these web services were provided by Pebble Technology, Corp. However, Pebble Technology, Corp. halted operation, and after some time these web services have disappeared as well. That made the Pebble watch a lot dumber. Not as dumb as a normal watch, but things that were possible before, aren't possible any more. Time to ditch your Pebble? No, because...
 
-Enter Rebble! The Rebble Alliance has created Rebble Web Services, to fill in the void left by the disappearance of Pebble Inc. Most of the services that have disappeared, have replacements now. There's however one thing The Rebble Alliance cannot do: change every Pebble so it will use the Rebble Web Services. This needs some action by the user. No need to worry, we'll help you step by step! Read on...
+Enter Rebble! The Rebble Alliance has created Rebble Web Services, to fill in the void left by the disappearance of Pebble Technology, Corp. Most of the services that have disappeared, have replacements now. There's however one thing The Rebble Alliance cannot do: change every Pebble so it will use the Rebble Web Services. This needs some action by the user. No need to worry, we'll help you step by step! Read on...
 
 ## Getting started using Rebble Web Services
 
@@ -22,7 +22,7 @@ Part one: connect the watch to the phone.
 
 Note: you can skip this part if you're already a Pebble user. Instead, you should check whether you have the latest version of the Pebble app installed on your phone.
 
-* Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
+* Connect your Pebble to the plugged in USB charging cable. You really don't want it to lose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
 * If you see a clock face, press middle right button, go to *Settings*, then *System*, and choose *Factory Reset*. This might take a few minutes.
 * Get your iPhone and install the [Pebble app from the App store](https://itunes.apple.com/en/app/pebble/id957997620?mt=8). Then, open the app.
@@ -43,6 +43,7 @@ Note: you can skip this part if you're already a Pebble user. Instead, you shoul
 
 Part two: connect the Pebble app to Rebble Web Services.
 
+* On the phone, open the Pebble app, tap *Settings*, *Help* and *UPDATE YOUR PEBBLE*, to make sure your Pebble is at the latest firmware.
 * On the phone, open Safari, and go to [auth.rebble.io](https://auth.rebble.io/).
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!* Read the page, then tap the *get started now* link in the first paragraph.
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. Safari asks if you want to open it with Pebble. Tap *Open*.
@@ -61,10 +62,10 @@ Part one: connect the watch to the phone.
 
 Note: you can skip this part if you're already a Pebble user. Instead, you should check whether you have the latest version of the Pebble app installed on your phone.
 
-* Connect your Pebble to the plugged in USB charging cable. You really don't want it to loose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
+* Connect your Pebble to the plugged in USB charging cable. You really don't want it to lose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
 * If you see a clock face, press middle right button, go to *Settings*, then *System*, and choose *Factory Reset*. This might take a few minutes.
-* Get your phone and install the [Pebble app from the Play store](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt). Accept all access. Then, open the app.
+* Get your phone and download the [Pebble app from APKMirror](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/download/). Open the APK and enable installing from unknown sources if it prompts you to. Tap install in the dialogue box. Then, open the app.
 * You'll be greeted by a *Pebble Account* page. Simply tap *Skip login* twice to continue.
 * Choose the type of Pebble you have.
 * The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
@@ -109,7 +110,7 @@ That being said, these are the steps to add the plan:
 * Choose your plan ($3.00/month or $33/year).
 * You are forwarded to Stripe. Enter your card info and finish the payment.
 * You are redirected to the Rebble site. Voice / Weather subscription should now be **Active**.
-* In the last paragraph, tap the *repeat the initial setup* link. Then, follow the rest of the procedure for step 2 above.
+* In the last paragraph, tap the *repeat the initial setup* link. Then, follow the rest of the procedure for part 2 above.
 * Thank you for supporting Rebble. Really!
 
 In the Pebble app, under *Apps*, the app *The Weather Channel* should now be there. Tap the gear button to configure it to your needs.
@@ -166,6 +167,10 @@ To configure the Pebble app to use the account you just signed in to, go through
 ### Events from my calendars don't show up in Timeline or Quick View
 
 Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calendar*. Here, you can choose the calendars from which events will appear in your timeline.
+
+### I want to add an original Pebble or Pebble Steel, but the firmware upgrade step displays "Migration Failed"
+
+The update screen also shows *Could not find any migration firmware to install.* To resolve this, you need a device with a Pebble app that has *not* been switched to Rebble. You can use another device, or remove Rebble from the Pebble app by visiting `pebble://custom-boot-config/default` from the browser, or you can remove the Pebble app from your phone and reinstall it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
 
 ## General hints
 
