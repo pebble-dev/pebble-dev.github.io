@@ -25,7 +25,7 @@ permalink: /projects/
 
 ## Mobile Apps
 
-* [Official Pebble Android app](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/) *(For use with Rebble Web Services. Site unaffiliated with Rebble, go to rebble.io/howto for full installation and setup instructions)*
+* [Official Pebble Android app](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/) *(For use with Rebble Web Services. Site unaffiliated with Rebble, go to [rebble.io/howto](/howto/) for full installation and setup instructions)*
 * [Panic Store Android Mobile app](https://github.com/pebble-dev/android-store-app) *(unmaintained, use official Pebble app or Gadgetbridge instead)*
 * [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) *(unaffiliated existing OSS Pebble app alternative for Android users)*
 
