@@ -400,16 +400,7 @@ hr {
     border: 1px solid #dbdadb;
 }
 
-/* Pagination styles */
-
-/* --- Error page styles --- */
-.pet-rock-pebble {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 98%;
-}
-
+/* --- Pagination styles --- */
 .pagination {
     display: flex;
     padding-left: 0;
@@ -429,13 +420,6 @@ hr {
     color: #686868;
     text-decoration: none;
     font-size: 20px;
-    /*border: $pagination-border-width solid $pagination-border-color;*/
-  
-    /*&:focus {
-      z-index: 3;
-      outline: $pagination-focus-outline;
-      box-shadow: $pagination-focus-box-shadow;
-    }*/
   }
 
 .page-link.disabled {
@@ -448,6 +432,12 @@ hr {
 a.page-link:hover {
     z-index: 2;
     color: #222;
-    text-decoration: none;
-    /*border-color: $pagination-hover-border-color;*/
 } 
+
+/* --- Error page styles --- */
+.pet-rock-pebble {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 98%;
+}
