@@ -10,11 +10,11 @@
 	display: block;
 }
 a.button {
-	color: $color_4;
+	color: $white-color;
 	text-decoration: none;
 	font-weight: 500;
 	text-transform: uppercase;
-	background-color: $background_color_3;
+	background-color: $dark-gray-button-background-color;
 	text-align: center;
 }
 button.orange {
@@ -24,8 +24,8 @@ button.orange {
 	background-color: $pebble-color;
 }
 button.gray {
-	background-color: $background_color_5;
+	background-color: $light-gray-button-background-color;
 }
 .button.gray {
-	background-color: $background_color_5;
+	background-color: $light-gray-button-background-color;
 }

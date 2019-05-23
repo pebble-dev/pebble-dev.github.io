@@ -59,7 +59,7 @@ section {
 				box-sizing: border-box;
 				background: #444;
 				position: relative;
-				color: $color_4;
+				color: $white-color;
 				opacity: 1;
 				transition: margin .2s ease, padding .2s ease, opacity .2s ease;
 				article {
@@ -78,7 +78,7 @@ section {
 					transition: opacity .2s ease;
 				}
 				a {
-					color: $color_6;
+					color: $light-link-color;
 					text-decoration: underline;
 				}
 			}
@@ -124,7 +124,7 @@ section {
 .text-content {
 	>h2 {
 		a {
-			color: $color_5;
+			color: $dark-link-color;
 			text-decoration: none;
 			text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff;
 			background-image: linear-gradient(to bottom, #888, #888);
@@ -134,7 +134,7 @@ section {
 		}
 	}
 	>.metadata {
-		color: $color_3;
+		color: $dark-secondary-text-color;
 		text-align: right;
 		margin: 0;
 	}
@@ -158,7 +158,7 @@ section {
 	}
 }
 a {
-	color: $color_5;
+	color: $dark-link-color;
 	text-decoration: underline;
 }
 hr {

@@ -1,25 +1,28 @@
 /* --- Rebble site style variables --- */
 
-/* -- Colors -- */
+/* --- Main colors --- */
+$white-color: #fff;
 $pebble-color: #ff4700;
-$header-color: #373a3c;
-$background-color: #F4F3F4;
-$section-background-color: #fff;
+$rebble-color: #373a3c;
 
-$background_color_3: #383a3c;
-$background_color_5: #666666;
+/* --- Background colors --- */
+$header-background-color: $rebble-color;
+$body-background-color: #F4F3F4;
+$section-background-color: $white-color;
 
-$header-title-color: #FFF;
+/* --- Button colors --- */
+$dark-gray-button-background-color: #383a3c;
+$light-gray-button-background-color: #666666;
 
-$color_1: #FFF;
-$color_2: inherit;
-$color_3: #888;
-$color_4: white;
-$color_5: #444;
-$color_6: #DDD;
-$heading-color: #222;
-$color_8: #fff;
-$color_9: rgb(223, 223, 223);
+/* --- Text colors --- */
+$light-heading-color: $white-color;
+$dark-heading-color: #222;
+
+$dark-secondary-text-color: #888;
+$light-secondary-text-color: #dfdfdf;
+
+$dark-link-color: #444;
+$light-link-color: #DDD;
 
 /* --- Fonts --- */
 $main-font: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;

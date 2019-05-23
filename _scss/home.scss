@@ -1,18 +1,18 @@
 /* --- Home page styles -- */
 .home-container {
-	>.intro {
+	> .intro {
 		position: relative;
-		>.bg {
-			background-color: $header-color;
+		> .bg {
+			background-color: $header-background-color;
 			height: calc(100% - 60px);
 			max-height: calc(100% - 60px);
 			z-index: 0;
-			width: 100vw;
+			width: 100%;
 			top: 0;
 			left: 0;
 			position: absolute;
 		}
-		>.content {
+		> .content {
 			z-index: 10;
 			position: relative;
 			display: block;
@@ -27,10 +27,10 @@
 		}
 	}
 	.title {
-		color: $color_8;
+		color: $light-heading-color;
 	}
 	.summary {
-		color: $color_9;
+		color: $light-secondary-text-color;
 	}
 	.button {
 		margin-left: 0;

@@ -1,6 +1,6 @@
 /* --- Common header styles --- */
 header {
-	background-color: $header-color;
+	background-color: $header-background-color;
 	padding: 3rem 2em 15em;
 	margin-bottom: calc(-17em + 3rem);
 	text-align: center;
@@ -10,21 +10,21 @@ header {
 		vertical-align: middle;
 		margin: 0 0.1em;
 		text-transform: lowercase;
-		color: $header-title-color;
+		color: $light-heading-color;
 	}
 	.separator {
 		font-size: 3em;
 		vertical-align: middle;
 		margin: 0 0.1em;
 		text-transform: lowercase;
-		color: $color_3;
+		color: $dark-secondary-text-color;
 	}
 	.pagename {
 		font-size: 3em;
 		vertical-align: middle;
 		margin: 0 0.1em;
 		text-transform: lowercase;
-		color: $header-title-color;
+		color: $light-heading-color;
 	}
 	.headertext {
 		display: inline-block;
@@ -33,7 +33,7 @@ header {
 		margin: 0 1rem;
 	}
 	a {
-		color: $color_2;
+		color: inherit;
 		text-decoration: none;
 	}
 }
