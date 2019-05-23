@@ -29,5 +29,9 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+sass:
+  sass_dir: _scss
+  style: compressed
+
 gems:
 - jemoji

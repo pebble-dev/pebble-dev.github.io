@@ -1,0 +1,14 @@
+/* --- Common footer styles --- */
+footer {
+	background-color: $background-color;
+	display: flex;
+	flex-flow: column;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 2rem;
+	margin: -1rem 0 0;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+}
