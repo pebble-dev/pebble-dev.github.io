@@ -10,6 +10,7 @@
 		display: inline-block;
 		text-transform: uppercase;
 		a {
+			display: block;
 			text-decoration: none;
 			padding: .75em .75em;
 			color: $light-heading-color;
