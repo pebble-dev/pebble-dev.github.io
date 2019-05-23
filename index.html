@@ -5,16 +5,31 @@ date:   2015-06-12 11:56:42
 
 permalink: /
 ---
+<div class="home-container">
+    <div class="intro">
+        <div class="content">
+            <h1 class="title">Bring life back to your Pebble</h1>
+            <p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula, purus vitae vulputate varius, ipsum orci maximus erat, nec tempor massa purus id purus. Nullam ligula augue, ultricies id sollicitudin quis, dictum sit amet leo.</p>
+            <a class="button orange" href="#">Join Rebble</a>
+        </div>
+        <div class="bg"></div>
+        
+    </div>
+    <div class="separator"></div>
+    
+</div>
 <div id="posts">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:3 %}
         <article class="post">
             <div class="text-content">
                 <p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
                 <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 {{ post.excerpt }}
             </div>
+            <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
         </article>
     {% endfor %}
+    <a class="button gray" href="#">Read Blog</a>
 </div>
 {% if site.posts == 0 %}
     <section>
