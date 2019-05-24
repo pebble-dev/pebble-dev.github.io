@@ -10,7 +10,7 @@ permalink: /
         <div class="content">
             <h1 class="title">{{ site.data.home.heading }}</h1>
             <p class="summary">{{ site.data.home.about }}</p>
-            <a class="button orange" href="#">Join Rebble</a>
+            <a class="button orange" href="https://boot.rebble.io">Join Rebble</a>
         </div>
         <div class="bg"></div>
         
@@ -29,7 +29,7 @@ permalink: /
             <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
         </article>
     {% endfor %}
-    <a class="button gray" href="#">Read Blog</a>
+    <a class="button gray" href="{{ '/blog' | prepend: site.baseurl }}">Read Blog</a>
 </div>
 {% if site.posts == 0 %}
     <section>
