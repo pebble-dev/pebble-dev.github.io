@@ -12,7 +12,7 @@ We've all been very busy, so we haven't had much time to blog lately. However,
 we're still on
 the case, and before we go any further, we have something important for you to
 do!
-<!--more—->
+<!--more-->
 ## Rebble Accounts
 
 The Rebble account system is up and running, and now is the time for you to
