@@ -1,0 +1,61 @@
+---
+layout: default
+title: "Blog"
+---
+<div id="posts">
+    {% for post in paginator.posts %}
+        <article class="post">
+            <div class="text-content">
+                <p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </div>
+        </article>
+    {% endfor %}
+</div>
+{% if site.posts == 0 %}
+    <section>
+        <div class="text-content">
+            <p><em>There's nothing here (yet...)</em></p>
+            <p>
+                In the meantime, check out the <a href="https://discordapp.com/invite/aRUAYFN">
+                    Discord Server</a> or subscribe to the mailing list:
+            </p>
+            {% include mailinglist.html %}
+        </div>
+    </section>
+    <style> footer { display: none; } </style>
+{% endif %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  <li class="page-item">
+  {% if paginator.previous_page %}
+    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&#10094;</a>
+  {% else %}
+    <span class="page-link disabled">&#10094;</span>
+  {% endif %}
+  </li>
+
+  {% for page in (1..paginator.total_pages) %}
+    <li class="page-item">
+    {% if page == paginator.page %}
+      <span class="page-link active">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+    </li>
+  {% endfor %}
+
+  <li class="page-item">
+  {% if paginator.next_page %}
+    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">&#10095;</a>
+  {% else %}
+    <span class="page-link disabled">&#10095;</span>
+  {% endif %}
+  </li>
+</ul>
+{% endif %}
