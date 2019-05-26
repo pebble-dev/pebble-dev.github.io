@@ -33,6 +33,11 @@ markdown: kramdown
 kramdown:
   input: GFM
 
+sass:
+  sass_dir: _scss
+  style: compressed
+
+
 plugins:
 - jekyll-paginate
 - jemoji
