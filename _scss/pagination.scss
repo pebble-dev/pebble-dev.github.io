@@ -1,0 +1,32 @@
+/* --- Pagination styles --- */
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: fit-content;
+    .page-link {
+        position: relative;
+        display: block;
+        padding: .5rem .75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #686868;
+        text-decoration: none;
+        font-size: 20px;
+        &.disabled {
+            color: #cacaca;
+          }
+        &.active {
+            color: #D40;
+        }
+
+      }
+      a.page-link:hover {
+        z-index: 2;
+        color: #222;
+    } 
+  }
+

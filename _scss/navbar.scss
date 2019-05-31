@@ -1,0 +1,29 @@
+/* --- Navbar (aka Index) --- */
+#index {
+	list-style: none;
+	display: block;
+	text-align: center;
+	margin: 0 auto 2rem;
+	padding: 0;
+	max-width: 42rem;
+	background-color: $header-background-color;
+	li {
+		display: inline-block;
+		text-transform: uppercase;
+		a {
+			display: block;
+			text-decoration: none;
+			padding: .75em .75em;
+			color: $light-heading-color;
+		}
+		a.selected {
+			text-shadow: 0 0 1px black;
+			border-bottom: 3px solid #FFF;
+		}
+	}
+}
+@media (max-width: 700px) {
+	#index {
+		font-size: 0.8em;
+	}
+}

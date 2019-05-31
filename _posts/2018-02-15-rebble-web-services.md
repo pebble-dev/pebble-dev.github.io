@@ -9,7 +9,7 @@ Hey there! [Katharine Berry](https://twitter.com/KatharineBerry) here. As you ma
 by now, Fitbit will be shutting down all Pebble services at the end of June of this year. After that, if nothing were to be done,
 then no services that require a Pebble server would work any more — which includes the appstore,
 weather, dictation, some parts of timeline, iOS SMS/email actions, the CloudPebble IDE, and more.
-
+<!--more-->
 The observant among you might also notice that none of these things have been mentioned in a
 community update in over a year. Fortunately, we have the makings of a plan: the Rebble Web Services.
 In this post, we have a few things to cover.  First, I'll talk about what we

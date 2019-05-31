@@ -5,7 +5,7 @@
                {% if item.link %}
                    href="{{ item.link }}"
                {% else %}
-                   href="{{ site.url | append: site.baseurl | append: item.permalink }}"
+                   href="{{ item.permalink  | prepend: site.baseurl }}"
                {% endif %}
                >{{item.display}}
             </a>

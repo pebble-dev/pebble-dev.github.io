@@ -6,7 +6,7 @@ date:   2018-01-22 11:42:42
 ---
 
 Welcome to the first *Rebble Community Update* of 2018! :heart: :rocket:  One of [my](https://twitter.com/IShJR) most important roles in the Rebble project is *Lead Emoji Sprinkler*, which requires fastidious monitoring of the [Rebble Discord](http://discord.gg/aRUAYFN) to ensure that all comments indicating progress or good will are met with a swift :rocket: or :heart: respectively - and lately the emoji have been flowing liberally as the firmware team's progress continues to :rocket: thanks to the prodigious output of new and old [contributors](https://github.com/ginge/FreeRTOS-Pebble/graphs/contributors) alike.  Daren't delay divulging details of the downright deluge of development deeds!  As always, if you'd like to add something, [send us a tweet](https://twitter.com/pebble_dev), or better still, [submit a pull request](https://github.com/pebble-dev/pebble-dev.github.io/pulls)! :bowtie:  
-
+<!--more-->
 ## Firmware
 
 ### Contributing
