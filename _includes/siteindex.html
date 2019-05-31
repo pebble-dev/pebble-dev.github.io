@@ -1,7 +1,7 @@
 <ul id="index">
     {% for item in site.data.index %}
         <li>
-            <a {% if item.permalink and page.permalink == item.permalink %} class="selected" {% endif %}
+            <a {% if page.url == item.permalink %} class="selected" {% endif %}
                {% if item.link %}
                    href="{{ item.link }}"
                {% else %}
