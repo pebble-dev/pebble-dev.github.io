@@ -31,6 +31,9 @@
 	}
 	.summary {
 		color: $light-secondary-text-color;
+		a {
+			color: $light-link-color;
+		}
 	}
 	.button {
 		margin-left: 0;
