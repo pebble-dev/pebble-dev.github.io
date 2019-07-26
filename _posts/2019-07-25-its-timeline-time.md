@@ -30,8 +30,11 @@ You can tell if Timeline has hit your account yet by [checking your account
 page](https://auth.rebble.io/account/).  If you see a line item, "Timeline
 sync interval", your account has Timeline enabled, and the next time your
 phone updates services, it'll be ready to go!  (If you see the "Timeline
-sync interval" line, and Timeline doesn't seem to be working for you, you
-can try [rerunning the initial setup](https://boot.rebble.io).)
+sync interval" line, and pins don't seem to ever make it into your Timeline,
+you can try [rerunning the initial setup](https://boot.rebble.io).  And, if
+you are getting errors from Timeline apps, then try uninstalling and
+reinstalling the watchapps in question from inside the Pebble app on your
+phone, so that you get the patched versions!)
 
 All subscribers should have access to Timeline now.  To make sure our
 servers stay happy and healthy, Timeline will be rolled out to
