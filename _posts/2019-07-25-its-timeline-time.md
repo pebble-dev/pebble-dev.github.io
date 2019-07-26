@@ -11,7 +11,7 @@ This is the first of two posts coming your way -- in the next post, we'll
 talk about the :sparkles: shiny future of Rebble :sparkles:, but for now, we
 have an exciting announcement, and that is:
 
-You guessed it, it's finally time: timeline time, to be specific!  We've been talking about it for a year now,
+You guessed it, it's finally time: Timeline time, to be specific!  We've been talking about it for a year now,
 and thanks to the heroic effort of [Maxim
 Teryokhin](https://github.com/teryokhin), Timeline is back up and running! :heart_eyes:
 If you loved apps like "Note to Self", they're ready to roll again on your
@@ -36,7 +36,9 @@ can try [rerunning the initial setup](https://boot.rebble.io).)
 All subscribers should have access to Timeline now.  To make sure our
 servers stay happy and healthy, Timeline will be rolled out to
 non-subscribers over the course of about a week, so keep checking in
-periodically!
+periodically!  (Of course, if you want access to Timeline *right now*,
+[subscribing](https://auth.rebble.io/account/) will instantly enable it for
+your account, and we'd love to have your support!)
 
 ## Timeline sync
 
