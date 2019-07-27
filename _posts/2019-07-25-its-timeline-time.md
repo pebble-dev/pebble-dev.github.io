@@ -14,7 +14,7 @@ have an exciting announcement, and that is:
 You guessed it, it's finally time: Timeline time, to be specific!  We've been talking about it for a year now,
 and thanks to the heroic effort of [Maxim
 Teryokhin](https://github.com/teryokhin), Timeline is back up and running! :heart_eyes:
-If you loved apps like "Note to Self", they're ready to roll again on your
+If you loved apps like [Note to Self](https://apps.rebble.io/en_US/application/56231c63ade802b29d00002b), they're ready to roll again on your
 wrist.  We've spent the last few weeks carefully setting it up and testing
 it on RWS for everyone to use, and we're so excited to announce that it's
 ready.  Timeline by now should have rolled out to all subscribers, and
@@ -71,7 +71,7 @@ squared away!
 
 ## Dictation on iOS
 
-Now that "Note to Self" is back, you might be wondering -- what ever
+Now that [Note to Self](https://apps.rebble.io/en_US/application/56231c63ade802b29d00002b) is back, you might be wondering -- what ever
 happened with dictation on iOS 11 and up?  The answer is: we have a fix! :microphone:
 Now, when you connect your watch to a Rebble-activated phone, a firmware
 update will get sent to your Pebble that fixes dictation on iOS 11.  Hooray!
