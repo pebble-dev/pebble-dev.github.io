@@ -52,8 +52,8 @@ developments occur.
 | lp.<span class="grayed">getpebble.com</span> | Language packs. | Functionality supplanted by Rebble Web Services. |
 | apps.<span class="grayed">getpebble.com</span><br/>appstore-api.<span class="grayed">getpebble.com</span> | App Store. | Functionality supplanted by Rebble Web Services (apps.rebble.io). |
 | help.<span class="grayed">getpebble.com</span><br/>appstore-api.<span class="grayed">getpebble.com</span> | Support pages. | Mirror available [here](http://pebble-help-legacy.rebble.io/help.getpebble.com/indexd41d.html). |
-| cloudpebble.net | Cloud-based IDE. | CloudPebble is open source and will continue as a community project once it once it goes down. **_However_**, you should definitely [export your CloudPebble projects for local safekeeping!](https://www.reddit.com/r/pebble/comments/5h61om/bulk_cloudpebble_project_export/) Unclear if it'll ever come back as a part of Rebble Web Services. |
-| timeline-sync.<span class="grayed">getpebble.com</span><br/>timeline-api.<span class="grayed">getpebble.com</span> | Timeline servers. | Replacement planned for future expansion of Rebble Web Services. |
+| cloudpebble.net | Cloud-based IDE. | CloudPebble is open source and may be continued as a community project. However, it is currently unmaintained. Unclear if it'll ever come back as a part of Rebble Web Services. |
+| timeline-sync.<span class="grayed">getpebble.com</span><br/>timeline-api.<span class="grayed">getpebble.com</span> | Timeline servers. | Functionality supplanted by Rebble Web Services. |
 | cohorts.<span class="grayed">getpebble.com</span> | ??? | |
 | <em>various Nuance servers</em> | Dictation support. | Functionality supplanted by Rebble Web Services' paid subscription tier, which uses Google for dictation. |
 | sms-api.<span class="grayed">getpebble.com</span> | Outgoing text messages for iOS. | Community replacement unlikely due to difficulty of dealing with cell carriers. |
