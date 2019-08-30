@@ -163,7 +163,7 @@ Open the Pebble app on your phone, and go to *Settings*. Tap *Voice Language*. C
 
 ### I need to switch accounts, or I removed and reinstalled the Pebble app
 
-To sign out from the Rebble website, simply go to the [Your Account](https://auth.rebble.io/) and click the "Log out" button. Then simply re-login with the authen
+To sign out from the Rebble website, simply go to the [Your Account](https://auth.rebble.io/) and click the "Log out" button. Then simply re-login with the authentication method used for the account you want to log into.
 
 To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
 
