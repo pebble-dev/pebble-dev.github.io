@@ -1,0 +1,48 @@
+/* --- General text styles --- */
+body {
+	margin: 0;
+	background-color: $body-background-color;
+	font-family: $main-font;
+	font-size: 18px;
+	line-height: 1.6em;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+h1 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	color: $dark-heading-color;
+}
+h2 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	font-size: 2em;
+	color: $dark-heading-color;
+}
+h3 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	color: $dark-heading-color;
+}
+h4 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	color: $dark-heading-color;
+}
+h5 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	color: $dark-heading-color;
+}
+h6 {
+	margin-top: 0;
+	line-height: 1.8em;
+	margin-bottom: .4em;
+	color: $dark-heading-color;
+}

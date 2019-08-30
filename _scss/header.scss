@@ -1,0 +1,61 @@
+/* --- Common header styles --- */
+header {
+	background-color: $header-background-color;
+	padding: 3rem 2em 18em;
+	margin-bottom: calc(-20em + 3rem);
+	text-align: center;
+	font-size: 1em;
+	@media (max-width: 500px) {
+		padding: 3rem 2em 25em;
+		margin-bottom: calc(-27em + 3rem);
+	}
+	.sitename {
+		font-size: 3em;
+		vertical-align: middle;
+		margin: 0 0.1em;
+		text-transform: lowercase;
+		color: $light-heading-color;
+	}
+	.separator {
+		font-size: 3em;
+		vertical-align: middle;
+		margin: 0 0.1em;
+		text-transform: lowercase;
+		color: $dark-secondary-text-color;
+	}
+	.pagename {
+		font-size: 3em;
+		vertical-align: middle;
+		margin: 0 0.1em;
+		text-transform: lowercase;
+		color: $light-heading-color;
+	}
+	.headertext {
+		display: inline-block;
+		width: 36rem;
+		max-width: calc(100vw - 15rem);
+		margin: 0 1rem;
+	}
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+@media (max-width: 900px) {
+	header {
+		text-align: left;
+		.headertext {
+			width: auto;
+			max-width: none;
+		}
+		.rebble-logo-spacer {
+			display: none;
+		}
+	}
+}
+@media (max-width: 700px) {
+	header {
+		font-size: 2.6vw;
+	}
+}

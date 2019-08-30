@@ -6,7 +6,7 @@ description: >
   The goal of Rebble is to maintain and advance Pebble functionality in the absence of Pebble Technology Corp.
 baseurl: ""		# no trailing slash
 url: "http://rebble.io"	# no trailing slash
-excerpt_separator: <!--more—->
+excerpt_separator: <!--more-->
 
 about: >
   TODO
@@ -23,11 +23,21 @@ github_username:     pebble-dev
 #soundcloud_username: TODO
 #miiverse_username:   TODO
 
+# Blog pagination settings
+paginate: 5
+paginate_path: "/blog/:num/"
+
 # Build settings
 markdown: kramdown
 
 kramdown:
   input: GFM
 
-gems:
+sass:
+  sass_dir: _scss
+  style: compressed
+
+
+plugins:
+- jekyll-paginate
 - jemoji

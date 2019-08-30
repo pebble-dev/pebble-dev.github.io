@@ -1,0 +1,31 @@
+/* -- Button styles -- */
+.button {
+	height: 30px;
+	max-width: 300px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: block;
+}
+a.button {
+	color: $white-color;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: $dark-gray-button-background-color;
+	text-align: center;
+}
+button.orange {
+	background-color: $pebble-color;
+}
+.button.orange {
+	background-color: $pebble-color;
+}
+button.gray {
+	background-color: $light-gray-button-background-color;
+}
+.button.gray {
+	background-color: $light-gray-button-background-color;
+}

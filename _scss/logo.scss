@@ -1,0 +1,37 @@
+/* --- Logo styles --- */
+
+.rebble-logo-light {
+	display: inline-block;
+	width: 0.7em;
+	height: 1em;
+	vertical-align: middle;
+	background: url('../images/rebble-light.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.rebble-logo-dark {
+	display: inline-block;
+	width: 0.7em;
+	height: 1em;
+	vertical-align: middle;
+	background: url('../images/rebble-dark.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.rebble-logo-spacer {
+	display: inline-block;
+	width: 0.7em;
+	height: 1em;
+	vertical-align: middle;
+}
+.rebble-logo-dark.large-icon {
+	font-size: 6em;
+}
+.rebble-logo-light.large-icon {
+	font-size: 6em;
+}
+.rebble-logo-spacer.large-icon {
+	font-size: 6em;
+}

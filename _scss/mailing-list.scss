@@ -1,0 +1,30 @@
+/* --- Mailing list registration --- */
+div.email-signup {
+	text-align: center;
+	margin: 1rem 0 .5rem;
+	input[type="email"] {
+		margin: 0;
+		padding: 0.6rem;
+		line-height: normal;
+		font-size: 0.8em;
+		border-radius: 0;
+		border: 1px solid #777;
+		border-right: none;
+		border-top-left-radius: 0.2em;
+		border-bottom-left-radius: 0.2em;
+	}
+	input[type="submit"] {
+		margin: 0;
+		padding: 0.6rem;
+		line-height: normal;
+		font-size: 0.8em;
+		border-radius: 0;
+		background: #D40;
+		cursor: pointer;
+		color: $white-color;
+		border: 1px solid #910;
+		border-top-right-radius: 0.2em;
+		border-bottom-right-radius: 0.2em;
+		-webkit-appearance: none;
+	}
+}

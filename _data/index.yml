@@ -1,6 +1,9 @@
 - display: "home"
   permalink: "/"
 
+- display: "blog"
+  permalink: "/blog/"
+
 - display: "howto"
   permalink: "/howto/"
 
