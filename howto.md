@@ -6,6 +6,8 @@ date:   2019-02-11 21:56:42
 permalink: /howto/
 ---
 
+##### Notice for iOS users: The iOS version of the Pebble app has been removed from the App Store as of August 3rd, 2019. Rebble has inside sources that say Fitbit are working on getting the app back up. Until then, *do not* delete the Pebble app from your iOS device, or you won't be able to get it again until (if/when) it's back up on the store. You might also want to [turn off automatic uninstalling of unused apps](https://9to5mac.com/2018/03/16/how-to-keep-apps-from-disappearing-from-your-iphone-by-turning-off-app-offloading/) if you still have the app, so it doesn't suddenly disappear from your phone. There are some workarounds, documented in [this Google doc created by Rebble community member NightQuest](https://docs.google.com/document/d/10KmOEu4vQ5qpOEdFVVBQgfgHam07uxDhZh6iPrjdIzY/edit?usp=sharing), but your luck may vary. Feel free to pop into the Rebble Discord linked at the very bottom of this page for help and questions. (Updated August 30th, 2019)
+
 ## Why Rebble Web Services?
 
 The Pebble watch is called a smartwatch. That's because it's smarter than a normal watch. Part of that intelligence is incorporated into the watch, and part of it is being delivered through web services. Originally, these web services were provided by Pebble Technology, Corp. However, Pebble Technology, Corp. halted operation, and after some time these web services have disappeared as well. That made the Pebble watch a lot dumber. Not as dumb as a normal watch, but things that were possible before, aren't possible any more. Time to ditch your Pebble? No, because...
@@ -25,7 +27,7 @@ Note: you can skip this part if you're already a Pebble user. Instead, you shoul
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to lose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
 * If you see a clock face, press middle right button, go to *Settings*, then *System*, and choose *Factory Reset*. This might take a few minutes.
-* ~~Get your iPhone and install the [Pebble app from the App store](https://itunes.apple.com/en/app/pebble/id957997620?mt=8).~~ **The Pebble app is missing from the iOS App Store right now. Word has it that our friends at Fitbit are working on the issue. Until then, *do not* delete the Pebble app from your iOS device, or you won't be able to get it again until it's back up on the store. You might also want to [turn off automatic uninstalling of unused apps](https://9to5mac.com/2018/03/16/how-to-keep-apps-from-disappearing-from-your-iphone-by-turning-off-app-offloading/). There are some workarounds, documented in [this Google doc created by Rebble community member NightQuest](https://docs.google.com/document/d/10KmOEu4vQ5qpOEdFVVBQgfgHam07uxDhZh6iPrjdIzY/edit?usp=sharing), but your luck may vary. Feel free to ask for help in the Rebble Discord linked at the very bottom of this page. (Updated August 30th, 2019)** 
+* ~~Get your iPhone and install the [Pebble app from the App store](https://itunes.apple.com/en/app/pebble/id957997620?mt=8).~~ **The Pebble app is missing from the iOS App Store right now. See the notice at the top of this page for more info and workarounds.**
 * Then, open the app.
 * You'll be greeted by a *Pebble Account* page. Simply tap the *Skip* in the top left corner to continue.
 * Choose your language for voice input.
@@ -161,7 +163,7 @@ Open the Pebble app on your phone, and go to *Settings*. Tap *Voice Language*. C
 
 ### I need to switch accounts, or I removed and reinstalled the Pebble app
 
-To sign out from the Rebble website, you have to remove cookies (for *.rebble.io* and *auth.rebble.io*) from your browser. How to do that, depends on the browser. Now head to [Rebble auth](https://auth.rebble.io/) and sign in with the right account.
+To sign out from the Rebble website, simply go to the [Your Account](https://auth.rebble.io/) and click the "Log out" button. Then simply re-login with the authen
 
 To configure the Pebble app to use the account you just signed in to, go through [boot.rebble.io](https://boot.rebble.io/) again.
 
@@ -171,7 +173,7 @@ Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calen
 
 ### I want to add an original Pebble or Pebble Steel, but the firmware upgrade step displays "Migration Failed"
 
-The update screen also shows *Could not find any migration firmware to install.* To resolve this, you need a device with a Pebble app that has *not* been switched to Rebble. You can use another device, or remove Rebble from the Pebble app by visiting [auth.rebble.io/account](https://auth.rebble.io/account/) from the browser and clicking the `De-Rebble-ify` link on the bottom of the page (it might take a few tries, or try a different browser if it doesn't work). Or, alternatively, you can remove the Pebble app from your phone and reinstall it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
+The update screen also shows *Could not find any migration firmware to install.* To resolve this, you need a device with a Pebble app that has *not* been switched to Rebble. You can use another device, or remove Rebble from the Pebble app by going into your phone's default browser and pasting `pebble://custom-boot-config-url/default` into the address bar. This should open the Pebble app and reset it to a non-Rebble configuration. Note that this will probably wipe your Pebble Health data. Or, alternatively, you can remove the Pebble app from your phone and reinstall it **(Android users only, iOS users see the notice pinned at the top of this page)**. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
 
 ## General hints
 
