@@ -38,4 +38,4 @@ little janky right now, but I'm definitely happy to help however I can --
 and there are lots of us in #app-dev on Discord ready to answer questions!
 
 It's a new day in Pebble app development.  Let's see what you've got --
-here's wishing us all of us Rebblers an appy new year!
+here's wishing all of us Rebblers an appy new year!
