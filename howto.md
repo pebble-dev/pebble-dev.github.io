@@ -172,6 +172,10 @@ Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calen
 
 The update screen also shows *Could not find any migration firmware to install.* To resolve this, you need a device with a Pebble app that has *not* been switched to Rebble. You can use another device, or remove Rebble from the Pebble app by visiting `pebble://custom-boot-config/default` from the browser, or you can remove the Pebble app from your phone and reinstall it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
 
+### When I start charging my watch, the screen starts flashing the backlight on and off
+
+While connected to the charging cable, press and hold any button on the watch, until an error code appears on the screen. Release the button. Now, let the watch charge for some time (at least an hour). Finally, press a button to exit the error code.
+
 ## General hints
 
 * As many services on the watch are actually implemented in the phone and in web services, many issues are located there as well. A reboot of your phone has better chance to fix issues, than a reboot of your watch. Restoring your watch to factory settings is hardly ever needed.
