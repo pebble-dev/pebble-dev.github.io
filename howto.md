@@ -69,6 +69,7 @@ Note: you can skip this part if you're already a Pebble user. Instead, you shoul
 * You'll be greeted by a *Pebble Account* page. Simply tap *Skip login* twice to continue.
 * Choose the type of Pebble you have.
 * The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
+* If the Pebble doesn't appear and you're on Android 10, go to the bluetooth settings page of the phone, pair the watch, and try again. (If that doesn't help, unpair it there again.)
 * The watch asks to pair. Press the upper right button. Tap *Pair* on the phone.
 * If the Pebble has an old firmware, it will check for updates. Tap *Continue*. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
 * In the Pebble app, choose the language of the menus, notifications and messages on the watch.
