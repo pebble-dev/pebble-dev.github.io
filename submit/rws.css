@@ -1,0 +1,149 @@
+* {
+  --rebble-grey: #373a3c;
+  --rebble-orange: #ff4700;
+  --rebble-black: #444;
+}
+
+body {
+  font-family: Lato,Helvetica,Helvetica Neue,Arial,sans-serif;
+  font-size: 18px;
+  color: var(--rebble-black);
+}
+
+.dark-bg {
+  background-color: var(--rebble-grey);
+  color: white;
+}
+.orange-bg {
+  background-color: var(--rebble-orange);
+  color: white;
+}
+
+.header {
+  height: 300px;
+}
+
+.br-sm {
+  padding-top: 20px;
+}
+.br-mid {
+  padding-top: 40px;
+}
+
+.screenshot {
+  height: 168px;
+  width: 144px;
+  border: 1px solid #444;
+    cursor: pointer;
+}
+.il {
+  height: 144px;
+    width: 144px;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+.banner {
+  height: 320px;
+  width: 720px;
+  max-width: 100%;
+  object-fit: contain;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+.is {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.btn-primary {
+  /* padding: 15px; */
+  font-size: 20px;
+}
+
+strong {
+  color: var(--rebble-orange) !important
+}
+
+
+h4 {
+  margin-top: 0;
+  line-height: 1.8em;
+  margin-bottom: .4em;
+  font-size: 30px;
+  color: #222;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.danger {
+  border-top: 4px solid red;
+}
+
+/* Override some bootstrap bits  */
+.progress {
+  border-radius: 0px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: var(--rebble-orange);
+  box-shadow: 0 1px 1px rgba(255, 71, 0, 0.075) inset, 0 0 8px rgba(255, 71, 0, 0.6);
+  outline: 0 none;
+}
+
+.custom-control-label {
+  cursor: pointer;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: var(--rebble-orange);
+  background-color: var(--rebble-orange);
+}
+.btn-primary, .btn-primary:hover {
+  background-color: var(--rebble-orange);
+  border: 1px solid var(--rebble-orange);
+}
+
+/* Override font awesome */
+i {
+  color: #DDD;
+  cursor: pointer;
+}
+
+
+/* Copied from willow-systems css */
+.m-l-s {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.image-upload>input {
+  display: none;
+}
