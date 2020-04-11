@@ -69,6 +69,7 @@ Note: you can skip this part if you're already a Pebble user. Instead, you shoul
 * You'll be greeted by a *Pebble Account* page. Simply tap *Skip login* twice to continue.
 * Choose the type of Pebble you have.
 * The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
+* If the Pebble doesn't appear and you're on Android 10, go to the bluetooth settings page of the phone, pair the watch, and try again. (If that doesn't help, unpair it there again.)
 * The watch asks to pair. Press the upper right button. Tap *Pair* on the phone.
 * If the Pebble has an old firmware, it will check for updates. Tap *Continue*. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
 * In the Pebble app, choose the language of the menus, notifications and messages on the watch.
@@ -171,6 +172,10 @@ Open the Pebble app on your phone, and go to *Apps*. Tap the gear next to *Calen
 ### I want to add an original Pebble or Pebble Steel, but the firmware upgrade step displays "Migration Failed"
 
 The update screen also shows *Could not find any migration firmware to install.* To resolve this, you need a device with a Pebble app that has *not* been switched to Rebble. You can use another device, or remove Rebble from the Pebble app by visiting `pebble://custom-boot-config/default` from the browser, or you can remove the Pebble app from your phone and reinstall it. When you pair the watch again, it should now complete the firmware upgrade. After that, you can start using Rebble Web Services again, by following part 2 above.
+
+### When I start charging my watch, the screen starts flashing the backlight on and off
+
+While connected to the charging cable, press and hold any button on the watch, until an error code appears on the screen. Release the button. Now, let the watch charge for some time (at least an hour). Finally, press a button to exit the error code.
 
 ## General hints
 
