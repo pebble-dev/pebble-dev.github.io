@@ -179,4 +179,4 @@ The update screen also shows *Could not find any migration firmware to install.*
 
 ## More help
 
-Join us on the *officially* unofficial [Pebble Dev Discord server](http://discord.gg/aRUAYFN), then head to `#rebble-help` and post your issue!
+Join us on the *officially* unofficial [Pebble Dev Discord server](http://discord.gg/aRUAYFN), then head to `#rebble-help` and post your issue! You may also find additional help and resources in the [subreddit](https://www.reddit.com/r/pebble/) or the [wiki](https://github.com/pebble-dev/wiki/wiki).
