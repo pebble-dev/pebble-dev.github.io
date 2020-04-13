@@ -35,7 +35,7 @@ Follow the guide at [rebble.io/howto](https://rebble.io/howto). Do not use any '
 # What doesn't work anymore?
 Since the Pebble shutdown in 2016 some small features don't work anymore, namely:
 
-   - Timeline based apps that use '[topics](https://developer.rebble.io/developer.Pebble.com/guides/Pebble-timeline/timeline-js/index.html#subscribe-to-a-topic)', which allow lots of users to subscribe to a single source of timeline pins. But this is a small percentage or timeline apps, the rest still work. Note that your calendar pins are special, and do not require the timeline server to work.
+   - Timeline based apps that use '[topics](https://developer.rebble.io/developer.Pebble.com/guides/Pebble-timeline/timeline-js/index.html#subscribe-to-a-topic)', which allow lots of users to subscribe to a single source of timeline pins. But this is a small percentage of timeline apps, the rest still work. Note that your calendar pins are special, and do not require the timeline server to work.
    - Reply to SMS on iOS - Pebble used clever carrier-specific workarounds for iOS' locked down SMS behaviour in a way that Rebble can't easily replicate.
    - Apps that rely on servers no longer available - Some apps serve their settings page from web servers, and if those servers don't exist anymore you can't setup the apps. [It's not always a total loss though](https://old.Reddit.com/r/Pebble/comments/eccrn7/getting_an_error_when_i_try_to_access_the/).
 
