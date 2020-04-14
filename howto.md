@@ -77,7 +77,6 @@ Note: you can skip this part if you're already a Pebble user. Instead, you shoul
 * If you have a Pebble Time or newer: To enable health, tap *Enable*. Then, tap *Agree*.
 * If you have a Pebble Time or newer: Choose your settings for health, then tap *Continue*, then enter your info and tap *Complete*.
 * Choose a watchface. then tap the arrow in the upper right corner.
-* Timeline doesn't work, so simply tap the arrow in the upper right corner.
 * Don't grab apps yet, tap the arrow in the upper right corner.
 * You're done. Well, the Pebble part is done. Tap *done*.
 
