@@ -17,7 +17,7 @@ Let's start with the easy questions first...
 
 
 # What is RWS / Why do I need it?
-RWS stands for Rebble Web Services, and is what most people mean when they say 'Rebble' (though Rebble encompasses more than RWS, I'll get to that later). RWS replaces the old Pebble servers, but does not replace the app - instead, during setup, you're telling the original Pebble app to point to Rebble servers. Without RWS you'll have to sideload Pebble apps, and won't get any of the other server-dependant functions. RWS provides two tiers: Free and Paid. Here's what you get with each:
+RWS stands for Rebble Web Services, and is what most people mean when they say 'Rebble' (though Rebble encompasses more than RWS, I'll get to that later). RWS replaces the old Pebble servers, but does not replace the app - instead, during setup, you're telling the original Pebble app to point to Rebble servers. Without RWS you'll have to sideload Pebble apps, and won't get any of the other server-dependent functions. RWS provides two tiers: Free and Paid. Here's what you get with each:
 #### Free Tier:
    - Access to the Rebble app store
    - Timeline Server Support (3 hour sync period)
