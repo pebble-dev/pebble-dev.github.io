@@ -55,3 +55,8 @@
   blurb: "plays guitar/PS4/3DS"
   avatar: "qichuan.jpg"
   bio: "I am a software engineer and Pebble enthusiast in Singapore, have been working on native Android app development for the past 6 years. I would like to revamp the original webview based Pebble app store and build a native Android app for better user experience"
+
+- name: "Will Murphy"
+  blurb: "has more projects than free time"
+  avatar: "wm.png"
+  bio: "I'm a <a href=\"https://willmurphy.co.uk/\">security engineer</a> and Pebble enthusiast from the UK. I've loved pebble since I got a steel on release, but since getting stuck in with rebble I've built <a href=\"https://github.com/Willow-Systems?tab=repositories&q=pebble+OR+timeline\">a whole host of pebble tools</a>, mostly based around timeline. My focus at the moment is the <a href=\"https://rebble.io/submit\"> Developer Portal </a>."
