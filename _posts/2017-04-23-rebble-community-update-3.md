@@ -3,6 +3,7 @@ layout: post
 title: "Rebble Community Update 3"
 date:   2017-04-23 11:42:42
 # categories: community
+author: "Ish Ot Jr."
 ---
 
 *"Where is my Rebble Community Update?"* [the people cry](https://www.reddit.com/r/pebble/comments/66w4h0/rebble_update/)!  At last, it is here, and this time, rather than the typical broad yet shallow summary, we thought we'd take a closer look at a particular area of import: [firmware](http://rebble.io/projects/#firmware).  Familiarize yourself with our feats in this forward-looking firmware-focused feature.  If you'd like to add something, [send us a tweet](https://twitter.com/pebble_dev), or better still, [submit a pull request](https://github.com/pebble-dev/pebble-dev.github.io/pulls)! :bowtie:  

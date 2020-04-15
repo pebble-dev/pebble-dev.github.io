@@ -2,6 +2,7 @@
 layout: post
 title: "Squeezing the most out of your Pebble"
 date:   2020-04-13 09:00:42
+author: "Will Murphy"
 # categories: community
 ---
 

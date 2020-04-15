@@ -3,6 +3,7 @@ layout: post
 title: "Ushering in the Rebble Era!"
 date:   2018-07-01 14:14:14
 # categories: community
+author: "Ish Ot Jr."
 ---
 
 It's a new day.  It's a new month (:ok_hand: :punch:).  But most importantly, it's a new era! :rocket:  It was over a year and half ago that [Rebble first put its stake in the ground](https://rebble.io/2016/12/09/rebble-pebble-reborn.html) as the unofficial spearhead organization for continuing the advancement of the Pebble platform in the absence of *Pebble Technology Corp.*  Re-reading that first blog post, a lot of the same feelings of fear, anxiety, resilience, and hope have been expressed in recent days as we make another transition - this time from *Pebble* web services to **Rebble Web Services**!  What does that mean?  Why is it necessary?  When is it happening?!  What do I need to do to participate??!  Read on, and all will be explained! :bowtie:  

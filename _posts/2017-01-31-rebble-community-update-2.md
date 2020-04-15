@@ -3,6 +3,7 @@ layout: post
 title: "Rebble Community Update 2"
 date:   2017-01-31 19:49:42
 # categories: community
+author: "Ish Ot Jr."
 ---
 
 Welcome to the first *Rebble Community Update* of 2017!  Please peruse our paraphrased prospectus of progress over the preceding period.  If you'd like to add something, [send us a tweet](https://twitter.com/pebble_dev), or better still, [submit a pull request](https://github.com/pebble-dev/pebble-dev.github.io/pulls)! :bowtie:  
