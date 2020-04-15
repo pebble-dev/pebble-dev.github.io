@@ -3,5 +3,10 @@
         <p>Join us on the <a href="https://discordapp.com/invite/aRUAYFN">
             officially unofficial Pebble Discord server!</a></p>
     </div>
+    <div class="text-content">
+      {% for item in site.data.socials %}
+        <a href="{{ item.url }}"><img class="footer-icon" src="{{ site.url }}/images/social-icons/{{ item.icon }}"></img></a>
+      {% endfor %}
+    </div>
     {% include mailinglist.html %}
 </footer>

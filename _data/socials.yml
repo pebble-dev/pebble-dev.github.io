@@ -1,0 +1,15 @@
+- name: discord
+  url: https://discordapp.com/invite/aRUAYFN
+  icon: discord.png
+
+- name: twitter
+  url: https://twitter.com/pebble_dev/
+  icon: twitter.png
+
+- name: facebook
+  url : https://www.facebook.com/RebbleAlliance/
+  icon: facebook.png
+
+- name: email
+  url: mailto:support@rebble.io
+  icon: email.png
