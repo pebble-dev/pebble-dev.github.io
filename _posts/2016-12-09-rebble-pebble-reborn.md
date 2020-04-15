@@ -2,6 +2,7 @@
 layout: post
 title: "Rebble: Pebble Reborn"
 date:   2016-12-09 11:21:42
+author: "Ish Ot Jr."
 # categories: 
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Pebbling after Fitbit: introducing the Rebble Web Services"
 date:   2018-02-15 18:00:00
 # categories: community
+author: "Katharine Berry"
 ---
 
 Hey there! [Katharine Berry](https://twitter.com/KatharineBerry) here. As you may well have heard

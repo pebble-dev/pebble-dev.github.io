@@ -3,6 +3,7 @@ layout: post
 title: "Getting Ready for Rebble"
 date:   2018-06-13 18:15:00
 # categories: community
+author: "Katharine Berry"
 ---
 
 Hi again! I'm [Katharine Berry](https://twitter.com/KatharineBerry), back

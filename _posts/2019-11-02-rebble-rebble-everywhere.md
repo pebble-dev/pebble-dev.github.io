@@ -3,6 +3,7 @@ layout: post
 title: "Rebble, Rebble Everywhere!"
 date:   2019-11-02 07:14:42
 # categories: community
+author: "Ish Ot Jr."
 ---
 
 *...and now a blog to link ([?!](https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834))*  

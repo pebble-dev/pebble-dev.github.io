@@ -3,6 +3,8 @@ layout: post
 title: "The shiny Rebble future: one year after the Pebble server shutdown"
 date:   2019-07-29 18:00:00
 # categories: community
+author: "Joshua Wise"
+alt-bio: "https://joshuawise.com"
 ---
 
 Hi out there, Rebble world!  [Joshua](https://joshuawise.com) on the

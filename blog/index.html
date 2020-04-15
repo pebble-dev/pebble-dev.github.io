@@ -8,7 +8,7 @@ baseUrl: /blog/
     {% for post in paginator.posts %}
         <article class="post">
             <div class="text-content">
-                <p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    	<p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • by <a href="{% if post.alt-bio %}{{ post.alt-bio }}{% else %}/team#person-{{ post.author }}{% endif %}">{{ post.author }}</a>{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
                 <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 {{ post.content }}
               </div>

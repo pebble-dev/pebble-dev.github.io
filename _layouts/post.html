@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
     <div class="text-content">
-        <p class="metadata">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    <p class="metadata">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • by <a href="{% if page.alt-bio %}{{ page.alt-bio }}{% else %}/team#person-{{ page.author }}{% endif %}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         <h2>{{ page.title }}</h2>
         {{ content }}
     </div>
