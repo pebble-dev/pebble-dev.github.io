@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="main.js"></script>
 		<script type="text/javascript" src="res/jszip.min.js"></script>
 		<script type="text/javascript" src="res/filesaver.min.js"></script>
- 		<!-- Rebble Dev Portal Version 1.2 -->
+ 		<!-- Rebble Dev Portal Version 1.3 -->
 	</head>
   <body onload="start()">
 
@@ -108,7 +108,7 @@
         <label class="custom-control-label" for="i-iswatchapp">Watch app</label>
       </div>
 
-      <div id="watchapponly">
+      <div class="watchapponly">
         <br>
 
         <div class="formlabel break-md" id="watchcat">Category*: <i class="fas fa-question-circle" onclick="explain('category')"></i></div>
@@ -150,24 +150,26 @@
         <textarea id="i-apprelnotes" class="form-control md-textarea" length="120" rows="2"></textarea>
       </div>
 
-      <h2 class="br-mid"> Icons </h2>
+			<div class="watchapponly">
+      	<h2 class="br-mid"> Icons </h2>
 
-      <div class="image-upload br-sm m-l-s">
-        <label for="i-icon-1-f">
-          <img  id="i-icon-1" class="screenshot il" src="img/il.png" />
-        </label>
+      	<div class="image-upload br-sm m-l-s">
+        	<label for="i-icon-1-f">
+          	<img  id="i-icon-1" class="screenshot il" src="img/il.png" />
+        	</label>
 
-        <input id="i-icon-1-f" type="file" onchange="readURL(this);"/>
-        <span class="m-l-s">Large Icon* - Displayed on all listings in the rebble appstore <i class="fas fa-question-circle" onclick="explain('largeicon')"></i></span>
-      </div>
+        	<input id="i-icon-1-f" type="file" onchange="readURL(this);"/>
+        	<span class="m-l-s">Large Icon* - Displayed on all listings in the rebble appstore <i class="fas fa-question-circle" onclick="explain('largeicon')"></i></span>
+      	</div>
 
-      <div class="image-upload break-sm m-l-s" style="margin-left: 104px;">
-        <label for="i-icon-2-f">
-          <img id="i-icon-2" class="screenshot is" src="img/is.png"/>
-        </label>
-        <input id="i-icon-2-f" type="file" onchange="readURL(this);"/>
-        <span class="m-l-s">Small Icon* - Will be displayed on your pebble watchapp profile</span> <i class="fas fa-question-circle" onclick="explain('smallicon')"></i>
-      </div>
+      	<div class="image-upload break-sm m-l-s" style="margin-left: 104px;">
+        	<label for="i-icon-2-f">
+          	<img id="i-icon-2" class="screenshot is" src="img/is.png"/>
+        	</label>
+        	<input id="i-icon-2-f" type="file" onchange="readURL(this);"/>
+        	<span class="m-l-s">Small Icon* - Will be displayed on your pebble watchapp profile</span> <i class="fas fa-question-circle" onclick="explain('smallicon')"></i>
+      	</div>
+			</div>
 
       <h2 class="br-mid">Screenshots <small class="text-muted">(must provide at least one)</small> <i class="fas fa-question-circle" style="font-size: 18px;" onclick="explain('screenshots')"></i></h2>
 
@@ -408,15 +410,16 @@
 
       </div>
 
+			<div class="watchapponly">
+      	<h2 class="br-mid">Appstore Banner*: <i class="fas fa-question-circle" onclick="explain('banner')" style="font-size:18px;"></i></h2>
+      	<div class="image-upload br-sm">
+        	<label for="i-ban-f">
+          	<img  id="i-ban" class="screenshot banner" src="img/banner.png"/>
+        	</label>
 
-      <h2 class="br-mid">Appstore Banner*: <i class="fas fa-question-circle" onclick="explain('banner')" style="font-size:18px;"></i></h2>
-      <div class="image-upload br-sm">
-        <label for="i-ban-f">
-          <img  id="i-ban" class="screenshot banner" src="img/banner.png"/>
-        </label>
-
-        <input id="i-ban-f" type="file" onchange="readURL(this);"/>
-      </div>
+        	<input id="i-ban-f" type="file" onchange="readURL(this);"/>
+      	</div>
+			</div>
 
       <h2 class="br-mid">The .pbw File</h2>
       <div class="input-group br-sm" style="width: 50%;">

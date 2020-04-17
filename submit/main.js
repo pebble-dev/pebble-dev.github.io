@@ -59,9 +59,9 @@ function start() {
   //Register Handlers
   $( ".rbtype" ).change(function() {
     if ($('#i-iswatchapp').prop("checked")) {
-      $('#watchapponly').show();
+      $('.watchapponly').show();
     } else {
-      $('#watchapponly').hide();
+      $('.watchapponly').hide();
     }
     $('#watchapptype').removeClass("danger");
     calcperccomplete();
@@ -313,7 +313,13 @@ function build() {
   //   return;
   //
   // } else {
-  app.header = images["i-ban"];
+
+  if ((app.type == "watchapp") && (images["i-ban"] == null || images["i-ban"] == "")) {
+    buildError("A banner is required for watchapps", "i-icon-2");
+    return;
+  } else {
+    app.header = images["i-ban"];
+  }
 
 
 
