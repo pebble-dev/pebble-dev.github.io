@@ -109,7 +109,7 @@ function readURL(input) {
         var reader = new FileReader();
 
         reader.onload = function(e) {
-            $('.activeImage').attr('src', e.target.result).width(114).height(168);
+            $('.activeImage').attr('src', e.target.result);
 
             var i = null;
             $('.activeImage').each(function () {
