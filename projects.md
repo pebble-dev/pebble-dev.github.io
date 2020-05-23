@@ -21,7 +21,7 @@ permalink: /projects/
 
 * [Hardware & Firmware wiki](https://github.com/pebble-dev/wiki/wiki/Hardware-%26-Firmware)
 * [ufw](https://github.com/pebble-dev/ufw) - *an extremely tiny "hello world" firmware*
-* [FreeRTOS-Pebble](https://github.com/ginge/FreeRTOS-Pebble) - *Basic FreeRTOS implementation for Pebble Time*
+* [RebbleOS](https://github.com/pebble-dev/RebbleOS) - *The Rebble replacement firmware project*
 
 ## Mobile Apps
 
