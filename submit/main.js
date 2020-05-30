@@ -9,33 +9,33 @@ function calcperccomplete () {
   var slice = 14;
 
   if ($('#i-appname').val() != "") { perc += slice }
-  console.log("1Percentage complete: " + perc)
+  // console.log("1Percentage complete: " + perc)
   if ($('#i-iswatchapp').prop("checked") || $('#i-iswatchface').prop("checked")) { perc += slice }
-  console.log("2Percentage complete: " + perc)
+  // console.log("2Percentage complete: " + perc)
   if ($('#i-appdesc').val() != "") { perc += slice }
-  console.log("3Percentage complete: " + perc)
+  // console.log("3Percentage complete: " + perc)
   if ($('#i-apprelnotes').val() != "") { perc += slice }
-  console.log("4Percentage complete: " + perc)
+  // console.log("4Percentage complete: " + perc)
 
   if ($('#i-iswatchapp').prop("checked")) {
     if (images["i-icon-1"] != null && images["i-icon-1"] != "") { perc += slice }
   } else if ($('#i-iswatchface').prop("checked")){
     perc += slice
   }
-  console.log("5Percentage complete: " + perc)
+  // console.log("5Percentage complete: " + perc)
 
   if (images["i-ban"] != null && images["i-ban"] != "") {
     perc += slice
   }
-  console.log("6Percentage complete: " + perc)
+  // console.log("6Percentage complete: " + perc)
 
   if (masterpbw != null && masterpbw != "") {
     perc += slice
   }
-  console.log("7Percentage complete: " + perc)
+  // console.log("7Percentage complete: " + perc)
 
   if (perc > 97) { perc = 100 }
-  console.log("8Percentage complete: " + perc)
+  // console.log("8Percentage complete: " + perc)
 
   $('#pbbar').css("width", perc + "%");
 
@@ -314,9 +314,12 @@ function build() {
   //
   // } else {
 
-  if ((app.type == "watchapp") && (images["i-ban"] == null || images["i-ban"] == "")) {
-    buildError("A banner is required for watchapps", "i-icon-2");
-    return;
+  if ((images["i-ban"] == null || images["i-ban"] == "")) {
+    //Throw an error only if watchapp. They are optional for faces
+    if (app.type == "watchapp") {
+      buildError("A banner is required for watchapps", "i-icon-2");
+      return;
+    }
   } else {
     app.header = images["i-ban"];
   }
