@@ -1,0 +1,10 @@
+/* CSS for collapsible sections in rebble.io/howto */
+summary {
+  font-size: 2em;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+details {
+  margin-bottom: 20px;
+}

@@ -14,93 +14,161 @@ Enter Rebble! The Rebble Alliance has created Rebble Web Services, to fill in th
 
 ## Getting started using Rebble Web Services
 
-So, you have a Pebble watch, and want to start using it. Let's go!
+So, you have a Pebble watch, and want to start using it. Let's go! Select your operating system below:
 
-### iOS
+<details markdown="1">
+<summary> I'm using iOS </summary>
 
-Part one: connect the watch to the phone.
+### Part 1/2 - Installing the pebble app
 
-Note: you can skip this part if you're already a Pebble user. Instead, you should check whether you have the latest version of the Pebble app installed on your phone.
+First we need to get the Pebble app installed and connected to your watch.
 
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to lose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
+
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
+
 * If you see a clock face, press middle right button, go to *Settings*, then *System*, and choose *Factory Reset*. This might take a few minutes.
+
 * Get your iPhone and install the [Pebble app from the App store](https://itunes.apple.com/en/app/pebble/id957997620?mt=8). Then, open the app.
+
 * You'll be greeted by a *Pebble Account* page. Simply tap the *Skip* in the top left corner to continue.
+
 * Choose your language for voice input.
+
 * Choose the type of Pebble you have. iOS then asks for permission to use Bluetooth, tap *OK*.
-* The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
+
+* The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the
+ Pebble, so you know the phone sees the right watch. Tap it.
 * The watch asks to pair. Press the upper right button. Tap *Pair* on the phone.
-* If the Pebble has an old firmware, it will now automatically be updated. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
+
+* If the Pebble has an old firmware, it will now automatically be updated. Keep the watch on the charging cable, and close to the
+ phone. This will take a few minutes to complete, after that the watch will reboot.
 * In the Pebble app, choose the language of the menus, notifications and messages on the watch.
+
 * Many Pebbles need to use a second Bluetooth connection. If you have one of those, the app now asks to pair the watch again. Tap *Enable*, press the upper right button on the watch to pair, and tap *pair* on the phone.
 * Tap *grant access*, and tap *accept* if you want notifications from your phone to be sent to your watch.
+
 * Tap *grant access*, and tap *accept always* if you want your watch and apps on it to know where you are.
+
 * Tap *grant access*, and tap *accept* if you want you calendar items for the next couple of days appear on your watch.
+
 * If you have a Pebble Time or newer: To enable health, tap *Enable*. Then, tap *Agree*.
+
 * If you have a Pebble Time or newer: Choose your settings for health, then tap *Continue*, then enter your info and tap *Complete*.
+
 * You're done. Well, the Pebble part is done. Tap *done*.
 
-Part two: connect the Pebble app to Rebble Web Services.
+
+### Part 2/2 - Connecting the Pebble app to Rebble Web Services.
+
+Now we need to tell the Pebble app to connect to Rebble Web Services.
 
 * On the phone, open the Pebble app, tap *Settings*, *Help* and *UPDATE YOUR PEBBLE*, to make sure your Pebble is at the latest firmware.
+
 * On the phone, open Safari, and go to [auth.rebble.io](https://auth.rebble.io/).
+
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!* Read the page, then tap the *get started now* link in the first paragraph.
+
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. Safari asks if you want to open it with Pebble. Tap *Open*.
+
 * The Pebble app opens, and gives a popup *Configuration Change*. Tap *Change*.
+
 * Now, wait at least 15 seconds before you go to the next step.
+
 * Meanwhile, in the top left corner, a yellow exclamation mark appeared. Tap it.
+
 * You get to a screen titled *Fixes* and *Logged out*. Tap *log in*.
+
 * You get to a screen *Pebble Account* and *Welcome to Rebble*. Tap *IT'S REBBLE TIME*.
+
 * You're done! Go to *Watchfaces*, choose *Get Watchfaces* and find and install watchfaces you like from the Rebble store.
+
 
 Part two can also be seen in [our video](https://www.youtube.com/watch?v=8Z4Jtl_0UMw).
 
-### Android
+</details>
 
-Part one: connect the watch to the phone.
 
-Note: you can skip this part if you're already a Pebble user. Instead, you should check whether you have the latest version of the Pebble app installed on your phone.
+<details markdown="1">
+<summary> I'm using Android </summary>
+
+### Part 1/2 - Installing the pebble app
+
+First we need to get the Pebble app installed and connected to your watch.
 
 * Connect your Pebble to the plugged in USB charging cable. You really don't want it to lose power in the middle of a firmware update! The watch powers up. Press the left button to dismiss the charging screen.
+
 * If you now see a clock face, it means that your Pebble is still configured, maybe by the previous owner, maybe by you. If you used it before, now is the time to write down the watchfaces and apps you want to reinstall after this procedure is done.
+
 * If you see a clock face, press middle right button, go to *Settings*, then *System*, and choose *Factory Reset*. This might take a few minutes.
+
 * Get your phone and download the [Pebble app from APKMirror](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/download/). Open the APK and enable installing from unknown sources if it prompts you to. Tap install in the dialogue box. Then, open the app.
+
 * You'll be greeted by a *Pebble Account* page. Simply tap *Skip login* twice to continue.
+
 * Choose the type of Pebble you have.
+
 * The app starts looking for nearby Pebbles. It should shortly see your Pebble, as *Pebble `xxxx`*. This same string can be seen on the Pebble, so you know the phone sees the right watch. Tap it.
+
 * If the Pebble doesn't appear and you're on Android 10, go to the bluetooth settings page of the phone, pair the watch, and try again. (If that doesn't help, unpair it there again.)
+
 * The watch asks to pair. Press the upper right button. Tap *Pair* on the phone.
+
 * If the Pebble has an old firmware, it will check for updates. Tap *Continue*. Keep the watch on the charging cable, and close to the phone. This will take a few minutes to complete, after that the watch will reboot.
+
 * In the Pebble app, choose the language of the menus, notifications and messages on the watch.
+
 * To get get notifications on your Pebble, tap *Open settings screen*. Enable *Pebble*. Tap *Allow*.
+
 * If you have a Pebble Time or newer: To enable health, tap *Enable*. Then, tap *Agree*.
+
 * If you have a Pebble Time or newer: Choose your settings for health, then tap *Continue*, then enter your info and tap *Complete*.
+
 * Choose a watchface. then tap the arrow in the upper right corner.
+
 * Don't grab apps yet, tap the arrow in the upper right corner.
+
 * You're done. Well, the Pebble part is done. Tap *done*.
 
-Part two: connect the Pebble app to Rebble Web Services.
+
+### Part 2/2 - Connecting the Pebble app to Rebble Web Services.
+
+Now we need to tell the Pebble app to connect to Rebble Web Services.
 
 * On the phone, open a decent browser (like Chrome), and go to [auth.rebble.io](https://auth.rebble.io/).
+
 * You are greeted with a number of ways to sign in. Choose one and sign in. **Remember your sign in credentials!** You will return to the Rebble site, and are greeted with *You're all set!* Read the page, then tap the *get started now* link in the first paragraph.
+
 * You are redirected to [boot.rebble.io](https://boot.rebble.io/), and are greeted with *Here we go!* Read the page, then tap the *switch to Rebble* button. The browser asks if you want to open it with Pebble. Tap *Open*.
+
 * If it won't open with Pebble, you'll need to use another browser and restart from the first bullet of this part two.
+
 * The Pebble app opens. One of three things will then happen:
+
     * A Rebble screen will appear. It may have an orange spinner above it; you can safely ignore this.
+
     * The old Pebble login screen will appear. If this happens, close the app from the app switcher and open it again. A Rebble screen should now appear.
+
     * Nothing. If this happens, tap "⋮" in the top right corner, then tap *Settings*. At this point, either:
+
         * A Rebble screen will appear, or
+
         * Nothing interesting. In this case, scroll down to *ACCOUNT* and make sure you are logged out. If not, tap it to log out. Now, tap to log in. A Rebble screen should appear.
+
 * In any case, once you tap the button on the Pebble app's *Welcome to Rebble* screen, you are done!
+
 * If your Pebble disconnects, just tap the usual connect button.
+
 * You're done! Go to *Watchfaces*, tap the big red "*+*" in the lower right corner and find and install watchfaces you like from the Rebble store.
 
-### Weather and Dictation services
+</details>
+<br>
+
+## Weather and Dictation services
 
 So, you started using the Rebble Web Services, but want to add the paid plan for Weather and Dictation services. There are a few things to consider, before you order it:
-* On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages. Unless you jailbreak your phone...
-* Weather services is solely for the native Pebble weather app and for weather info in timeline. Watchfaces and 3rd party apps that offer weather info, have their own means to fetch weather info. You don't need the Rebble paid plan for them.
+* On iOS, replying to text messages isn't possible. This is a limitation from iOS. So, dictation will NOT add spoken replies to text messages.
+* Weather services is solely for the native Pebble weather app and for weather info in timeline. Watchfaces and 3rd party apps that offer weather info have their own means to fetch weather info. You don't need the Rebble paid plan for them.
 * Payment is handled by Stripe, which only offers payment by credit card.
 * Your money will help the Rebble Alliance to keep all Rebble Web Services (including the free ones) running.
 
