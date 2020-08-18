@@ -104,7 +104,7 @@ To get started you'll need the SDK. For which there are now a few options:
 
    - [Install to your computer natively](https://old.Reddit.com/r/Pebble/comments/9i9aqy/developing_for_Pebble_without_cloudPebble_windows/)   
    - [Install to your computer with a script](https://gist.github.com/zeevro/ce20d0d74a869d73119e9d1522b7caa7)   
-   - [Use a docker image](https://hub.docker.com/r/dmorgan81/rebble/)   
+   - [Use a docker image](https://hub.docker.com/r/rebble/pebble-sdk)   
    - [Use a virtual machine](https://willow.systems/pebble/vm/)   
 
 Once you've got an app or a watchface you'd like to publish, you can do so through the new [Rebble developer portal](https://rebble.io/submit). This developer portal is a work in progress, but the basics are there now. Watch this space!
