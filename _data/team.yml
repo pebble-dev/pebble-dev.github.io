@@ -60,3 +60,8 @@
   blurb: "has more projects than free time"
   avatar: "wm.png"
   bio: "I'm a <a href=\"https://willmurphy.co.uk/\">security engineer</a> and Pebble enthusiast from the UK. I've loved pebble since I got a steel on release, but since getting stuck in with rebble I've built <a href=\"https://github.com/Willow-Systems?tab=repositories&q=pebble+OR+timeline\">a whole host of pebble tools</a>, mostly based around timeline. My focus at the moment is the <a href=\"https://rebble.io/submit\"> Developer Portal </a>."
+
+- name: "Lavender Glaab"
+  blurb: "'s hobbies include loving women"
+  avatar: "lavg.png"
+  bio: "I fell in love with Pebble back when the Time launched, but couldn't get my own until 2019. I was amazed that everything still worked like the day the watch launched, and by how welcoming and helpful the community was, even 4 years after Pebble's \"death\". Graphic design is my passion, and most of my work has been dedicated to creating a companion app to replace the aging official one, as well as icons to be used anywhere from Rebble OS to the web!"
