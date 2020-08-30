@@ -3,7 +3,8 @@ layout: post
 title: "It's Timeline time!"
 date:   2019-07-24 12:34:56
 # categories: community
-author: "Ish Ot Jr."
+author: "Joshua Wise"
+alt-bio: "https://joshuawise.com"
 ---
 
 Hi there!  Long time, no talk.  Sorry for the silence, but I assure you that

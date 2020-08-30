@@ -3,7 +3,8 @@ layout: post
 title: "Appy New Year!"
 date:   2019-09-30 18:00:00
 # categories: community
-author: "Ish Ot Jr."
+author: "Joshua Wise"
+alt-bio: "https://joshuawise.com"
 ---
 
 Hi again!  It's a [new year](https://en.wikipedia.org/wiki/Rosh_Hashanah),
