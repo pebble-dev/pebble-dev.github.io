@@ -3,6 +3,7 @@ layout: post
 title: "Announcing: Rebble Grants!"
 date:   2020-09-04 10:00:42
 author: "Joshua Wise"
+alt-bio: "https://joshuawise.com"
 # categories: community
 ---
 
