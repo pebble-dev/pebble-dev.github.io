@@ -65,3 +65,9 @@
   blurb: "'s hobbies include loving women"
   avatar: "lavg.png"
   bio: "I fell in love with Pebble back when the Time launched, but couldn't get my own until 2019. I was amazed that everything still worked like the day the watch launched, and by how welcoming and helpful the community was, even 4 years after Pebble's \"death\". Graphic design is my passion, and most of my work has been dedicated to creating a companion app to replace the aging official one, as well as icons to be used anywhere from Rebble OS to the web!"
+  
+- name: "Alice Grey"
+  blurb: "is a linux fangirl with too many hobbies."
+  avatar: "alicegrey.png"
+  bio: "I joined the Pebble community back in 2014 and started teaching myself how to make pebble apps. I contribute to <a href=\"https://github.com/pebble-dev/RebbleOS\">RebbleOS</a>, the <a href=\"https://github.com/pebble-dev/rebble-docker\">Rebble docker</a>, <a href=\"https://github.com/pebble-dev/mobile-app\">Cobble</a>, and most recently the <a href=\"https://github.com/pebble-dev/rebble-sideloader\">Rebble Sideloader</a>."
+
