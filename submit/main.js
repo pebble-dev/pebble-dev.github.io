@@ -45,7 +45,7 @@ function calcperccomplete () {
 function start() {
 
   if (! $('#i-iswatchapp').prop("checked")) {
-    $('#watchapponly').hide();
+    $('.watchapponly').hide();
   }
 
   if ($('#i-sw-usesamescreenshots').prop("checked")) {
@@ -171,6 +171,10 @@ function build() {
 
   if ($('#i-sourceurl').val() != null) {
     app.source = $('#i-sourceurl').val();
+  }
+
+  if ($('#i-developerID').val() != null) {
+    app.developerID = $('#i-developerID').val();
   }
 
   if ($('#i-supportemail').val() != null) {
@@ -307,12 +311,15 @@ function build() {
 
   }
 
-  // if (images["i-ban"] == null || images["i-ban"] == "") {
-  //
-  //   buildError("At least one screenshot is required", "i-scr-a-1");
-  //   return;
-  //
-  // } else {
+  if (app.type == "watchface") {
+    //Use screenshot as large icon
+    app.icons = {};
+    if ($('#i-sw-usesamescreenshots').prop("checked")) {
+      app.icons.large = images["i-scr-basalt-1"];
+    } else {
+      app.icons.large = images["i-scr-a-1"];
+    }
+  }
 
   if ((images["i-ban"] == null || images["i-ban"] == "")) {
     //Throw an error only if watchapp. They are optional for faces
@@ -369,6 +376,11 @@ function build() {
   if (app.type == "watchapp") {
     yaml = yaml + "large_icon: icons/Large.png\n"
     yaml = yaml + "small_icon: icons/Small.png\n"
+  } else {
+    yaml = yaml + "large_icon: icons/Large.png\n"
+  }
+  if (app.hasOwnProperty("developerID")) {
+    yaml = yaml + "developer_id: " + app.developerID + "\n"
   }
   yaml = yaml + "title: " + app.title + "\n";
   yaml = yaml + "source: " + app.source + "\n";
@@ -448,6 +460,7 @@ function explain(txt) {
   exp.smallicon = { title: "Small icon", subtitle: "Used in the pebble app applocker.", more: "Required for watch apps only.", opt: false}
   exp.screenshots = { title: "Screenshots", subtitle: "At least one required.", more: "You can use different screenshots per platform, or the same for all.", opt: false}
   exp.banner = { title: "Appstore Banner", subtitle: "A banner advert used in the store.", more: "Make it nice and eye-catching.", opt: false}
+  exp.developerID = { title: "Developer ID", subtitle: "Your developer ID. This ties your apps and watchfaces to you.", more: "If you don't provide one, a new one will be generated for you.", opt: true}
 
   if (exp[txt] != null) {
     $('#helpModalLabel').html(exp[txt].title);

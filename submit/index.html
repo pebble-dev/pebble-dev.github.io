@@ -64,8 +64,8 @@
 
       <div class="container">
         Have a pebble app you'd like to submit to the <a href="https://apps.rebble.io">app store</a>? This tool can help! Before you start, make sure you have read <a href="https://developer.rebble.io/developer.pebble.com/guides/appstore-publishing/publishing-an-app/index.html"> the app publishing guidelines </a> and have all the listed resources ready.
-        When you are finished, this tool will generate a zip file which you will then need to send to @joshua on <a href="http://discord.gg/aRUAYFN"> the rebble discord. </a>
-        <br><br> For more information, see the relevant <a href="https://github.com/pebble-dev/wiki/wiki/Preparing-a-new-app-for-the-Rebble-App-Store">rebble wiki page</a>
+        When you are finished, this tool will generate an app bundle, which can then be emailed to <a href="mailto:support@rebble.io">support@rebble.io</a>.
+        <br><br> For more information, see the relevant <a href="https://github.com/pebble-dev/wiki/wiki/Preparing-a-new-app-for-the-Rebble-App-Store">rebble wiki page</a> or talk to someone on the <a href="https://rebble.io/discord"> rebble discord server</a>.
       </div>
     </div>
 
@@ -79,9 +79,6 @@
 
       <div class="md-form form-lg br-sm">
         <label for="i-appname">App Name*:  </label> <i class="fas fa-question-circle" onclick="explain('appname')"></i>
-        <!-- <small id="passwordHelpBlockMD" class="form-text text-muted">
-        This will be the title in the appstore
-        </small> -->
         <input type="text" id="i-appname" class="form-control form-control-lg" name="app-title">
       </div>
       <br>
@@ -97,6 +94,13 @@
         <input type="text" id="i-sourceurl" class="form-control form-control-lg">
       </div>
       <br>
+
+			<div class="md-form form-sm">
+				<label for="i-sourceurl">Developer ID:</label> <i class="fas fa-question-circle" onclick="explain('developerID')"></i><br>
+				<span class="">(If you don't have a developer ID, or have never uploaded an app to the Rebble appstore before, then leave this field blank)</i></span>
+				<input type="text" id="i-developerID" class=" form-control form-control-lg" name="app-title">
+			</div>
+			<br>
 
       <div class="formlabel" id="watchapptype">App Type*: <i class="fas fa-question-circle" onclick="explain('apptype')"></i> </div>
       <div class="custom-control custom-radio m-l-s">
@@ -432,6 +436,8 @@
           <label class="custom-file-label" for="i-f-pbw">Nothing Selected</label>
         </div>
       </div>
+
+
 
       <br><br>
       <button class="btn btn-primary" onclick="build()" id="buildbtn">I'm ready, zip me up!</button>
