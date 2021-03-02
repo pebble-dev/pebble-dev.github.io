@@ -36,7 +36,7 @@ Follow the guide at [rebble.io/howto](https://rebble.io/howto). Do not use any '
 # What doesn't work anymore?
 Since the Pebble shutdown in 2016 some small features don't work anymore, namely:
 
-   - Timeline based apps that use '[topics](https://developer.rebble.io/developer.Pebble.com/guides/Pebble-timeline/timeline-js/index.html#subscribe-to-a-topic)', which allow lots of users to subscribe to a single source of timeline pins. But this is a small percentage of timeline apps, the rest still work. Note that your calendar pins are special, and do not require the timeline server to work.
+   - Timeline based apps that use '[topics](https://developer.rebble.io/developer.pebble.com/guides/pebble-timeline/timeline-js/index.html#subscribe-to-a-topic)', which allow lots of users to subscribe to a single source of timeline pins. But this is a small percentage of timeline apps, the rest still work. Note that your calendar pins are special, and do not require the timeline server to work.
    - Reply to SMS on iOS - Pebble used clever carrier-specific workarounds for iOS' locked down SMS behaviour in a way that Rebble can't easily replicate.
    - Apps that rely on servers no longer available - Some apps serve their settings page from web servers, and if those servers don't exist anymore you can't setup the apps. [It's not always a total loss though](https://old.Reddit.com/r/Pebble/comments/eccrn7/getting_an_error_when_i_try_to_access_the/).
 
@@ -98,7 +98,7 @@ This keeps my timeline full of interesting stuff to read when I choose to. Only 
 To get going with timeline you'll need [this app to generate a 'token'](https://apps.rebble.io/en_US/application/5d9ac26dc393f54d6b5f5445) and to follow [this guide](https://willow.systems/integrate-Pebble-with-ifttt-once-again/) or - if you prefer pictures - [this guide](https://imgur.com/a/IWG28JA). It helps if you're familiar with [If-This-Then-That](https://ifttt.com) too.
 
 # Developing New Apps
-Do you know how to program in C or JavaScript? Maybe you want to learn? Developing on the Pebble is super fun and between the #app-dev channel on [the Discord](https://rebble.io/discord) and [the documentation](https://developer.rebble.io/developer.Pebble.com/index.html) there's plenty of support still.   
+Do you know how to program in C or JavaScript? Maybe you want to learn? Developing on the Pebble is super fun and between the #app-dev channel on [the Discord](https://rebble.io/discord) and [the documentation](https://developer.rebble.io/developer.pebble.com/index.html) there's plenty of support still.   
 
 To get started you'll need the SDK. For which there are now a few options:   
 
