@@ -4,45 +4,59 @@ masterpbw = "";
 app = {};
 
 function calcperccomplete () {
-  //Calculate how far through the required fields the user is, and set the progres bar
-  var perc = 0;
-  var slice = 14;
 
-  if ($('#i-appname').val() != "") { perc += slice }
-  // console.log("1Percentage complete: " + perc)
-  if ($('#i-iswatchapp').prop("checked") || $('#i-iswatchface').prop("checked")) { perc += slice }
-  // console.log("2Percentage complete: " + perc)
-  if ($('#i-appdesc').val() != "") { perc += slice }
-  // console.log("3Percentage complete: " + perc)
-  if ($('#i-apprelnotes').val() != "") { perc += slice }
-  // console.log("4Percentage complete: " + perc)
+  if ($('#i-subupdate').prop("checked")) {
 
-  if ($('#i-iswatchapp').prop("checked")) {
+    var perc = 0;
+    var slice = 25;
+
+    if ($('#u-appstorelink').val() != "") { perc += slice; }
+    if ($('#u-developerID').val() != "") { perc += slice; }
+    if ($('#u-apprelnotes').val() != "") { perc += slice; }
+    if (masterpbw != null && masterpbw != "") { perc += slice; }
+    $('#pbbar').css("width", perc + "%");
+
+  } else {
+    //Calculate how far through the required fields the user is, and set the progres bar
+    var perc = 0;
+    var slice = 14;
+
+    if ($('#i-appname').val() != "") { perc += slice }
+    // console.log("1Percentage complete: " + perc)
+    if ($('#i-iswatchapp').prop("checked") || $('#i-iswatchface').prop("checked")) { perc += slice }
+    // console.log("2Percentage complete: " + perc)
+    if ($('#i-appdesc').val() != "") { perc += slice }
+    // console.log("3Percentage complete: " + perc)
+    if ($('#i-apprelnotes').val() != "") { perc += slice }
+    // console.log("4Percentage complete: " + perc)
+
+    if ($('#i-iswatchapp').prop("checked")) {
     if (images["i-icon-1"] != null && images["i-icon-1"] != "") { perc += slice }
-  } else if ($('#i-iswatchface').prop("checked")){
+    } else if ($('#i-iswatchface').prop("checked")){
     perc += slice
   }
-  // console.log("5Percentage complete: " + perc)
+    // console.log("5Percentage complete: " + perc)
 
-  if (images["i-ban"] != null && images["i-ban"] != "") {
+    if (images["i-ban"] != null && images["i-ban"] != "") {
     perc += slice
   }
-  // console.log("6Percentage complete: " + perc)
+    // console.log("6Percentage complete: " + perc)
 
-  if (masterpbw != null && masterpbw != "") {
+    if (masterpbw != null && masterpbw != "") {
     perc += slice
   }
-  // console.log("7Percentage complete: " + perc)
+    // console.log("7Percentage complete: " + perc)
 
-  if (perc > 97) { perc = 100 }
-  // console.log("8Percentage complete: " + perc)
+    if (perc > 97) { perc = 100 }
+    // console.log("8Percentage complete: " + perc)
 
-  $('#pbbar').css("width", perc + "%");
-
+    $('#pbbar').css("width", perc + "%");
+  }
 
 }
 
 function start() {
+  $('#i-subnew').prop("checked", true);
 
   if (! $('#i-iswatchapp').prop("checked")) {
     $('.watchapponly').hide();
@@ -70,6 +84,15 @@ function start() {
     $('#watchcat').removeClass("danger");
     appcat = this.value;
     calcperccomplete();
+  });
+  $( ".rbmode" ).change(function() {
+    if ($('#i-subnew').prop("checked")) {
+      $('#mode-appupdate').addClass("hidden");
+      $('#mode-newapp').removeClass("hidden");
+    } else {
+      $('#mode-appupdate').removeClass("hidden");
+      $('#mode-newapp').addClass("hidden");
+    }
   });
   $( "#i-sw-usesamescreenshots" ).change(function() {
     if ($('#i-sw-usesamescreenshots').prop("checked")) {
@@ -150,6 +173,93 @@ function buildError(msg, ehid) {
   }, 2000);
 }
 function build() {
+  if ($('#i-subnew').prop("checked")) {
+    build_newapp()
+  } else {
+    build_update()
+  }
+}
+function build_update() {
+  $('.danger').removeClass(".danger");
+  $('#buildbtn').html('<span class="spinner-border spinner-grow-sm" role="status" aria-hidden="true"></span>  <span class="sr-only">Loading...</span> Building zip package');
+
+  app = {};
+  app.pbw = masterpbw;
+
+  var appstoreurl = $('#u-appstorelink').val();
+  if (appstoreurl == null || appstoreurl == "") {
+    buildError("Appstore link cannot be blank", "u-appstorelink");
+    return;
+  }
+  //Get UUID of app
+  if (! appstoreurl.includes("apps.rebble.io")) {
+    buildError("Invalid appstore link", "u-appstorelink");
+    return;
+  }
+  if (appstoreurl[appstoreurl.length-1] == "/") { appstoreurl = appstoreurl.substr(0, appstoreurl.length - 1)}
+  var appstoreparts = appstoreurl.split("/");
+  appstoreparts = appstoreparts[appstoreparts.length - 1];
+  app.update = {
+    url: appstoreurl,
+    uuid: appstoreparts
+  }
+
+  if ($('#u-developerID').val() == null || $('#u-developerID').val() == "") {
+    buildError("Developer ID is required for app updates", "u-developerID");
+    return;
+  }
+  app.developerID = $('#u-developerID').val();
+
+  if ($('#u-apprelnotes').val() == null || $('#u-apprelnotes').val() == "") {
+    buildError("Release notes are required for app updates", "u-apprelnotes");
+    return;
+  }
+  app.releasenotes = $('#u-apprelnotes').val();
+
+
+  //We've assembled the data, generate the yaml
+  //Could use a library, but I don't want to
+
+  var yaml = "";
+  var pbwfile = $('#i-f-pbw').val().split("\\")[2]
+
+  yaml = yaml + "mode: update \n"
+  yaml = yaml + "pbw_file: " + pbwfile + "\n"
+  yaml = yaml + "appstore: " + app.update.url + "\n"
+  yaml = yaml + "uuid: " + app.update.uuid + "\n"
+  if (app.hasOwnProperty("developerID")) {
+    yaml = yaml + "developer_id: " + app.developerID + "\n"
+  }
+  app.releasenotes = "  " + app.releasenotes.replace(/\n/g,"\n  ");
+  yaml = yaml + "release_notes: |\n" + app.releasenotes + "\n";
+
+  //yaml complete, build the .zip
+
+  var zip = new JSZip();
+
+  zip.file("build.yaml", yaml);
+  zip.file(pbwfile, app.pbw, {base64: true})
+
+  zip.generateAsync({type:"blob"}).then(function(content) {
+    // see FileSaver.js
+    saveAs(content, app.update.uuid.replace(/\s/g,'') + "-update.zip");
+
+    $('#buildbtn').removeClass("btn-primary");
+    $('#buildbtn').addClass("btn-success");
+    $('#buildbtn').html("Success! Downloading .zip");
+    $('#finishedModal').modal("show");
+    setTimeout(function () {
+      $('#buildbtn').removeClass("btn-success");
+      $('#buildbtn').addClass("btn-primary");
+      $('#buildbtn').html("Build zip package");
+    }, 5000);
+
+  });
+
+  // $("body").html(JSON.stringify(app))
+
+}
+function build_newapp() {
   $('.danger').removeClass(".danger");
   $('#buildbtn').html('<span class="spinner-border spinner-grow-sm" role="status" aria-hidden="true"></span>  <span class="sr-only">Loading...</span> Building zip package');
 
@@ -173,7 +283,7 @@ function build() {
     app.source = $('#i-sourceurl').val();
   }
 
-  if ($('#i-developerID').val() != null) {
+  if ($('#i-developerID').val() != null && $('#i-developerID').val() != "") {
     app.developerID = $('#i-developerID').val();
   }
 
@@ -338,8 +448,8 @@ function build() {
 
   var yaml = "";
   var pbwfile = $('#i-f-pbw').val().split("\\")[2]
-  console.log("pbwfile: " + pbwfile)
 
+  yaml = yaml + "mode: new\n"
   yaml = yaml + "pbw_file: " + pbwfile + "\n"
   yaml = yaml + "header: banners/Banner.png\n"
 
@@ -450,6 +560,7 @@ function build() {
 function explain(txt) {
   var exp = {};
   exp.appname = {title: "App Name", subtitle: "The name of the application.", more: "The display name in the app store.", opt: false}
+  exp.appstore = {title: "Appstore Link", subtitle: "On <a href='https://apps.rebble.io/' target='_blank'>apps.rebble.io</a>", more: "A link to the appstore listing for the app you want to update", opt: false }
   exp.websiteurl = {title: "Website URL", subtitle: "An optional link to your website, or a page about the face.", opt: true}
   exp.sourcecodeurl = {title: "Source code URL", subtitle: "An optional link to the source code repository, if available.", opt: true}
   exp.apptype = {title: "App type", subtitle: "Watchapp or Watchface.", more: "Watchfaces don't require icons, watchapps require icons and a category.", opt: false}
