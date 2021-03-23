@@ -90,7 +90,7 @@ a:hover {
 }
 
 .danger {
-  border-top: 4px solid red;
+  border: 4px solid red !important;
 }
 
 /* Override some bootstrap bits  */
@@ -146,4 +146,26 @@ i {
 }
 .image-upload>input {
   display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.bigBtn {
+  font-size: 3rem;
+  color: var(--rebble-orange);
+
+}
+
+.bigBtn img {
+  height: 4rem;
+}
+
+
+.form-control {
+  /* border: 2px solid var(--rebble-grey); */
+  padding: 3px;
+  width: 90%;
+  color: black;
 }
