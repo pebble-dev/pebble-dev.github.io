@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="main.js"></script>
 		<script type="text/javascript" src="res/jszip.min.js"></script>
 		<script type="text/javascript" src="res/filesaver.min.js"></script>
- 		<!-- Rebble Dev Portal Version 1.5 -->
+ 		<!-- Rebble Dev Portal Version 1.6 -->
 	</head>
   <body onload="start()">
 
@@ -116,12 +116,12 @@
 				Please remember to increment the version number in appinfo.json when submitting updates
 	      <div class="input-group br-sm" style="width: 50%;">
 	        <div class="input-group-prepend">
-	          <span class="input-group-text" id="i-f-pbw-lbl">.pbw file</span>
+	          <span class="input-group-text">.pbw file</span>
 	        </div>
 	        <div class="custom-file">
-	          <input type="file" class="custom-file-input" id="i-f-pbw"
-	          aria-describedby="i-f-pbw-lbl" onchange="readPBW(this);">
-	          <label class="custom-file-label" for="i-f-pbw">Nothing Selected</label>
+	          <input type="file" class="custom-file-input" id="u-f-pbw"
+	          aria-describedby="u-f-pbw-lbl" onchange="readPBW(this);">
+	          <label class="custom-file-label pbwuploader" for="u-f-pbw" id="u-f-pbw-lbl">Nothing Selected</label>
 	        </div>
 	      </div>
 
@@ -480,12 +480,12 @@
       <h2 class="br-mid">The .pbw File</h2>
       <div class="input-group br-sm" style="width: 50%;">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="i-f-pbw-lbl">.pbw file</span>
+          <span class="input-group-text">.pbw file</span>
         </div>
         <div class="custom-file">
           <input type="file" class="custom-file-input" id="i-f-pbw"
           aria-describedby="i-f-pbw-lbl" onchange="readPBW(this);">
-          <label class="custom-file-label" for="i-f-pbw">Nothing Selected</label>
+          <label class="custom-file-label pbwuploader" for="i-f-pbw" id="i-f-pbw-lbl">Nothing Selected</label>
         </div>
       </div>
 
