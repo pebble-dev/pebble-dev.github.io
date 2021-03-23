@@ -152,8 +152,7 @@ function readPBW(input) {
         var reader = new FileReader();
 
         reader.onload = function(e) {
-          console.log("pbw: " + e.target.result)
-          console.log("pbw2: " + e.target.result.split("base64,")[1])
+          $('.pbwuploader').html(input.files[0].name);
           masterpbw = e.target.result.split("base64,")[1];
         };
 
