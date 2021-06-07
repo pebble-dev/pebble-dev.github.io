@@ -16,5 +16,5 @@
 - display: "projects"
   permalink: "/projects/"
 
-- display: "account"
+- display: "my account 🔒"
   link: "https://auth.rebble.io"
