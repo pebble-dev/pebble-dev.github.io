@@ -1,12 +1,12 @@
 <footer>
     <div class="text-content">
         <p>Join us on the <a href="https://discordapp.com/invite/aRUAYFN">
-            officially unofficial Pebble Discord server!</a></p>
+            officially unofficial Pebble Discord server!</a> - or <a href="/contact">contact Rebble</a>.</p>
     </div>
     <div class="text-content">
       {% for item in site.data.socials %}
         <a href="{{ item.url }}"><img class="footer-icon" alt="icon-{{ item.name }}" src="/images/social-icons/{{ item.icon }}"></img></a>
       {% endfor %}
     </div>
-    {% if page.title != "Contact" %}{% include contactus.html %}{% endif %}
+    {% include mailinglist.html %}
 </footer>
