@@ -40,8 +40,9 @@ information](/tos/#e-copyright-infringement-and-dmca-policy).
 ### Privacy and Terms of Service
 
 If you are interested in our privacy policy or our terms of service, they can be viewed using the following links:
-	- [Privacy policy](/privacy)   
-	- [Terms of Service](/tos)
+
+ - [Privacy policy](/privacy)
+ - [Terms of Service](/tos)
 
 ### Anything else
 
