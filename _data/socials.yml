@@ -11,5 +11,5 @@
   icon: facebook.png
 
 - name: email
-  url: mailto:support@rebble.io
+  url: /contact/
   icon: email.png
