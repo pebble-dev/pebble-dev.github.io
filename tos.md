@@ -152,7 +152,7 @@ To the extent this agreement is not enforceable by applicable law, you grant Reb
 ### E. Copyright Infringement and DMCA Policy
 If you believe that content on our website violates your copyright, please contact us. If you are a copyright owner and you believe that content on Rebble violates your rights, please contact us by emailing support@rebble.io. There may be legal consequences for sending a false or frivolous takedown notice. Before sending a takedown request, you must consider legal uses such as fair use and licensed uses.
 
-We will terminate the Accounts of repeat infringers of this policy.
+We may terminate the Accounts of repeat infringers of this policy.
 
 ### F. Intellectual Property Notice
 **Short version:** *We own the service and all of our content. In order for you to use our content, we give you certain rights to it, but you may only use our content in the way we have allowed.*
@@ -213,7 +213,7 @@ Our pricing and payment terms are available at [rebble.io/pricing](https://rebbl
 
 #### 3. Billing Schedule; No Refunds
 - For monthly or yearly payment plans, the Service is billed in advance on a monthly or yearly basis respectively and is non-refundable. There will be no refunds or credits for partial months of service, downgrade refunds, or refunds for months unused with an open Account; however, the service will remain active for the length of the paid billing period.
-- In order to treat everyone equally, no exceptions will be made.
+- Exceptions to this policy may be granted at the sole discretion of Rebble.
 
 #### 4. Authorization
 By agreeing to these Terms, you are giving us permission to charge your on-file credit card or other approved methods of payment for fees that you authorize for Rebble.
