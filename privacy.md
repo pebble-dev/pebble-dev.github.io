@@ -180,7 +180,7 @@ Our emails might contain a pixel tag, which is a small, clear image that can tel
 
 ### Resolving complaints
 
-If you have concerns about the way Rebble is handling your User Personal Information, please let us know immediately. We want to help. You may email us directly at privacy@rebble.io with the subject line "Privacy Concerns." 
+If you have concerns about the way Rebble is handling your User Personal Information, please let us know immediately. We want to help. You may email us directly at support@rebble.io with the subject line "Privacy Concerns." 
 
 ### Changes to our Privacy Statement
 Although most changes are likely to be minor, Rebble may change our Privacy Statement from time to time. We will provide notification to Users of material changes to this Privacy Statement through our Website at least 30 days prior to the change taking effect by posting a notice on our home page or sending email to the email address specified in your Rebble account. We will also update our [Site Policy](https://github.com/pebble-dev/site-policy) repository, which tracks all changes to this policy. For changes to this Privacy Statement that do not affect your rights, we encourage visitors to check our Site Policy repository frequently.
@@ -189,4 +189,4 @@ Although most changes are likely to be minor, Rebble may change our Privacy Stat
 This Privacy Statement is licensed under this [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/). For details, see our [site-policy repository](https://github.com/pebble-dev/site-policy).
 
 ### Contacting Rebble
-Questions regarding Rebble's Privacy Statement or information practices should be directed to privacy@rebble.io.
+Questions regarding Rebble's Privacy Statement or information practices should be directed to support@rebble.io.
