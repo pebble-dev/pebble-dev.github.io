@@ -10,11 +10,11 @@
 - display: "faq"
   permalink: "/faq/"
 
-- display: "team"
-  permalink: "/team/"
-
 - display: "projects"
   permalink: "/projects/"
+
+- display: "contact"
+  permalink: "/contact/"
 
 - display: "my account 🔒"
   link: "https://auth.rebble.io/account"
