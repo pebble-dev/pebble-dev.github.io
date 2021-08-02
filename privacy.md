@@ -50,7 +50,7 @@ We collect this information to better understand how our website visitors use Re
 
 If you **create an account**, we require some basic information at the time of account creation. You may also have the option to give us more information if you want to, and this may include "User Personal Information."
 
-"User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify him or her. Information such as a user name and password, an email address, a real name, and a photograph are examples of “User Personal Information.” User Personal Information includes Personal Data as defined in the General Data Protection Regulation.
+"User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify them. Information such as a user name and password, an email address, a real name, and a photograph are examples of “User Personal Information.” User Personal Information includes Personal Data as defined in the General Data Protection Regulation.
 
 User Personal Information does not include aggregated, non-personally identifying information. We may use aggregated, non-personally identifying information to operate, improve, and optimize our website and service.
 
