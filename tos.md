@@ -150,7 +150,7 @@ You retain all moral rights to Your Content that you upload, publish, or submit 
 To the extent this agreement is not enforceable by applicable law, you grant Rebble the rights we need to use Your Content without attribution and to make reasonable adaptations of Your Content as necessary to render the Website and provide the Service.
 
 ### E. Copyright Infringement and DMCA Policy
-If you believe that content on our website violates your copyright, please contact us. If you are a copyright owner and you believe that content on Rebble violates your rights, please contact us by emailing copyright@rebble.io. There may be legal consequences for sending a false or frivolous takedown notice. Before sending a takedown request, you must consider legal uses such as fair use and licensed uses.
+If you believe that content on our website violates your copyright, please contact us. If you are a copyright owner and you believe that content on Rebble violates your rights, please contact us by emailing support@rebble.io. There may be legal consequences for sending a false or frivolous takedown notice. Before sending a takedown request, you must consider legal uses such as fair use and licensed uses.
 
 We will terminate the Accounts of repeat infringers of this policy.
 
