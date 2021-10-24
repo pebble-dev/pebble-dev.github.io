@@ -147,6 +147,9 @@ section {
 		padding: 0.1em 0.4em;
 		border-radius: 0.2em;
 	}
+	img {
+		max-width: 100%;
+	}
 }
 a {
 	color: $dark-link-color;
