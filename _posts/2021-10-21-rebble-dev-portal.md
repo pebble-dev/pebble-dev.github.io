@@ -7,7 +7,7 @@ author: "Will Murphy"
 
 Hi All, today we are happy to announce that the new [Rebble developer portal](https://dev-portal.rebble.io) is live! This has been in the works for a _while_ now, and involved extending the capabilities of the [appstore backend](https://github.com/pebble-dev/rebble-appstore-api), as well as building a new frontend. 
 
-The result is a shiny new way for you to upload, update, and manage your apps and watchfaces on the Rebble store, replacing the cubersome old rebble.io/submit process! Let's take a look.
+The result is a shiny new way for you to upload, update, and manage your apps and watchfaces on the Rebble store, replacing the cumbersome old rebble.io/submit process! Let's take a look.
 
 <!--more-->
 
