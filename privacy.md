@@ -6,7 +6,7 @@ date:   2018-06-26 23:21:42
 permalink: /privacy/
 ---
 
-Effective date: **June 26, 2018**
+Effective date: **February 21, 2021**
 
 Thanks for entrusting Rebble with your content, your apps, and your personal information. Holding onto your private information is a serious responsibility, and we want you to know how we're handling it.
 
@@ -50,6 +50,12 @@ We collect this information to better understand how our website visitors use Re
 
 If you **create an account**, we require some basic information at the time of account creation. You may also have the option to give us more information if you want to, and this may include "User Personal Information."
 
+After you activate Rebble on your phone, the Pebble app may upload some
+basic telemetry information to Rebble's servers, including your phone model,
+your Pebble's model, versions of software that you are running on your phone
+and your Pebble, and your Pebble's serial number.  You can disable this
+collection through your Rebble account settings.
+
 "User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify them. Information such as a user name and password, an email address, a real name, and a photograph are examples of “User Personal Information.” User Personal Information includes Personal Data as defined in the General Data Protection Regulation.
 
 User Personal Information does not include aggregated, non-personally identifying information. We may use aggregated, non-personally identifying information to operate, improve, and optimize our website and service.
@@ -61,6 +67,7 @@ User Personal Information does not include aggregated, non-personally identifyin
 - We may use it to fill out your profile and share that profile with other users if you ask us to.
 - We will use your email address to communicate with you, if you've said that's okay, **and only for the reasons you’ve said that’s okay**. Please see our section on [email communication](#how-we-and-others-communicate-with-you) for more information.
 - We use User Personal Information and other data to make recommendations for you, such as to suggest apps you may want to view or download. For example, when you fill out an interest survey at account creation, we learn from it — as well as from your public behavior on Rebble, such as the apps you like — to determine your interests, and we recommend similar content. These recommendations are automated decisions, but they have no legal impact on your rights.
+- We use your User Personal Information and telemetry data to understand how many users are using Rebble, and how they use Rebble.
 - We use your User Personal Information for internal purposes, such as to maintain logs for security reasons, for training purposes, and for legal documentation.
 - We limit our use of your User Personal Information to the purposes listed in this Privacy Statement. If we need to use your User Personal Information for other purposes, we will ask your permission first. You can always see what information we have, how we're using it, and what permissions you have given us in your user profile.
 
