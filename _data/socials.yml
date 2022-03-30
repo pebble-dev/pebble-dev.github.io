@@ -6,10 +6,6 @@
   url: https://twitter.com/pebble_dev/
   icon: twitter.png
 
-- name: facebook
-  url : https://www.facebook.com/RebbleAlliance/
-  icon: facebook.png
-
 - name: email
   url: /contact/
   icon: email.png
