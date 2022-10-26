@@ -23,9 +23,22 @@ button.orange {
 .button.orange {
 	background-color: $pebble-color;
 }
+.button.blue, button.blue {
+	background-color: $dev-portal-blue;
+	color: black;
+	font-weight: 500;
+}
 button.gray {
 	background-color: $light-gray-button-background-color;
 }
 .button.gray {
 	background-color: $light-gray-button-background-color;
+}
+.inline {
+	display: inline-block !important;
+	padding: 15px;
+	margin: 20px;
+}
+button .big {
+	height: 60px !important;
 }
