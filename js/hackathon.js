@@ -1,9 +1,17 @@
 
-hackathon_start_date = new Date("2022-10-27T19:53:00Z")
-hackathon_end_date = new Date("2022-10-27T19:53:10Z")
+hackathon_start_date = new Date("2022-11-18T18:00:00Z")
+hackathon_end_date = new Date("2022-11-20T18:00:00Z")
+
+// hackathon_start_date = new Date("2022-10-27T20:30:00Z")
+// hackathon_end_date = new Date("2022-10-27T20:30:30Z")
+
+in_progress_link_href = "https://old.reddit.com/r/pebble"
+confetti_already = false
 
 function init() {
-    document.getElementById("countdown").innerHTML = friendlyCountdown()
+    document.getElementById("countdown").innerHTML = "T-Minus: &nbsp;" + friendlyCountdown()
+    document.getElementById("countdown").title = "The hackathon begins at " + hackathon_start_date
+    document.getElementById("countdown-small").innerHTML = friendlyCountdown()
     document.getElementById("launchpad").src = "https://dev-portal.rebble.io/res/img/" + get_space_image()
 }
 
@@ -22,12 +30,17 @@ function friendlyCountdown() {
 
 
     if (now > hackathon_end_date) {
-        out = "The hackathon has ended."
+        out = "The hackathon has ended. Thanks for taking part!"
         return out
     }
 
-    if (then < now) {
-        out = "Lift off! The hackathon has begun."
+    if (then <= now) {
+        if ((now - then) < 10000) {
+            tada()
+            out = "Lift off! The hackathon has begun."
+        } else {
+            out = "<a target=\"_blank\" href=\"" + in_progress_link_href + "\"> The hackathon is in progress! </a>"
+        }
         return out
     }
 
@@ -47,7 +60,7 @@ function friendlyCountdown() {
         secondsText = remainingSeconds == 1 ? "second" : "seconds"
         out = "<strong>" + remainingSeconds + "</strong> " + secondsText + "."
     }
-    return "T-Minus: &nbsp;" + out
+    return out
   
 }
 function get_space_image() {
@@ -56,15 +69,32 @@ function get_space_image() {
         return "large_icon_landed_animated.svg"
     }
 
-    if (hackathon_start_date < now) {
-        return "space.gif"
+    if (hackathon_start_date <= now) {
+        return "large_icon_space.svg"
     }
     
     return "large_icon_launchpad.svg"
 }
 function pad(n) {
     return (n < 10 ? "0" + n : n);
-  }
+}
+
+function tada() {
+    if (! confetti_already) {
+        confetti({
+                angle: randomInRange(55, 125),
+                spread: randomInRange(50, 70),
+                particleCount: randomInRange(50, 100),
+                origin: { y: 0.6 },
+                zIndex: 2000,
+                disableForReducedMotion: true,
+        });
+        confetti_already = true;
+    }
+}
+function randomInRange(min, max) {
+    return Math.random() * (max - min) + min;
+}
 
 init()
 setInterval(init, 1000)

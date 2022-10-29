@@ -95,7 +95,43 @@ h6 {
 }
 .break {
     margin-top: 50px;
+
 }
 #launchpad {
     border-radius: 50%;
+    min-width: 100px;
+    width: 10vw;
+}
+.ml {
+    margin-left:10vw;
+}
+.bio {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    color: #333;
+    max-width: 80%;
+}
+.nomargin {
+    margin: 0px
+}
+@media (max-width : 500px) {
+    .ml {
+        margin-left: 0px;
+    }
+    .title-huge {
+        font-size: 10vw;
+    }
+    .title-large {
+        font-size: 5vw;
+    }
+    .inline {
+        min-width: 80%;
+    }
+    .post-wide {
+        width: 100%;
+    }
+    #launchpad {
+        width: 50vw;
+    }
 }
