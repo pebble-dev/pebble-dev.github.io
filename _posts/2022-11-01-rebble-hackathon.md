@@ -63,3 +63,5 @@ We also recently added another new channel: #releases. This channel is read-only
 ![](/images/hackathon-blog-post/emojis.png)
 
 Some Rebble users are working on a project to use Pebble language packs to add support for more modern emojis. It's a fun project anyone can contribute to. [Check out the github page if you're interesting in helping out](https://github.com/pebble-dev/rebble-emojis).
+
+So there it is, a few updates from the ever-active world of Rebble. To keep up to date we recommend [joining the Discord server](/discord/), where there are literally dozens of us. And if you really want to get involved, here's the [link to the hackathon page once again](/hackathon-001/)! 
