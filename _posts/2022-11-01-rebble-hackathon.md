@@ -36,7 +36,7 @@ You can read more about it at any of the following links:
 
 ![](/images/hackathon-blog-post/hackathon.png)
 
-Now for the really exciting part. We're thrilled to announce we're running [our first hackathon](/hackathon-001) on the 18th - 20th of November. We're hoping it's the first of many too, hence the optimistic 3 digit name! It's a bit of an experiment on our part, but the idea is anyone who wants to take part simply [fills out the form](https://forms.gle/oACS5hbPedeiEwiG8), [sets up their dev environment](), and joins in on that weekend in building a fun watchface, watchapp, or tool for the Pebble watch.
+Now for the really exciting part. We're thrilled to announce we're running [our first hackathon](/hackathon-001) on the 18th - 20th of November. We're hoping it's the first of many too, hence the optimistic 3 digit name! It's a bit of an experiment on our part, but the idea is anyone who wants to take part simply [fills out the form](https://forms.gle/oACS5hbPedeiEwiG8), [sets up their dev environment](/hackathon-001/vm/), and joins in on that weekend in building a fun watchface, watchapp, or tool for the Pebble watch.
 
 Everyone who [uploads an app](https://dev-portal.rebble.io) to the appstore during the hackathon will receive free Rebble stickers, and our favourite submission(s) will receive a special prize (likely to be a shiny pebble watch)
 
