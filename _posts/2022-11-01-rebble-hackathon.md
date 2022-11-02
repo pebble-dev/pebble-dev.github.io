@@ -26,7 +26,7 @@ Fitbit absorbed Pebble. Google absorbed Fitbit. Despite the Pebble app being a d
 
 A massive thank you to Google for putting the effort in to support an app so old it isn't even hosted on their own app store! 
 
-You can read more about it at any of the following links:
+You can read more about this at any of the following links:
 - [Ars Technica](https://arstechnica.com/gadgets/2022/10/pebble-a-2013-smartwatch-updated-to-work-with-2022-pixel-7/)
 - [XDA](https://www.xda-developers.com/pebble-smartwatches-will-now-work-with-the-pixel-7-and-pixel-7-pro/)
 - [Gadgets & Wearables](https://gadgetsandwearables.com/2022/10/26/pebble-android-app-update/)
