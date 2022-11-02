@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "App updates, hackathon & more"
-date:   2022-11-01 07:08:09
+title: "Hackathon, App Updates & More"
+date:   2022-11-02 07:08:09
 author: "Will Murphy"
 ---
 
