@@ -40,7 +40,7 @@ Now for the really exciting part: we're thrilled to announce that we're running 
 
 Everyone who [uploads an app](https://dev-portal.rebble.io) to the appstore during the hackathon will receive free Rebble stickers, and our favourite submission(s) will receive a special prize (likely to be a shiny pebble watch).
 
-For more information and live updates, check out the [dedicated hackathon page](/hackathon-001). For even livelier updates be sure to follow us [on twitter](https://twitter.com/pebble_dev). During the hackathon weekend we'll have dedicated channels [on Discord](/discord) too.
+For more information and live updates, check out the [dedicated hackathon page](/hackathon-001). For even livelier updates be sure to follow us [on Twitter](https://twitter.com/pebble_dev). During the hackathon weekend we'll have dedicated channels [on Discord](/discord) too.
 
 # A few more things
 
