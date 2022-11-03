@@ -44,7 +44,7 @@ For more information and live updates, check out the [dedicated hackathon page](
 
 # A few more things
 
-Here are a few more minor updates from the smartwatch community that refuses to move on.
+Here are a few more minor updates from the smartwatch community that refuses to move on...
 
 ### #buy-sell-trade
 
