@@ -22,7 +22,7 @@ It really is amazing to see so many people out there still using Pebbles. Thank 
 
 # The Android app gets an update
 
-Fitbit absorbed Pebble. Google absorbed Fitbit. Despite the Pebble app being a double hand-me-down, we recently saw the android app get it's first update in 4 years! This update changes the Pebble app to be 64 bit, which means it can be installed on the Pixel 7 - The first Android phone to ship with this hard requirement. You can download the app [here](/apk). The app update has also improved the reliability of caller ID too.
+Fitbit absorbed Pebble. Google absorbed Fitbit. Despite the Pebble app being a double hand-me-down, we recently saw the Android app get its first update in 4 years! This update changes the Pebble app to be 64-bit, which means it can be installed on the Pixel 7 - the first Android phone to ship with this hard requirement. You can [download the app here](/apk). The app update has also improved the reliability of caller ID.
 
 A massive thank you to Google for putting the effort in to support an app so old it isn't even hosted on their own app store! 
 
