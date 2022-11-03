@@ -10,7 +10,7 @@ Time flies when you're having fun. It's been a year since our last blog post ann
 <!--more-->
 
 # The Rebble Alliance
-One question we've always been interested to know the answer to is "how many Rebble users are there?". Rebble web services logs give a rough estimate, but we've never known for sure. A few months ago we deployed an update to RWS that listens for the analytics data the Pebble app sends home. We only store the non-personal information from it, but that's enough for us to see the result: 24,000 Rebble users!!
+One question we've always been interested to know the answer to is "how many Rebble users are there?". Rebble web services logs give a rough estimate, but we've never known for sure. A few months ago we deployed an update to RWS that listens for the analytics data the Pebble app sends home. We only store the non-personal information from it, but that's enough for us to see the result: over 24,000 Rebble users!!
 
 ![](/images/hackathon-blog-post/bigquery.png)
 
