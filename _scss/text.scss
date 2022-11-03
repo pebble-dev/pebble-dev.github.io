@@ -17,6 +17,16 @@ h1 {
     margin-bottom: .4em;
     color: $dark-heading-color;
 }
+.title-huge {
+    font-size: 6vw;
+    margin-top: 0;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+    color: $dark-heading-color;
+}
+.title-large {
+    font-size: 50px;
+}
 
 h2 {
     margin-top: 0;
@@ -56,4 +66,72 @@ h6 {
 
 #index a[href*="auth.rebble.io"] {
     font-weight: bolder;
+}
+
+.center {
+    text-align: center;
+}
+
+/* For the hackathon page  */
+.mask {
+    font-size:9em;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    background:url(/images/hackathon/Sketches2.jpg) repeat, white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    // -webkit-text-stroke: 1px $rebble-color;
+    margin-bottom: 20px !important;
+}
+.grey {
+    color: $light-gray-button-background-color;
+}
+.grey strong {
+    color: black;
+}
+.orange {
+    color: $pebble-color;
+}
+.break {
+    margin-top: 50px;
+
+}
+#launchpad {
+    border-radius: 50%;
+    min-width: 100px;
+    width: 10vw;
+}
+.ml {
+    margin-left:10vw;
+}
+.hackathon-about {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    color: #333;
+    max-width: 80%;
+}
+.nomargin {
+    margin: 0px
+}
+@media (max-width : 500px) {
+    .ml {
+        margin-left: 0px;
+    }
+    .title-huge {
+        font-size: 10vw;
+    }
+    .title-large {
+        font-size: 5vw;
+    }
+    .inline {
+        min-width: 80%;
+    }
+    .post-wide {
+        width: 100%;
+    }
+    #launchpad {
+        width: 50vw;
+    }
 }
