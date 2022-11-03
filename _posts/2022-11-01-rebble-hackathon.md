@@ -56,7 +56,7 @@ Following Discord's launch of a more mature forum system, we now have a buy/sell
 
 ![](/images/hackathon-blog-post/releases.png)
 
-We also recently added another new channel: #releases. This channel is read-only, and updates whenever a developer adds or updates a new app or watchface to the store.
+We also recently added another new channel: #releases. This channel is read-only, and updates whenever a developer adds or updates a new app or watchface on the appstore.
 
 ### Emoji Replacement Project
 
