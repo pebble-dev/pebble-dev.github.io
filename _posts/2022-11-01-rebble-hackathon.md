@@ -10,7 +10,7 @@ Time flies when you're having fun. It's been a year since our last blog post ann
 <!--more-->
 
 # The Rebble Alliance
-One question we've always been interested to know the answer to is "how many Rebble users are there?". Rebble web services logs give a rough estimate, but we've never known for sure. A few months ago we deployed an update to RWS that listens for the analytics data the Pebble app sends home. We only store the non-personal information from it, but that's enough for us to see the result: 24,000 Rebble users!!
+One question we've always been interested to know the answer to is "how many Rebble users are there?". Rebble web services logs give a rough estimate, but we've never known for sure. A few months ago we deployed an update to RWS that listens for the analytics data the Pebble app sends home. We only store the non-personal information from it, but that's enough for us to see the result: over 24,000 Rebble users!!
 
 ![](/images/hackathon-blog-post/bigquery.png)
 
@@ -22,7 +22,7 @@ It really is amazing to see so many people out there still using Pebbles. Thank 
 
 # The Android app gets an update
 
-Fitbit absorbed Pebble. Google absorbed Fitbit. Despite the Pebble app being a double hand-me-down, we recently saw the android app get it's first update in 4 years! This update changes the Pebble app to be 64 bit, which means it can be installed on the Pixel 7 - The first Android phone to ship with this hard requirement. You can download the app [here](/apk). The app update has also improved the reliability of caller ID too.
+Fitbit absorbed Pebble. Google absorbed Fitbit. Despite the Pebble app being a double hand-me-down, we recently saw the Android app get its first update in 4 years! This update changes the Pebble app to be 64-bit, which means it can be installed on the Pixel 7 - the first Android phone to ship with this hard requirement. You can [download the app here](/apk). The app update has also improved the reliability of caller ID.
 
 A massive thank you to Google for putting the effort in to support an app so old it isn't even hosted on their own app store! 
 
@@ -36,15 +36,15 @@ You can read more about this at any of the following links:
 
 ![](/images/hackathon-blog-post/hackathon.png)
 
-Now for the really exciting part. We're thrilled to announce we're running [our first hackathon](/hackathon-001) on the 18th - 20th of November. We're hoping it's the first of many too, hence the optimistic 3 digit name! It's a bit of an experiment on our part, but the idea is anyone who wants to take part simply [fills out the form](https://forms.gle/oACS5hbPedeiEwiG8), [sets up their dev environment](/hackathon-001/vm/), and joins in on that weekend in building a fun watchface, watchapp, or tool for the Pebble watch.
+Now for the really exciting part: we're thrilled to announce that we're running [our first hackathon](/hackathon-001) on the 18-20th of November. We're hoping it's the first of many too, hence the optimistic 3-digit name! It's a bit of an experiment on our part, but the idea is that anyone who wants to take part simply [fills out the form](https://forms.gle/oACS5hbPedeiEwiG8), [sets up their dev environment](/hackathon-001/vm/), and joins in on that weekend by building a fun watchface, watchapp, or tool for the Pebble watch.
 
 Everyone who [uploads an app](https://dev-portal.rebble.io) to the appstore during the hackathon will receive free Rebble stickers, and our favourite submission(s) will receive a special prize (likely to be a shiny pebble watch).
 
-For more information and live updates, check out the [dedicated hackathon page](/hackathon-001). For even livelier updates be sure to follow us [on twitter](https://twitter.com/pebble_dev). During the hackathon weekend we'll have dedicated channels [on Discord](/discord) too.
+For more information and live updates, check out the [dedicated hackathon page](/hackathon-001). For even livelier updates be sure to follow us [on Twitter](https://twitter.com/pebble_dev). During the hackathon weekend we'll have dedicated channels [on Discord](/discord) too.
 
 # A few more things
 
-Here are a few more minor updates from the smartwatch community that refuses to move on.
+Here are a few more minor updates from the smartwatch community that refuses to move on...
 
 ### #buy-sell-trade
 
@@ -56,12 +56,12 @@ Following Discord's launch of a more mature forum system, we now have a buy/sell
 
 ![](/images/hackathon-blog-post/releases.png)
 
-We also recently added another new channel: #releases. This channel is read-only, and updates whenever a developer adds or updates a new app or watchface to the store.
+We also recently added another new channel: #releases. This channel is read-only, and updates whenever a developer adds or updates a new app or watchface on the appstore.
 
 ### Emoji Replacement Project
 
 ![](/images/hackathon-blog-post/emojis.png)
 
-Some Rebble users are working on a project to use Pebble language packs to add support for more modern emojis. It's a fun project anyone can contribute to. [Check out the github page if you're interesting in helping out](https://github.com/pebble-dev/rebble-emojis).
+Some Rebble users are working on a project that uses Pebble language packs to add support for more modern emojis. It's a fun project that anyone can contribute to. [Check out the GitHub page if you're interesting in helping out](https://github.com/pebble-dev/rebble-emojis).
 
 So there it is, a few updates from the ever-active world of Rebble. To keep up to date we recommend [joining the Discord server](/discord/), where there are literally dozens of us. And if you really want to get involved, here's the [link to the hackathon page once again](/hackathon-001/)! 
