@@ -39,3 +39,32 @@
 		margin-left: 0;
 	}
 }
+
+.homepage-sticker {
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+	background-color: $dev-portal-blue;
+	border: 2px dashed $rebble-color;
+	position: absolute;
+	top: 30px;
+	left: 60%;
+	border-radius: 50%;
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	// line-height: 100px;
+	transform: rotate(5deg);
+	font-family: montserrat, Arial, Sans-Serif;
+	color: white;
+}
+.homepage-sticker span {
+	position: relative;
+	top: -10px;
+	color: $dev-portal-blue;
+}
+@media (max-width : 500px) {
+	.homepage-sticker {
+		display: none;
+	}
+}
