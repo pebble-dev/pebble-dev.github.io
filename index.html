@@ -6,6 +6,12 @@ date:   2015-06-12 11:56:42
 permalink: /
 ---
 <div class="home-container">
+    {% if site.hackathonActive == true %}
+       <a href="{{ site.hackathonUrl }}"> <div class="homepage-sticker">
+            <img src="https://dev-portal.rebble.io/res/img/large_icon_space.svg"></img>
+            <span> Hackathon!! </span>
+        </div></a>
+    {% endif %}
     <div class="intro">
         <div class="content">
             <h1 class="title">{{ site.data.home.heading }}</h1>
