@@ -63,6 +63,10 @@
 	top: -10px;
 	color: $dev-portal-blue;
 }
+.homepage-sticker img {
+	width: 120px;
+	height: 120px;
+}
 @media (max-width : 500px) {
 	.homepage-sticker {
 		display: none;
