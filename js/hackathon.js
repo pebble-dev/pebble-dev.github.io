@@ -2,10 +2,10 @@
 hackathon_start_date = new Date("2022-11-18T18:00:00Z")
 hackathon_end_date = new Date("2022-11-20T18:00:00Z")
 
-// hackathon_start_date = new Date("2022-10-27T20:30:00Z")
-// hackathon_end_date = new Date("2022-10-27T20:30:30Z")
+//hackathon_start_date = new Date("2022-11-16T22:19:30Z")
+//hackathon_end_date = new Date("2022-11-16T22:20:30Z")
 
-in_progress_link_href = "https://old.reddit.com/r/pebble"
+in_progress_link_href = "https://rebble.io/discord"
 confetti_already = false
 
 function init() {
@@ -13,9 +13,13 @@ function init() {
     document.getElementById("countdown").title = "The hackathon begins at " + hackathon_start_date
     document.getElementById("countdown-small").innerHTML = friendlyCountdown()
     document.getElementById("launchpad").src = "https://dev-portal.rebble.io/res/img/" + get_space_image()
+
+    if (friendlyCountdown(true) != false) {
+        document.getElementById("hack-status").innerHTML = friendlyCountdown(true)
+    }
 }
 
-function friendlyCountdown() {
+function friendlyCountdown(short = false) {
     var then = hackathon_start_date.getTime()
     var now = new Date().getTime()
     var seconds = then - now;
@@ -30,16 +34,18 @@ function friendlyCountdown() {
 
 
     if (now > hackathon_end_date) {
-        out = "The hackathon has ended. Thanks for taking part!"
+        out = short ? "It's over :'(" : "The hackathon has ended. Thanks for taking part!"
+        document.getElementById("cb-wait").innerHTML = '<i class="far fa-check-square"></i> Wait patiently <span id="countdown-small" style="display:none;"></span>'
         return out
     }
 
     if (then <= now) {
+        document.getElementById("cb-wait").innerHTML = '<i class="far fa-check-square"></i> Wait patiently <span id="countdown-small" style="display:none;"></span>'
         if ((now - then) < 10000) {
             tada()
-            out = "Lift off! The hackathon has begun."
+            out = short ? "Hacking in progress!" : "Lift off! The hackathon has begun."
         } else {
-            out = "<a target=\"_blank\" href=\"" + in_progress_link_href + "\"> The hackathon is in progress! </a>"
+            out = short ? "Hacking in progress!" : "<a target=\"_blank\" href=\"" + in_progress_link_href + "\"> The hackathon is in progress! </a>"
         }
         return out
     }
@@ -47,7 +53,8 @@ function friendlyCountdown() {
 
     if (days > 0) {
         hoursText = hours == 1 ? "hour" : "hours"
-        out = "<strong>" + days + "</strong> days, <strong>" + hours + "</strong> " + hoursText + "."
+        daysText = days == 1 ? "day" : "days"
+        out = "<strong>" + days + "</strong> " + daysText + ", <strong>" + hours + "</strong> " + hoursText + "."
     } else if (hours > 0) {
         hoursText = hours == 1 ? "hour" : "hours"
         minutesText = minutes == 1 ? "minute" : "minutes"
@@ -60,7 +67,7 @@ function friendlyCountdown() {
         secondsText = remainingSeconds == 1 ? "second" : "seconds"
         out = "<strong>" + remainingSeconds + "</strong> " + secondsText + "."
     }
-    return out
+    return short ? false : out
   
 }
 function get_space_image() {
