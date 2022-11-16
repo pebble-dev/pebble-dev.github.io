@@ -5,7 +5,7 @@
 hackathon_start_date = new Date("2022-11-16T22:00:00Z")
 hackathon_end_date = new Date("2022-11-16T22:00:30Z")
 
-in_progress_link_href = "https://old.reddit.com/r/pebble"
+in_progress_link_href = "https://rebble.io/discord"
 confetti_already = false
 
 function init() {
