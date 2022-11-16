@@ -1,9 +1,9 @@
 
-hackathon_start_date = new Date("2022-11-18T18:00:00Z")
-hackathon_end_date = new Date("2022-11-20T18:00:00Z")
+// hackathon_start_date = new Date("2022-11-18T18:00:00Z")
+// hackathon_end_date = new Date("2022-11-20T18:00:00Z")
 
-// hackathon_start_date = new Date("2022-10-27T20:30:00Z")
-// hackathon_end_date = new Date("2022-10-27T20:30:30Z")
+hackathon_start_date = new Date("2022-11-16T22:00:00Z")
+hackathon_end_date = new Date("2022-11-16T22:00:30Z")
 
 in_progress_link_href = "https://old.reddit.com/r/pebble"
 confetti_already = false
@@ -47,7 +47,8 @@ function friendlyCountdown() {
 
     if (days > 0) {
         hoursText = hours == 1 ? "hour" : "hours"
-        out = "<strong>" + days + "</strong> days, <strong>" + hours + "</strong> " + hoursText + "."
+        daysText = days == 1 ? "day" : "days"
+        out = "<strong>" + days + "</strong> " + daysText + ", <strong>" + hours + "</strong> " + hoursText + "."
     } else if (hours > 0) {
         hoursText = hours == 1 ? "hour" : "hours"
         minutesText = minutes == 1 ? "minute" : "minutes"
