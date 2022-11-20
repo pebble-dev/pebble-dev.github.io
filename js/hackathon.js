@@ -1,6 +1,6 @@
 
 hackathon_start_date = new Date("2022-11-18T18:00:00Z")
-hackathon_end_date = new Date("2022-11-20T18:00:00Z")
+hackathon_end_date = new Date("2022-11-20T23:59:59Z")
 
 //hackathon_start_date = new Date("2022-11-16T22:19:30Z")
 //hackathon_end_date = new Date("2022-11-16T22:20:30Z")
