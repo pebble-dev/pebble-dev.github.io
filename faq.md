@@ -8,7 +8,7 @@ permalink: /faq/
 
 ## Rebble
 
-### Where is the FAQ?
+### Where do I start?
 
 Well, right here! At least, for frequently asked questions about *The Rebble Alliance*. For frequently asked questions about how to use the Rebble Web Services with your Pebble smartwatch, head to [the setup and troubleshooting how-to](/howto) and scroll down.
 
@@ -22,8 +22,12 @@ Our present focus is on replacing key pieces of the Pebble ecosystem: the appsto
 
 ### Who is Rebble?
 
-Find out on our [team](/team) page!  
+Find out on our [team](/team) page! In short, though, a collection of dedicated tech enthusiasts who love the Pebble smartwatch perhaps a little too much.
 
 ### Where can I learn more about Rebble?
 
-Join us on the *officially* unofficial [Pebble Dev Discord server](http://discord.gg/aRUAYFN), then browse the channels to find out what we're up to! :bowtie:  
+Join us on the official [Rebble Alliance Discord server](http://discord.gg/aRUAYFN), then browse the channels to find out what we're up to! :bowtie:  
+
+### How can I help out?
+
+Want to show your support for Rebble? For one, consider [subscribing to Rebble](https://auth.rebble.io)! At $3 per month and $33 per year (That's a month free!) you can help fund our infrastructure and preservation efforts. Alteratively, any contributions to our [replacement app project](https://github.com/pebble-dev/mobile-app) and [RebbleOS](https://github.com/pebble-dev/RebbleOS) are very much welcome and appreciated! Above all else, however, spreading the love for Pebble and getting the word out about Rebble is a great way to grow our small but strong community. It's not too late to join in on the fun!

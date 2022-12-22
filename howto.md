@@ -23,10 +23,13 @@ Just follow the instructions at [help.rebble.io/setup](https://help.rebble.io/se
 ## General hints
 
 * As many services on the watch are actually implemented in the phone and in web services, many issues are located there as well. A reboot of your phone has better chance to fix issues, than a reboot of your watch. Restoring your watch to factory settings is hardly ever needed.
-* If you have issues with dictation, you should check the weather service to rule out issues with your subscription. If weather works in Timeline or through The Weather Channel app, then your subscription is working fine.
+* If you have issues with dictation, you should check the weather service to rule out issues with your subscription. If weather works in Timeline or through the Weather Channel app, then your subscription is working fine.
+* If watchfaces are not syncing from your account, you might need to run the [boot process](https://boot.rebble.io) again or reinstall the app.
+* Apple users: If you have the iOS app already installed on an old device, be sure to back up your IPA (for free) with [iMazing](https://imazing.com)! This allows you to load the app on all of your newer devices without having to sign it every week, as it is tied to your Apple ID.
+* Android users: Congratulations! You can just grab the recently-updated APK and relax.
 
 ## More help
 
-If you need help with something else, check the [Rebble help center](https://help.rebble.io/).
+If you need help with something else, check the [Rebble Help Center](https://help.rebble.io/).
 
-If you still can't find what you're looking for, or just want to talk to a person, join us on the [Rebble Discord server](http://discord.gg/aRUAYFN), then head to `#rebble-help` and post your issue! You may also find additional help and resources in the [subreddit](https://www.reddit.com/r/pebble/) or the [wiki](https://github.com/pebble-dev/wiki/wiki).
+Still can't find what you're looking for, or just want to talk to a person? If so, join us on the [Rebble Discord server](http://discord.gg/aRUAYFN), head to `#rebble-help`, and post your issue! You may also find additional help and resources in the [subreddit](https://www.reddit.com/r/pebble/) or the [wiki](https://github.com/pebble-dev/wiki/wiki).

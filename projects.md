@@ -15,7 +15,8 @@ permalink: /projects/
 * [The Rebble Store](https://github.com/pebble-dev/rebble-store) *(formerly The Panic Store)*
 	* [home](http://apps.rebble.io/)
 	* [search](https://apps.rebble.io/en_US/search/watchapps/1)
-* [Appstore wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
+* [Appstore Wiki](https://github.com/pebble-dev/wiki/wiki/Appstore)
+* [Dev Portal](https://github.com/pebble-dev/rebble-dev-portal)
 
 ## Firmware
 
@@ -33,4 +34,4 @@ permalink: /projects/
 
 ## Miscellaneous
 
-* [Pebble cloud services status](/status/)
+* [Cloud Services Status](/status/)
