@@ -36,7 +36,7 @@ Some users hacked away at projects all weekend long (we do hope you went outside
 
 ## Day 1 done 📅
 
-After the first day of hacking we'd had 48 people work on their Pebble apps, 6 of which were already live on the store!
+After the first day of hacking 48 people had worked on their Pebble apps, 6 of which were already live on the store!
 
 ![](/images/hackathon-look-back/day1.png)
 
