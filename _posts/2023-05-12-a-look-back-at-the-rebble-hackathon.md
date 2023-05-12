@@ -71,7 +71,7 @@ This blog post is long enough already, so I won't go into detail for _every_ wat
 - [pRebble by irek](https://apps.rebble.io/en_US/application/637aa98bfdf3e30009f6398f?section=watchfaces)
 - [Electric by Stefan Bauwens](https://apps.rebble.io/en_US/application/637aa531c6c24a000a815e9e?section=watchfaces)
 - [Revolved by Gonzalo Muñoz](https://apps.rebble.io/en_US/application/637a906bfdf3e30009f63971?section=watchfaces)
-- [Alienware by Astosia](https://apps.rebble.io/en_US/application/637a6466c6c24a000a815e8b?section=watchface] 
+- [Alienware by Astosia](https://apps.rebble.io/en_US/application/637a6466c6c24a000a815e8b?section=watchface) 
 - [Time Twist Pop by Dook](https://apps.rebble.io/en_US/application/637a8d0cfdf3e30009f63964?section=watchfaces)
 - [Bloch Sphere by thyung](https://apps.rebble.io/en_US/application/6379e44cc6c24a000a815e83?section=watchfaces)
 - [Minimalin Reborn by vorsk](https://apps.rebble.io/en_US/application/63792649c6c24a000a815e70?section=watchfaces)
