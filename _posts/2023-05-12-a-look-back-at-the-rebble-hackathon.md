@@ -111,7 +111,7 @@ We decided to break the watch apps category in half for picking winners: Tools a
 
 The quality of apps submitted during the hackathon blew me away. Watchapps can be tricky to make, and take a lot of time; it cannot be overstated just how impressive _all_ the submissions were. From top-left to bottom-right the submissions are:
 
-- [Services for Pebble by Blockarchitect - Manage your planning center services on your wrist](https://apps.rebble.io/en_US/application/6377f2c7fdf3e30009f63951)
+- [Services for Pebble by Blockarchitech - Manage your planning center services on your wrist](https://apps.rebble.io/en_US/application/6377f2c7fdf3e30009f63951)
 
 - [Activites by John Spahr - Uses the bored API to suggest activities for you to do](https://apps.rebble.io/en_US/application/637920b8c6c24a000a815e61?section=watchapps)
 
