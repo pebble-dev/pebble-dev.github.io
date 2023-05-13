@@ -105,7 +105,7 @@ Thanks to everyone who submitted a watchface, and please know that picking two w
 
 ## Watch apps
 
-We decide to break the watch apps category in half for picking winners - Tools and Games. We recieved a wide number of tools, but before we get to the winners let's look at all the watch apps across both categories that were submitted!
+We decided to break the watch apps category in half for picking winners: Tools and Games. We received a wide number of tools, but before we get to the winners, let's look at all the watch apps across both categories that were submitted!
 
 ![](/images/hackathon-look-back/apps.png)
 
