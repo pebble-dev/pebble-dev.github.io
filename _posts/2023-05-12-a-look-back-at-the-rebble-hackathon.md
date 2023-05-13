@@ -171,7 +171,7 @@ Last but certainly not least is our winner for Best Game: FRIQ by Matthew Hunger
 
 ![](/images/hackathon-look-back/w_bg.png)
 
-and with that is the last of our winners! Congratulations to everyone who recieved a prize, we hope you really enjoy the small token of our apprecation ❤️
+And that is the last of our winners! Congratulations to everyone who received a prize — we hope you really enjoy the small token of our appreciation! ❤️
 
 ## Did someone say stickers? 🥳
 
