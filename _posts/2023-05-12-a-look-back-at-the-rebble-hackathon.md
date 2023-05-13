@@ -9,6 +9,8 @@ At the tail end of 2022, we ran [our first ever hackathon](/2022/11/02/rebble-ha
 
 In this post I'd like to recap the weekend, talk about the awesome submissions and prize winners, and thank the team that made this possible.
 
+<!--more-->
+
 # The event
 
 We were very open from the start that this was a bit of an experiment — mainly because we were a little worried that it might be announced as a big event, and then only two people would show up!
