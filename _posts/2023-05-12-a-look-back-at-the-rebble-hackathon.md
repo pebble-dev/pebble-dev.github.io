@@ -91,7 +91,7 @@ This category was tricky, but after much deliberation the runner up for Best Wat
 _Electric_ is a really neat watchface that displays the time and date on a nice graphic of a PCB. On the bottom left is what looks like an LED array. To make things even more impressive, you can pick what's displayed on this LED array and even automate it through tasker!
 It's a really nice touch to an already impressive looking watchface.
 
-Like all runners up & winners, Stefan recieved a fresh, boxed up Pebble watched signed by Eric Migicovsky! 
+Like all runners up & winners, Stefan received a fresh, boxed up Pebble watched signed by Eric Migicovsky! 
 
 ![](/images/hackathon-look-back/stefan.png)
 
