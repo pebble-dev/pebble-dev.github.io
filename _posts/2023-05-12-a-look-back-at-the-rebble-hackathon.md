@@ -22,7 +22,7 @@ Word spread on Twitter, [Reddit](https://old.reddit.com/r/pebble/comments/ykn635
 
 ## Liftoff 🚀
 
-Some users were really excited for a weekend of hacking away on their favourite smartwatch platform, others used it as an excuse to develop their first app or watchface.
+Some users were really excited for a weekend of hacking away on their favourite smartwatch platform; others used it as an excuse to develop their first app or watchface.
 
 
 ![](/images/hackathon-look-back/website_inprogress.png)
