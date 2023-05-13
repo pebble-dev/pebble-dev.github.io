@@ -18,7 +18,7 @@ You'll notice we named the first event Hackathon #001, the triple digits reflect
 
 ![](/images/hackathon-look-back/website_before.png)
 
-Word spread on Twitter, [Reddit](https://old.reddit.com/r/pebble), and even on [Make](https://makezine.com/article/electronics/pebble-rocks-again-rebble-hackathon-001/) and then, on the 18th of November, we launched the event! 
+Word spread on Twitter, [Reddit](https://old.reddit.com/r/pebble/comments/ykn635/rebble_hackathon_app_updates_more/), and even on [Make:](https://makezine.com/article/electronics/pebble-rocks-again-rebble-hackathon-001/), and then, on the 18th of November, we launched the event! 
 
 ## Liftoff 🚀
 
