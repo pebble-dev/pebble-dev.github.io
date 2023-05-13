@@ -101,7 +101,7 @@ The winner for best watchface was _Pixel_ by Nikki Murello! Pixel is an extensiv
 
 ![](/images/hackathon-look-back/w_bwf.png)
 
-Thanks to everyone who submitted a watchface, and please know that picking two winners was _so_ hard, all the submissions were fantastic!
+Thanks to everyone who submitted a watchface, and please know that picking two winners was _so_ hard — all the submissions were fantastic!
 
 ## Watch apps
 
