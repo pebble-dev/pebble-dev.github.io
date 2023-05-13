@@ -113,7 +113,7 @@ The quality of apps submitted during the hackathon blew me away. Watchapps can b
 
 - [Services for Pebble by Blockarchitect - Manage your planning center services on your wrist](https://apps.rebble.io/en_US/application/6377f2c7fdf3e30009f63951)
 
-- [Activites by John Spahr - Uses the bored API to suggest activites for you to do](https://apps.rebble.io/en_US/application/637920b8c6c24a000a815e61?section=watchapps)
+- [Activites by John Spahr - Uses the bored API to suggest activities for you to do](https://apps.rebble.io/en_US/application/637920b8c6c24a000a815e61?section=watchapps)
 
 - [Perihelion by Thomas Stoeckert - Displays information about upcoming rocket launches](https://apps.rebble.io/en_US/application/637a4c21fdf3e30009f6395d?section=watchapps)
 
