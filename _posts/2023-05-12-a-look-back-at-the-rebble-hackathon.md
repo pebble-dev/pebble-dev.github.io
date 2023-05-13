@@ -27,7 +27,7 @@ Some users were really excited for a weekend of hacking away on their favourite 
 
 ![](/images/hackathon-look-back/website_inprogress.png)
 
-The timer hit zero, the little animation I built (using icons made by our talented @Lav) launched into space, and the event was live! On our [Discord server](https://rebble.io/discord) we opened up some new channels where people could chat with one another, as well as a forum channel where each hackathon project could get it's only discussion area. They filled up fast!
+The timer hit zero, the little animation I built (using icons made by our talented @Lav) launched into space, and the event was live! On our [Discord server](https://rebble.io/discord), we opened up some new channels where people could chat with one another, as well as a forum channel where each hackathon project could get its own discussion area. They filled up fast!
 
 ![](/images/hackathon-look-back/discord-1.png)
 
