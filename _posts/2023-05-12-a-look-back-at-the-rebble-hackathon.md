@@ -31,7 +31,7 @@ The timer hit zero, the little animation I built (using icons made by our talent
 
 ![](/images/hackathon-look-back/discord-1.png)
 
-It was so exciting to see new projects appearing throughout the weekend. Every couple of hours another few posts would appear. Any project completed during the weekend would recieve stickers, and we'd also announced mystery prize(s) for our favourite apps, so there was a real buzz around the weekend.
+It was so exciting to see new projects appearing throughout the weekend. Every couple of hours another few posts would appear. Any project completed during the weekend would receive stickers, and we'd also announced mystery prize(s) for our favourite apps, so there was a real buzz around the event.
 Some users hacked away at projects all weekend long (we do hope you went outside at _some_ point), others worked on projects in the few free hours they had. Shout out to John Spahr who waited until _the second_ the hackathon launched to submit their app and make sure they got at least one submission in!
 
 ## Day 1 done 📅
