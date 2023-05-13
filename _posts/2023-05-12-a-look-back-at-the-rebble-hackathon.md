@@ -177,7 +177,7 @@ And that is the last of our winners! Congratulations to everyone who received a 
 
 ![](/images/hackathon-look-back/stickers.png)
 
-Everyone who took part in the hackathon is elegible to receive stickers. We did have some issues getting these sent out, so some of you might not have recieved them yet, but as of this week they are all in the post at the very least!
+Everyone who took part in the hackathon is eligible to receive stickers. We did have some issues getting these sent out, so some of you might not have received them yet, but as of this week they are all in the post at the very least!
 If you have any concerns about your sticker shipment, email me at [will@rebble.io](mailto:will@rebble.io) and we'll make sure they get to you!
 
 ## 🧡🧡 Thank You 🧡🧡
