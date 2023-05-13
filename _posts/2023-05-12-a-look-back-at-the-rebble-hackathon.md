@@ -7,7 +7,7 @@ author: "Will Murphy"
 
 At the tail end of 2022, we ran [our first ever hackathon](/2022/11/02/rebble-hackathon.html#announcing-our-first-hackathon). It was initially posed as a bit of an experiment — we know roughly [how many Rebble users there are](/2022/11/02/rebble-hackathon.html#the-rebble-alliance), but developing for the Pebble smartwatch has become a little trickier over the years since the shutdown of CloudPebble. In the end, however, it was a fantastic weekend of likeminded hackers building new apps and watchfaces for the smartwatch platform the community stubbornly refuses to let die.
 
-In this post I'd like to recap on the weekend, talk about the awesome submissions and prize winners, and thank the team that made this possible.
+In this post I'd like to recap the weekend, talk about the awesome submissions and prize winners, and thank the team that made this possible.
 
 # The event
 
