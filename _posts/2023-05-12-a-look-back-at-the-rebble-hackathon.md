@@ -11,7 +11,7 @@ In this post I'd like to recap the weekend, talk about the awesome submissions a
 
 # The event
 
-We were very open from the start that this was a bit of an experiment - mainly because we were a little worried it might be announced as a big event and then only two people would show up!
+We were very open from the start that this was a bit of an experiment — mainly because we were a little worried that it might be announced as a big event, and then only two people would show up!
 We put together an outline of a plan on a [dedicated hackathon page](/hackathon-001), included it in [a blog post](/blog), and [built a VM](/hackathon-001/vm) for easier development. Then it was simply a matter of waiting for the countdown to hit zero.
 
 You'll notice we named the first event Hackathon #001, the triple digits reflecting our hope that this was the first of many community hackathons. This would of course hinge on more than one person showing up.
