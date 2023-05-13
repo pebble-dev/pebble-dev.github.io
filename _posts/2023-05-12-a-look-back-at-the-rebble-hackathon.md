@@ -42,7 +42,7 @@ After the first day of hacking 48 people had worked on their Pebble apps, 6 of w
 
 The rest of the weekend saw app after app, watchface after watchface uploaded to the store. People discussed ideas and tips on Discord, and a few participants even dared to join the voice chat. Before we knew it Sunday evening had arrived, and brought with it the end of our [first ever hackathon](https://twitter.com/pebble_dev/status/1593989514862665729).
 
-The event was quite a lot of effort to co-ordinate, and as we later discovered the trickiest part was to come (sending stickers and prizes all over the world is no simple task). It was completely worth it however to see so many of the community come out and join in. We had over _50_ people working on projects, and many more Rebblers were on the Discord server encouraging, giving feedback or advice, and generally making it a great event. When you consider how niche an event this was, 50 participants blew me away!
+The event was quite a lot of effort to co-ordinate, and as we later discovered, the trickiest part was to come (sending stickers and prizes all over the world is no simple task). It was completely worth it, however, to see so many in the community come out and join in. We had over _50_ people working on projects, and many more Rebblers were on the Discord server encouraging, giving feedback or advice, and generally making it a great event. When you consider how niche an event this was, 50 participants blew me away!
 
 Thank you to everyone involved, and we hope to see you again for Hackathon #002!
 
