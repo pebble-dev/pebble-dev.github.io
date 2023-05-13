@@ -188,7 +188,7 @@ We also couldn't do it without our amazing team of volunteers across the planet.
 
 - Joshua for making sure that all the stickers and prizes get to their rightful owners!
 - SwanSwanSwanSwanSoSoft for providing Rebble with the pristine quality Pebbles to use as prizes.
-- IshOtJr for getting the stickers made up (and getting our friends at Make Magazine to continue to notice us.)
+- IshOtJr for getting the stickers made up (and getting our friends at Make: Magazine to continue to notice us).
 - Katharine Berry for helping write the thank you notes (and making sure the lights stay on at Rebble.)
 - Lav for her awesome hackathon icons 🚀
 - Eric for taking the time to sign our prizes! 
