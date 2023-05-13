@@ -53,7 +53,7 @@ Thank you to everyone involved, and we hope to see you again for Hackathon #002!
 
 There was no mandate given for this Hackathon, "Create something cool" was about the extent of it. Some people wanted to build apps, others put their design hats on and built watchfaces.
 
-Every user who submitted something was eligible to get some neat Rebble stickers, but to make things more interesting we promised prizes to the best submissions and based on what was submitted decided on prizes for 'best watchface', 'best tool' and 'best game'. Runners-up would also get prizes.
+Every user who submitted something was eligible to get some neat Rebble stickers, but to make things more interesting we promised prizes to the best submissions, and based on what was submitted, decided on prizes for 'best watchface', 'best tool' and 'best game'. Runners-up would also get prizes.
 
 So let's look at some of the awesome new things created by the community, as well as the winners!
 
