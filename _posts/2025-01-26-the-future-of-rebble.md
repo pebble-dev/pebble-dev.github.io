@@ -29,7 +29,7 @@ This leads us to the second announcement:
 ![](/images/tintin-blog-post/hackathon-002.gif)
 
 The [last Rebble hackathon](/2023/05/12/a-look-back-at-the-rebble-hackathon.html) was so much fun, and we've been wanting to do another for some time. 
-The Rebble project is a fantastic example of what community can achieve, and we indend to build on this in 2025 and beyond. 
+The Rebble project is a fantastic example of what community can achieve, and we intend to build on this in 2025 and beyond. 
 
 Writing Pebble apps is a fantastic way to delve into the world of embedded systems, and what better way to do that then with a hackathon?
 
@@ -43,7 +43,7 @@ For more information see [/hackathon-002](/hackathon-002)
 
 We're also happy to announce that we've acquired the source code for Snowy! 
 [Snowy](https://apps.rebble.io/en_US/application/561960c8a1dd2652af00000d) was one of the most popular assistants for the Pebble, and is still a useful companion today.
-However, given the current landscape of LLMs and voice assistants it is defintely due an upgrade, so expect to see this old dog appear in the hackathon.
+However, given the current landscape of LLMs and voice assistants it is definitely due an upgrade, so expect to see this old dog appear in the hackathon.
 
 # ⌚ The future of Rebble
 With a long term plan for the Rebble community starting to coalesce, the longevity of Rebble is more important than ever. 
