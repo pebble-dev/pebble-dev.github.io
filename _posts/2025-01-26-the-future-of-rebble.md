@@ -24,6 +24,24 @@ This leads us to the second announcement:
 
 <!--more-->
 
+# ⌚ Rebble's Community Future
+
+With a long term plan for the Rebble community starting to coalesce, the
+longevity of Rebble is more important than ever.  We're excited to say that
+Rebble is transforming into a non-profit to formalize what we've all always
+hoped for: the community (that's you!) are the owners of Rebble!  Rebble has
+always been about preserving these humble little smartwatches as a little
+oasis of user-respectful technology in a desert of big corporations trying
+to sell your attention, and we're excited to have a legal framework that
+lets us codify our missions of: educating people about why these are
+important; using them as a platform to teach embedded systems; preserving
+the history of this quirky little platform; and building open source
+software for the public good to keep the dream going long into the future.
+
+It's still early days, but more information will be available at [rebble.foundation](https://rebble.foundation) as soon:tm: as we have it. 
+In the mean time, expect more hackathons from us, now that we have a
+framework to run them!  Oh, and speaking of which...
+
 # 💻 The RebbleOS Hackathon
 
 ![](/images/tintin-blog-post/hackathon-002.gif)
@@ -44,14 +62,6 @@ For more information see [/hackathon-002](/hackathon-002)
 We're also happy to announce that we've acquired the [source code for Snowy](https://github.com/pebble-dev/snowy)! 
 [Snowy](https://apps.rebble.io/en_US/application/561960c8a1dd2652af00000d) was one of the most popular assistants for the Pebble, and is still a useful companion today.
 However, given the current landscape of LLMs and voice assistants it is definitely due an upgrade, so expect to see this old dog appear in the hackathon.
-
-# ⌚ The future of Rebble
-With a long term plan for the Rebble community starting to coalesce, the longevity of Rebble is more important than ever. 
-
-We are currently in the process of transforming Rebble into a non-profit, which will ensure the community exists long into the future, and serves as the best place
-to use the Pebble platform to learn, build and have fun doing it.
-
-It's still early days, but more information will be available at [rebble.foundation](https://rebble.foundation) as soon:tm: as we have it.
 
 # 🗒️ That's all for now
 
