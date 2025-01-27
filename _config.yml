@@ -28,8 +28,8 @@ paginate: 5
 paginate_path: "/blog/:num/"
 
 # Controls the hackathon page sticker
-hackathonActive: false
-hackathonUrl: "/hackathon-001"
+hackathonActive: true
+hackathonUrl: "/hackathon-002"
 
 # Build settings
 markdown: kramdown
