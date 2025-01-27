@@ -84,7 +84,7 @@ See [here.](/hackathon-002/)
 No, Google have open sourced the PebbleOS to everyone, Rebble plans to make good use of this.
 
 #### Is this related to \<Other Project\>?
-Maybe! But if you read about a different PebbleOS project somewhere other than this blog, it's probably unrelated to us.
+No. If you're reading about another PebbleOS project somewhere other than this blog, it likely does not involve us.
 
 #### What if I have more questions?
 Reach out to us at support@rebble.io, or drop a message [on Discord.](/discord)
