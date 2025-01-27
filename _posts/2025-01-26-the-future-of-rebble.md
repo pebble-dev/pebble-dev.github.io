@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some exciting news"
-date:   2025-01-26 07:08:09
+date:   2025-01-27 07:08:09
 author: "Will Murphy"
 ---
 
@@ -51,7 +51,7 @@ The Rebble project is a fantastic example of what community can achieve, and we 
 
 Writing Pebble apps is a fantastic way to delve into the world of embedded systems, and what better way to do that than with a hackathon?
 
-Mark your calendars for **1st - 2nd of March** as we work on RebbleOS and other apps, and encourage you to do the same!
+Mark your calendars for the **1st - 8th of March** as we work on RebbleOS and other apps, and encourage you to do the same!
 
 For more information see [/hackathon-002](/hackathon-002)
 
@@ -66,18 +66,25 @@ However, given the current landscape of LLMs and voice assistants it is definite
 # 🗒️ That's all for now
 
 Between everything above, and the fact that progress continues on our [replacement mobile app](https://github.com/pebble-dev/mobile-app), the future of Rebble has never looked so bright. 
+A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS's future. Also a massive thank you to Eric and Katharine too.
 Stay tuned for more updates after the hackathon is complete, and when we have the first working versions of the new RebbleOS!
 
 \- Will ❤️
 
 
+
+
+
 ### Clarifications:
-
-#### Did Google gift PebbleOS to Rebble?
-No, Google have open sourced the PebbleOS to everyone, Rebble plans to make good use of this.
-
-#### Is this related to \<Other Project\>?
-If you read about a different PebbleOS project somewhere other than this blog, it's probably unrelated to us.
 
 #### How can I get involved with the hackathon?
 See [here.](/hackathon-002/)
+
+#### Did Google gift PebbleOS to Rebble specifically?
+No, Google have open sourced the PebbleOS to everyone, Rebble plans to make good use of this.
+
+#### Is this related to \<Other Project\>?
+Maybe! But if you read about a different PebbleOS project somewhere other than this blog, it's probably unrelated to us.
+
+#### What if I have more questions?
+Reach out to us at support@rebble.io, or drop a message [on Discord.](/discord)
