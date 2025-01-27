@@ -19,6 +19,8 @@ Previously, we have been working on our own replacement firmware: [RebbleOS](htt
 Building a production-ready realtime OS for the Pebble is no small feat, and although we were confident we'd get there given enough time, it was never our ideal path.
 Thanks to the hard work of many people both within Google and not, we finally have our hands on the original source code for PebbleOS.
 
+Thank you to Google for releasing this piece of history. You can read [their blog post on it here.](https://opensource.googleblog.com/2025/01/see-code-that-powered-pebble-smartwatches.html)
+
 This does _not_ mean we instantly have the ability to start developing updates for PebbleOS though, we first will need to spend some concentrated time getting it to build. 
 But before we talk about that, let's talk about Rebble itself.
 
