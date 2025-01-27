@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some exciting news"
+title: "The future of Rebble"
 date:   2025-01-27 07:08:09
 author: "Will Murphy"
 ---
