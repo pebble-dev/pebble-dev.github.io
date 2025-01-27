@@ -67,7 +67,9 @@ However, given the current landscape of LLMs and voice assistants it is definite
 
 Between everything above, and the fact that progress continues on our [replacement mobile app](https://github.com/pebble-dev/mobile-app), the future of Rebble has never looked so bright. 
 We are committed to an open-source community-owned smartwatch, and these announcements bring that reality even closer. 
-A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS's future. Also a massive thank you to Eric and Katharine too.
+
+A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS's future.
+We'd like to especially thank Liam McLoughlin and Matthieu Jeanson, as well as Rebble superstar [Katharine Berry](https://github.com/katharine). Thank you also to the many other Googlers who made this possible. Also a massive thank you to Eric Migicovsky for ensuring this happened (and for creating Pebble in the first place).
 Stay tuned for more updates after the hackathon is complete, and when we have the first working versions of the new RebbleOS!
 
 \- Will ❤️
