@@ -65,12 +65,12 @@ However, given the current landscape of LLMs and voice assistants it is definite
 
 # 🗒️ That's all for now
 
-Between everything above, and the fact that progress continues on our [replacement mobile app](https://github.com/pebble-dev/mobile-app), the future of Rebble has never looked so bright. 
-We are committed to an open-source community-owned smartwatch, and these announcements bring that reality even closer. 
+Between everything above, and the fact that progress continues on our replacement mobile app, the future of Rebble has never looked so bright. We are committed to an open-source community-owned smartwatch, and these announcements bring that reality even closer.
+A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS’s future. We’d like to especially thank Liam McLoughlin and Matthieu Jeanson, as well as Rebble superstar Katharine Berry. Thank you also to the many other Googlers who made this possible -- and a massive shout out to Eric Migicovsky for ensuring this happened (and for creating Pebble in the first place).
 
-A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS's future.
-We'd like to especially thank Liam McLoughlin and Matthieu Jeanson, as well as Rebble superstar [Katharine Berry](https://github.com/katharine). Thank you also to the many other Googlers who made this possible. Also a massive thank you to Eric Migicovsky for ensuring this happened (and for creating Pebble in the first place).
-Stay tuned for more updates after the hackathon is complete, and when we have the first working versions of the new RebbleOS!
+One more shoutout: we would like to thank, of course, you!  Without all of you Rebblers who have been entrusting us for the past 8 years to keep the dream of an open-platform user-respectful smartwatch alive, PebbleOS wouldn't be relevant at all today.  Your cumulative $3s a month have reminded the world that Pebble is worth preserving, and worth building on.  We love this platform, and we're glad that you do too.  Thank you so much.
+
+Stay tuned for more updates as the Hackathon launches, and when we have the first working versions of the new RebbleOS!
 
 \- Will ❤️
 
@@ -87,7 +87,7 @@ See [here.](/hackathon-002/)
 No, Google have open sourced the PebbleOS to everyone, Rebble plans to make good use of this.
 
 #### Is this related to \<Other Project\>?
-No. If you're reading about another PebbleOS project somewhere other than this blog, it likely does not involve us.
+No. If you're reading about another PebbleOS project somewhere other than this blog, it does not involve us.
 
 #### What if I have more questions?
 Reach out to us at support@rebble.io, or drop a message [on Discord.](/discord)
