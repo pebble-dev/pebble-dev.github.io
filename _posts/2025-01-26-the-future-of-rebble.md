@@ -12,7 +12,7 @@ Today we're excited to announce several developments which will affect the futur
 
 ![](/images/tintin-blog-post/the-loop.png)
 
-Today Google announced that they have released the source code to PebbleOS. This is massive for Rebble, 
+Today Google [announced that they have released the source code to PebbleOS](https://github.com/google/pebble). This is massive for Rebble, 
 and will accelerate our efforts to produce new hardware.
 
 Previously, we have been working on our own replacement firmware: [RebbleOS](https://github.com/pebble-dev/RebbleOS). As you can see by the commit history though, progress was slow.
@@ -66,6 +66,7 @@ However, given the current landscape of LLMs and voice assistants it is definite
 # 🗒️ That's all for now
 
 Between everything above, and the fact that progress continues on our [replacement mobile app](https://github.com/pebble-dev/mobile-app), the future of Rebble has never looked so bright. 
+We are committed to an open-source community-owned smartwatch, and these announcements bring that reality even closer. 
 A huge thank you to everyone in the Pebble-verse who made this happen, especially those internal to Google who have helped ensure PebbleOS's future. Also a massive thank you to Eric and Katharine too.
 Stay tuned for more updates after the hackathon is complete, and when we have the first working versions of the new RebbleOS!
 
