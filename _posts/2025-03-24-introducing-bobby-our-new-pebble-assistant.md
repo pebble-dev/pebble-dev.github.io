@@ -56,7 +56,7 @@ list in the app).
 
 ### Calculations and Conversions
 
-Need some numbers mangled? Bobby can help with that!
+Need some numbers numbered? Bobby can help with that!
 
 ![You: What is 47 squared? Bobby: 2,209](/images/bobby/bobby-calculation.png)
 ![You: What's 20 kg in pounds? Bobby: 44.092 pounds](/images/bobby/bobby-unit-conversion.png)
@@ -87,12 +87,16 @@ features!
 
 ## Compatibility
 
-Bobby is currently available for Pebble Time, Pebble Time Steel, and the Pebble 2. The Pebble Time Round is not yet
-supported (but may be in the future - especially if there is demand!). The original Pebble and Pebble Steel don't have
-microphones, so will never be supported.
+Bobby is currently available for **Pebble Time**, **Pebble Time Steel**, and **Pebble 2**. Bobby will presumably also work on the
+upcoming Core 2 Duo and Core Time 2, but we'll find that out in the future. Maybe Bobby will even gain the (optional!)
+ability to speak aloud!
 
-Bobby will presumably work on the upcoming Core 2 Duo and Core Time 2, but we'll find that out in the future. Maybe
-Bobby will even gain the (optional!) ability to speak aloud!
+The **Pebble Time Round is not supported** (but may be in the future - especially if there is demand!).
+The original Pebble and Pebble Steel don't have microphones, so cannot be supported.
+
+Bobby also currently **does not support Cobble**, Rebble's work-in-progress replacement for the Pebble mobile app.
+Please don't try to use it - bugs in Cobble cause many features of Bobby to misbehave. For the time being, Cobble works
+best with the official Pebble mobile apps.
 
 ## Privacy
 
