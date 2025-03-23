@@ -95,7 +95,7 @@ The **Pebble Time Round is not supported** (but may be in the future - especiall
 The original Pebble and Pebble Steel don't have microphones, so cannot be supported.
 
 Bobby also currently **does not support Cobble**, Rebble's work-in-progress replacement for the Pebble mobile app.
-Please don't try to use it - bugs in Cobble cause many features of Bobby to misbehave. For the time being, Cobble works
+Please don't try to use it - bugs in Cobble cause many features of Bobby to misbehave. For the time being, Bobby works
 best with the official Pebble mobile apps.
 
 ## Privacy
