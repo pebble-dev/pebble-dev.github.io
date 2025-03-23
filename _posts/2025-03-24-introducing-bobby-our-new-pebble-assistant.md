@@ -85,6 +85,15 @@ contact us [on Discord](/discord), or directly through the app. The app gives yo
 We'd love to hear what you think, how Bobby works for you, and any suggestions you have for improvements or new
 features!
 
+## Compatibility
+
+Bobby is currently available for Pebble Time, Pebble Time Steel, and the Pebble 2. The Pebble Time Round is not yet
+supported (but may be in the future - especially if there is demand!). The original Pebble and Pebble Steel don't have
+microphones, so will never be supported.
+
+Bobby will presumably work on the upcoming Core 2 Duo and Core Time 2, but we'll find that out in the future. Maybe
+Bobby will even gain the (optional!) ability to speak aloud!
+
 ## Privacy
 
 Every request you make to Bobby is passed to us, and then passed on to Google (twice, actually - first for speech
