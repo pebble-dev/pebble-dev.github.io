@@ -98,6 +98,17 @@ Bobby also currently **does not support Cobble**, Rebble's work-in-progress repl
 Please don't try to use it - bugs in Cobble cause many features of Bobby to misbehave. For the time being, Bobby works
 best with the official Pebble mobile apps.
 
+## Bonus: a dictation update for Pebble!
+
+Alongside the launch of Bobby, we are introducing an experimental new feature for all Pebble dictation: you can now set
+your language to **auto** in the Pebble app's voice language settings. This enables you to switch between dictation
+languages without on the fly without needing to change settings all the time - handy for the multilingual among you!
+We also expect that dictation accuracy should be improved across the board.
+
+Do note that, for very short utterances (only a syllable or two), the "auto" setting may guess the _wrong_ language. If
+you can't see "auto" in your language list yet, it should show up eventually - or you can
+[rerun boot](https://boot.rebble.io) to speed it along. As always, dictation requires a Rebble subscription.
+
 ## Privacy
 
 Every request you make to Bobby is passed to us, and then passed on to Google (twice, actually - first for speech
