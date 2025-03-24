@@ -10,7 +10,8 @@ your Pebble!
 
 [![Bobby - Pebble Assistant](/images/bobby/bobby-banner.png)][bobby appstore]
 
-Bobby is [available from the Rebble Appstore][bobby appstore] now!
+Bobby is [available from the Rebble Appstore][bobby appstore] now! You can also check out
+[its webpage](https://bobby.rebble.io).
 
 Bobby is a new voice assistant for your Pebble. It's inspired by [Snowy][snowy appstore], but powered by modern AI
 technology (specifically, Google's Gemini LLM). This makes Bobby both easier to use and more powerful than Snowy: no
