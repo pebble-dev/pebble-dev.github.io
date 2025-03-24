@@ -5,7 +5,7 @@ date:   2025-03-22 10:00:00
 author: Katharine Berry
 ---
 
-I'm excited to announce a new Rebble service for our paying Rebble subscribers: **Bobby**, a new voice assistant app for
+I'm excited to announce a new Rebble service for our paying Rebble subscribers: **Bobby**, a voice assistant app for
 your Pebble!
 
 [![Bobby - Pebble Assistant](/images/bobby/bobby-banner.png)][bobby appstore]
@@ -131,7 +131,7 @@ Bobby is included as part of your Rebble subscription! Why isn't it free? Two re
 
 Bobby imposes a monthly limit on usage to ensure a single user can't force us to run up a huge bill. We don't expect
 most users to hit this, but you can see how close you are to your monthly limit in the "Quota" screen in Bobby's menu
-(hit … on the main screen to get there).
+(hit ⋯ on the main screen to get there).
 
 [snowy appstore]: https://apps.rebble.io/application/561960c8a1dd2652af00000d
 [bobby appstore]: https://apps.rebble.io/application/67c3afe7d2acb30009a3c7c2
