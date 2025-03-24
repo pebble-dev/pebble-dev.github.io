@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Bobby, our new Pebble assistant
-date:   2025-03-22 10:00:00
+date:   2025-03-24 12:30:00
 author: Katharine Berry
 ---
 
@@ -110,10 +110,11 @@ you can't see "auto" in your language list yet, it should show up eventually - o
 [rerun boot](https://boot.rebble.io) to speed it along. As always, dictation requires a Rebble subscription.
 
 We also now have a way to hear what your watch microphone sounds like, if you're curious (or having problems) - if you
-have a subscription, turn on Audio Debug Mode on [your account page](https://auth.rebble.io/account/) and then visit the
-[Audio Debug page](https://audio-debug.rebble.io) to see your recorded audio. Audio debug mode will automatically turn
-off after 24 hours, and the recordings are deleted 24 hours after they're taken. When audio debug mode is disabled,
-Rebble does not store either recordings or transcripts of your dictation requests.
+have a Rebble subscription, turn on Audio Debug Mode on [your account page](https://auth.rebble.io/account/) and then
+visit the [Audio Debug page](https://audio-debug.rebble.io) to see your recorded audio. Audio debug mode will
+automatically turn off after 24 hours, and the recordings are deleted 24 hours after they're taken. When audio debug
+mode is disabled (as it is by default), Rebble does not store either recordings or transcripts of your dictation
+requests.
 
 ## Privacy
 
