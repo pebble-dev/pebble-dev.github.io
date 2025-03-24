@@ -8,7 +8,7 @@ author: Katharine Berry
 I'm excited to announce a new Rebble service for our paying Rebble subscribers: **Bobby**, a voice assistant app for
 your Pebble!
 
-[![Bobby - Pebble Assistant](/images/bobby/bobby-banner.png)][bobby appstore]
+[![Bobby - Pebble Assistant](/images/bobby/bobby-banner-basalt-2.png)][bobby appstore]
 
 Bobby is [available from the Rebble Appstore][bobby appstore] now! You can also check out
 [its webpage](https://bobby.rebble.io).
