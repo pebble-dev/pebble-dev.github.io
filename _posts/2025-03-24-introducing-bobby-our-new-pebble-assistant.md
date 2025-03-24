@@ -103,7 +103,7 @@ best with the official Pebble mobile apps.
 
 Alongside the launch of Bobby, we are introducing an experimental new feature for all Pebble dictation: you can now set
 your language to **auto** in the Pebble app's voice language settings. This enables you to switch between dictation
-languages without on the fly without needing to change settings all the time - handy for the multilingual among you!
+languages on the fly without needing to change settings all the time - handy for the multilingual among you!
 We also expect that dictation accuracy should be improved across the board.
 
 Do note that, for short utterances (only a syllable or two), the "auto" setting may guess the _wrong_ language. If
