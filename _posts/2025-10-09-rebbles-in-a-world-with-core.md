@@ -33,6 +33,8 @@ with some new promises for you going forward!  So for more on how we're
 working with Core Devices, how we plan to continue to serve you, and how you
 can get involved, read on...
 
+<!--more-->
+
 # Core 🧡 Rebble
 
 The awesome developer community that continue to build [apps and
