@@ -59,7 +59,7 @@ will be minor bugfixes, others more exciting features.
 
 Because Rebble doesn't produce revenue from hardware sales like Core does,
 and we're not requiring that Core users have a Rebble subscription, we've
-mde it work by agreeing that Core will pay us a reasonable amount to cover
+made it work by agreeing that Core will pay us a reasonable amount to cover
 our costs and to support the maintenance of Rebble Web Services.  Our
 agreement with Core is non-exclusive; if anyone else wants to build PebbleOS
 hardware and use the Rebble app store, hit us up and we'd love to get you in
