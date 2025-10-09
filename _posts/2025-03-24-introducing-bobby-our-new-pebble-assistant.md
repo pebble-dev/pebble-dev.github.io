@@ -17,6 +17,8 @@ Bobby is a new voice assistant for your Pebble. It's inspired by [Snowy][snowy a
 technology (specifically, Google's Gemini LLM). This makes Bobby both easier to use and more powerful than Snowy: no
 longer do you need to phrase your requests exactly.
 
+<!--more-->
+
 ## Features
 
 ### Weather
