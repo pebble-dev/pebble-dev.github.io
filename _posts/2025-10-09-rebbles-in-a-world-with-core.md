@@ -73,7 +73,7 @@ on that in a moment.
 
 # Our promise to you
 
-As Core and other vendors start to produce hardware for RebbleOS, we were
+As Core and other vendors start to produce hardware for PebbleOS, we were
 worried that the ecosystem may begin to fragment.  This is one of the
 reasons that we worked so hard to partner with Core on a unified app store. 
 Access to legacy apps, apps developed since the shutdown and submitted via
