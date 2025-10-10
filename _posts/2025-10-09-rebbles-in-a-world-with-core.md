@@ -104,16 +104,7 @@ that we have to be advocates for technologies that will outlast current
 manufacturers -- and, for that matter, that could even outlast Rebble
 Foundation!
 
-[^1]: What do we mean by user-respecting?  Roughly, we think that a
-technology is user-respecting if it puts the needs of the user, not the
-needs of the manufacturer or developer, first.  By way of examples that are
-informative, but not by any means complete: user-respecting technology does
-not demand or optimize for a user's engagement unless it genuinely helps
-that individual user; it does not create or remove features unless doing so
-directly helps a user, rather than helping a manufacturer.  If a
-user-respecting technology processes a user's data, it does so only in a way
-that helps that user, and it does not transmit a user's data to any other
-party without a user's consent.
+[^1]: What do we mean by user-respecting?  Roughly, we think that a technology is user-respecting if it puts the needs of the user, not the needs of the manufacturer or developer, first.  By way of examples that are informative, but not by any means complete: user-respecting technology does not demand or optimize for a user's engagement unless it genuinely helps that individual user; it does not create or remove features unless doing so directly helps a user, rather than helping a manufacturer.  If a user-respecting technology processes a user's data, it does so only in a way that helps that user, and it does not transmit a user's data to any other party without a user's consent.
 
 Our promise to you is that we'll do our darned best to keep our eye on this
 goal, and to work towards it the best we know how.  We owe our existence to
