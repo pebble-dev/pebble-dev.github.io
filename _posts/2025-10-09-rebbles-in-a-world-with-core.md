@@ -104,7 +104,7 @@ that we have to be advocates for technologies that will outlast current
 manufacturers -- and, for that matter, that could even outlast Rebble
 Foundation!
 
-[^1] What do we mean by user-respecting?  Roughly, we think that a
+[^1]: What do we mean by user-respecting?  Roughly, we think that a
 technology is user-respecting if it puts the needs of the user, not the
 needs of the manufacturer or developer, first.  By way of examples that are
 informative, but not by any means complete: user-respecting technology does
