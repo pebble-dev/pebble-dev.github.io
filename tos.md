@@ -1,7 +1,7 @@
 ---
 layout: text-page
 title: "ToS"
-date:   2018-06-26 23:21:42
+date:   2025-11-17 00:52:00
 
 permalink: /tos/
 ---
@@ -14,7 +14,7 @@ Thank you for using Rebble! We're happy you're here. Please read this Terms of S
 | --- | --- |
 | [A. Definitions](#a-definitions) | Some basic terms, defined in a way that will help you understand this agreement. Refer back up to this section for clarification. |
 | [B. Account Terms](#b-account-terms) | These are the basic requirements of having an Account on Rebble.  |
-| [C. Acceptable Use](#c-acceptable-use)| These are the basic rules you must follow when using your Rebble Account. |
+| [C. Acceptable Use](#c-acceptable-use)| These are the basic rules you must follow when using your Rebble Account or the Rebble Services. |
 | [D. User-Generated Content](#d-user-generated-content) | You own the content you post on Rebble. However, you have some responsibilities regarding it, and we ask you to grant us some rights so we can provide services to you. |
 | [E. Copyright & DMCA Policy](#e-copyright-infringement-and-dmca-policy) | This section talks about how Rebble will respond if you believe someone is infringing your copyrights on Rebble. |
 | [F. Intellectual Property Notice](#f-intellectual-property-notice) | This describes Rebble's rights in the website and service. |
@@ -22,7 +22,7 @@ Thank you for using Rebble! We're happy you're here. Please read this Terms of S
 | [H. Third Party Applications](#h-third-party-applications) | We have a few rules for creating apps for other Users |
 | [I. Payment](#i-payment) | You are responsible for payment. We are responsible for billing you accurately. |
 | [J. Cancellation and Termination](#j-cancellation-and-termination) | You may cancel this agreement and close your Account at any time. |
-| [K. Communications with Rebble](#k-communications-with-rfebble) | We only use email and other electronic means to stay in touch with our users. We do not provide phone support. |
+| [K. Communications with Rebble](#k-communications-with-rebble) | We only use email and other electronic means to stay in touch with our users. We do not provide phone support. |
 | [L. Disclaimer of Warranties](#l-disclaimer-of-warranties) | We provide our service as is, and we make no promises or guarantees about this service. **Please read this section carefully; you should understand what to expect.** |
 | [M. Limitation of Liability](#m-limitation-of-liability) | We will not be liable for damages or losses arising from your use or inability to use the service or otherwise arising under this agreement. **Please read this section carefully; it limits our obligations to you.** |
 | [N. Release and Indemnification](#n-release-and-indemnification) | You are fully responsible for your use of the service. |
@@ -30,7 +30,10 @@ Thank you for using Rebble! We're happy you're here. Please read this Terms of S
 | [P. Miscellaneous](#p-miscellaneous) | Please see this section for legal details including our choice of law. |
 
 ### The Rebble Terms of Service
-Effective date: June 26, 2018
+
+Effective date: November 17, 2025
+
+These Terms of Service have important changes and clarifications over previous versions.  Any clarifications in these Terms of Service are not meant to limit Rebble's or Your rights under any previous Terms of Service that you may have previously agreed to.
 
 
 ### A. Definitions
@@ -40,9 +43,10 @@ Effective date: June 26, 2018
 2. The “Service” refers to the applications, software, products, and services provided by Rebble.
 3. The “Website” refers to Rebble’s website located at [rebble.io](https://rebble.io/), and all content, services, and products provided by Rebble at or through the Website. It also refers to Rebble-owned subdomains of rebble.io, such as [auth.rebble.io](https://auth.rebble.io) and [apps.getpebble.com](https://apps.getpebble.com). Occasionally, websites owned by Rebble may provide different or additional terms of service. If those additional terms conflict with this Agreement, the more specific terms apply to the relevant page or service.
 4. “The User,” “You,” and “Your” refer to the individual person, company, or organization that has visited or is using the Website or Service; that accesses or uses any part of the Account; or that directs the use of the Account in the performance of its functions. A User must be at least 13 years of age.
-5. “Rebble,” “We,” and “Us” refer to Rebble Alliance, LLC, as well as our affiliates, directors, subsidiaries, contractors, licensors, officers, agents, and employees.
+5. “Rebble,” “We,” and “Us” refer to Rebble Foundation, as well as our affiliates, directors, subsidiaries, contractors, licensors, officers, agents, and employees.
 6. “Content” refers to content featured or displayed through the Website, including without limitation text, data, articles, images, photographs, graphics, software, applications, designs, features, and other materials that are available on the Website or otherwise available through the Service. "Content" also includes Services. “User-Generated Content” is Content, written or otherwise, created or uploaded by our Users. "Your Content" is Content that you create or own.
 7. An "Account" represents your legal relationship with Rebble. A “User Account” represents an individual User’s authorization to log in to and use the Service and serves as a User’s identity on Rebble.
+8. An "Open Source License" refers to any license that is listed as an Open Source Initiative Approved License.
 
 ### B. Account Terms
 **Short version:** *A human must create your Account; you must be 13 or over; you must provide a valid email address; and you may not have more than one free Account. You alone are responsible for your Account and anything that happens while you are signed in to or using your Account. You are responsible for keeping your Account secure.*
@@ -72,7 +76,7 @@ You are responsible for keeping your Account secure while you use our Service.
 In some situations, third parties' terms may apply to your use of Rebble. For example, you may download a third party application from the appstore. Please be aware that while these Terms are our full agreement with you, other parties' terms govern their relationships with you.
 
 ### C. Acceptable Use
-**Short version:** *Rebble hosts a wide variety of content from all over the worldwide community, and that community only works when our users are able to work together in good faith. While using the service, you must follow this Acceptable Use Policy, which includes some restrictions on content you can post, conduct on the service, and other limitations. In short, **be excellent to each other.***
+**Short version:** *Rebble hosts a wide variety of content from all over the worldwide community, and that community only works when our users are able to work together in good faith.  While using the service, you must follow this Acceptable Use Policy, which includes some restrictions on content you can post, conduct on the service, and other limitations. In short, **be excellent to each other.***
 
 #### 1. Compliance with Laws and Regulations
 Your use of the Website and Service must not violate any applicable laws, including copyright or trademark laws, export control laws, or other laws in your jurisdiction. You are responsible for making sure that your use of the Service is in compliance with laws and any applicable regulations.
@@ -91,21 +95,23 @@ You agree that you will not under any circumstances upload, post, host, or trans
 While using Rebble, you agree that you will not under any circumstances:
 
 - harass, abuse, threaten, or incite violence towards any individual or group, including Rebble employees, officers, and agents, or other Rebble Users;
-- use our servers for any form of excessive automated bulk activity (for example, spamming), or relay any other form of unsolicited advertising or solicitation through our servers, such as get-rich-quick schemes;
+- use our servers for any form of excessive automated bulk activity (for example, spamming or scraping, as defined below), or relay any other form of unsolicited advertising or solicitation through our servers, such as get-rich-quick schemes;
 - attempt to disrupt or tamper with Rebble's servers in ways that could harm our Website or Service, to place undue burden on Rebble's servers through automated means, or to access Rebble's Service in ways that exceed your authorization (other than those authorized by the Rebble Bug Bounty program);
 - impersonate any person or entity, including any of our employees or representatives, including through false association with Rebble, or by fraudulently misrepresenting your identity or site's purpose; or
 - violate the privacy of any third party, such as by posting another person's personal information without consent.
 
 #### 4. Services Usage Limits
-You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without Rebble's express written permission.
+You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, access to the Service, or Content accessed through use of the Service, without Rebble's express written permission.
 
 #### 5. Scraping
-Scraping refers to extracting data from our Website via an automated process, such as a bot or webcrawler. It does not refer to the collection of information through Rebble's API. Please see [Section g](#g-api-terms) for our API Terms. You may scrape the website for the following reasons:
+Scraping refers to extracting data from our Website via an automated process, such as a bot or webcrawler, including collection of information through Rebble's API. Please see [Section g](#g-api-terms) for our API Terms. You may scrape the website for the following reasons:
 
-- Researchers may scrape public, non-personal information from Rebble for research purposes, only if any publications resulting from that research are open access.
+- Researchers may scrape public, non-personal information from Rebble for non-commercial research purposes, only if any publications resulting from that research are open access.
 - Archivists may scrape Rebble for public data for archival purposes.
 
 You may not scrape Rebble for spamming purposes, including for the purposes of selling Rebble users' personal information.
+
+You may not scrape Rebble for commercial purposes, and you may not use Content that you have collected from Rebble for commercial purposes.
 
 All use of Rebble data gathered through scraping must comply with the [Rebble Privacy Statement](https://rebble.io/privacy).
 
@@ -120,6 +126,10 @@ If we determine your bandwidth usage to be significantly excessive in relation t
 #### 8. User Protection
 You agree not to engage in activity that significantly harms our Users. We will resolve disputes in favor of protecting our Users as a whole.
 
+#### 9. Sole Grant
+
+These Terms of Service are the only terms that give You authorization to access the Services.  Any access of the Services outside of these Terms -- including the API Terms set forth below -- immediately revokes Your authorization to access the Services going forward, unless explicitly reinstated by Rebble. 
+
 ### D. User-Generated Content
 **Short version:** *You own content you create, but you allow us certain rights to it, so that we can display and share the content you post. You still have control over your content, and responsibility for it, and the rights you grant us are limited to those we need to provide the service. We have the right to remove content or close Accounts if we need to.*
 
@@ -127,7 +137,7 @@ You agree not to engage in activity that significantly harms our Users. We will 
 You may create or upload User-Generated Content while using the Service. You are solely responsible for the content of, and for any harm resulting from, any User-Generated Content that you post, upload, link to or otherwise make available via the Service, regardless of the form of that Content. We are not responsible for any public display or misuse of your User-Generated Content.
 
 #### 2. Rebble May Remove Content
-We do not pre-screen User-Generated Content, but we have the right (though not the obligation) to refuse or remove any User-Generated Content that, in our sole discretion, violates any Rebble terms or policies.
+We do not pre-screen User-Generated Content, but we have the right (though not the obligation) to refuse or remove any User-Generated Content that, in our sole discretion, violates any Rebble terms or policies, or for any reason at all.
 
 #### 3. Ownership of Content, Right to Post, and License Grants
 You retain ownership of and responsibility for Your Content. If you're posting anything you did not create yourself or do not own the rights to, you agree that you are responsible for any Content you post; that you will only submit Content that you have the right to post; and that you will fully comply with any third party licenses relating to Content you post.
@@ -135,9 +145,9 @@ You retain ownership of and responsibility for Your Content. If you're posting a
 Because you retain ownership of and responsibility for Your Content, we need you to grant us — and other Rebble Users — certain legal permissions, listed in Sections D.4 — D.6. These license grants apply to Your Content. If you upload Content that already comes with a license granting Rebble the permissions we need to run our Service, no additional license is required. You understand that you will not receive any payment for any of the rights granted in Sections D.4 — D.6. The licenses you grant to us will end when you remove Your Content from our servers.
 
 #### 4. License Grant to Us
-We need the legal right to do things like host Your Content, publish it, and share it. You grant us and our legal successors the right to store, parse, and display Your Content, and make incidental copies as necessary to render the Website and provide the Service. This includes the right to do things like copy it to our database and make backups; show it to you and other users; parse it into a search index or otherwise analyze it on our servers; share it with other users; and perform it, in case Your Content is something like music or video.
+We need the legal right to do things like host Your Content, publish it, and share it. You grant us and our legal successors a nonexclusive, worldwide, perpetual, transferable license to store, parse, display, and redistribute Your Content. This includes the right to do things like copy it to our database and make backups; show it to you and other users; parse it into a search index or otherwise analyze it on our servers; share it with other users; perform it, in case Your Content is something like music or video; and the ability to pass the right to use and redistribute Your Content on to sublicensees of Rebble's choosing.
 
-This license does not grant Rebble the right to sell Your Content or otherwise distribute or use it outside of our provision of the Service.
+As a special exception, if Your Content is licensed under an Open Source License, the rights that you grant to Rebble, its legal successors, and its sublicensees may be further restricted by the terms of that Open Source License.  For example, if Your Content is licensed under the GNU General Public License, then the source distribution requirements from that Open Source License will continue to apply to Rebble, its legal successors, and its sublicensees.
 
 #### 5. License Grant to Other Users
 Any User-Generated Content you post publicly may be viewed by others. By setting your content to be viewed publicly, you agree to allow others to view and download it.
@@ -161,24 +171,34 @@ We may terminate the Accounts of repeat infringers of this policy.
 Rebble and our licensors, vendors, agents, and/or our content providers retain ownership of all intellectual property rights of any kind related to the Website and Service. We reserve all rights that are not expressly granted to you under this Agreement or by law.
 
 #### 2. Rebble Trademarks and Logos
-If you’d like to use Rebble’s trademarks, you must follow all of our trademark guidelines.
+If you’d like to use Rebble’s trademarks, you must follow all of our trademark guidelines.  You may not use Rebble's trademarks without prior authorization from Rebble.
 
 #### 3. License to Rebble Policies
 This Agreement is licensed under this [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/). For details, see our [site-policy repository](https://github.com/pebble-dev/site-policy).
 
 ### G. API Terms
-**Short version:** *You agree to these Terms of Service, plus this Section H, when using any of Rebble's APIs (Application Provider Interface), including use of the API through a third party product that accesses Rebble.*
+**Short version:** *You agree to these Terms of Service, plus this Section G, when using any of Rebble's APIs (Application Provider Interface), including use of the API through a third party product that accesses Rebble.*
 
 #### No Abuse or Overuse of the API
-Abuse or excessively frequent requests to Rebble via the API may result in the temporary or permanent suspension of your Account's access to the API. Rebble, in our sole discretion, will determine abuse or excessive usage of the API. We will make a reasonable attempt to warn you via email prior to suspension.
+Abuse or excessively frequent requests to Rebble via the API may result in the temporary or permanent suspension of Your access to the API. Rebble, in our sole discretion, will determine abuse or excessive usage of the API.
 
 You may not share API tokens to exceed Rebble's rate limitations.
 
 You may not use the API to download data or Content from Rebble for spamming purposes, including for the purposes of selling Rebble users' personal information.
 
+You may not use automated mass-download tools to access the API.  You may not scrape the API other than as allowed in Section 5.
+
+Your use of the API must not interfere with any interests of Rebble, and must not interfere with the operation of the Services.  If You publicly display any data that you derive from use of the Rebble API, you must prominently attribute that data to Rebble, and for User-Generated Content that You display, You must also attribute that Content to its creators (where that information is available). 
+
 All use of the Rebble API is subject to these Terms of Service and the [Rebble Privacy Statement](https://rebble.io/privacy).
 
-Rebble may offer subscription-based access to our API for those Users who require high-throughput access or access that would result in resale of Rebble's Service.
+#### No Resale of API Data
+
+You may use the Rebble API only for your own personal purposes, and to provide non-commercial services that enhance the Services.  Data obtained from the Rebble API may not be resold or reused for commercial purposes.
+
+#### Commercial Terms
+
+Rebble may offer commercial terms to any User that requires high-throughput access, access that would result in resale of Rebble's Service, or for any other reason.  Such commercial terms may amend and/or supersede these Terms of Service.
 
 ### H. Third Party Applications
 **Short version:** *You need to follow certain rules if you create an application for other Users, and there are additional Terms that cover the Appstore.*
