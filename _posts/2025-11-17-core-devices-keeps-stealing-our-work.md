@@ -11,6 +11,11 @@ Unfortunately, our agreement is already breaking down.  We hoped that by putting
 
 Rebble has been working since the beginning to keep the Pebble experience alive -- maintaining the App Store, building new services like [Bobby](https://rebble.io/2025/03/24/introducing-bobby-our-new-pebble-assistant.html), and running [frontline support](https://help.rebble.io/) for people keeping their Pebbles ticking the whole time.  (The Pebble App Store that Core offers *right now* is backed by Rebble!)  But Eric and Core recently demanded that, instead of working together, we need to just give them all of our work from the last decade so that they could do whatever they want with it.  And in Eric's latest newsletter, he hasn't told you the truth about where the work that makes his business run came from.  **We'd rather have cooperated with them to build something great together, but we've reached an impasse. So now, we're asking you -- our community -- what to do with Core.**
 
+*Update (November 18th, 7pm Pacific): [Eric responded to this blog post.](https://ericmigi.com/blog/pebble-rebble-and-a-path-forward)  Obviously we don't
+entirely agree with his position, and we don't agree with how he has characterized our
+position -- if we did, we wouldn't be having this conversation! -- but you
+should definitely read it too.*
+
 <!--more-->
 
 # How we got here
