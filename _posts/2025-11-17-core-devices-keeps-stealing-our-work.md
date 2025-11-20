@@ -16,6 +16,9 @@ entirely agree with his position, and we don't agree with how he has characteriz
 position -- if we did, we wouldn't be having this conversation! -- but you
 should definitely read it too.*
 
+*Edit (November 19th, 5pm Pacific): We added the words 'collected by, maintained by, hosted by, and served by' around '100%' below to
+more accurately reflect our original intent.*
+
 <!--more-->
 
 # How we got here
@@ -24,7 +27,7 @@ Nine years ago, Eric Migicovsky's company, Pebble Technology Corporation, went o
 
 Since then, we built a replacement app store API that was compatible with the old app store front end.  We built a storage backend for it, and then we spent enormous effort to import the data that we salvaged.  We've built a totally new dev portal, where y'all submitted brand new apps that never existed while Pebble was around.  So far, we've spent hundreds of thousands of dollars on storing and hosting the data.  And the humans who run the Rebble servers have also spent incredibly late nights upgrading Kubernetes clusters, responding to outages, and generally keeping things ticking.
 
-**What you now know as the Pebble App Store from Eric's new company, Core Devices, is the result of nearly a decade of our work.**  The data behind the Pebble App Store is 100% Rebble.  And the App Store that we've built together is much more than it was when Pebble stopped existing.  We've patched hundreds of apps with Timeline and weather endpoint updates.  We've curated removal requests from people who wanted to unpublish their apps.  And it has new versions of old apps, and brand new apps from the two hackathons we've run!
+**What you now know as the Pebble App Store from Eric's new company, Core Devices, is the result of nearly a decade of our work.**  The data behind the Pebble App Store is 100% collected by, maintained by, hosted by, and served by Rebble.  And the App Store that we've built together is much more than it was when Pebble stopped existing.  We've patched hundreds of apps with Timeline and weather endpoint updates.  We've curated removal requests from people who wanted to unpublish their apps.  And it has new versions of old apps, and brand new apps from the two hackathons we've run!
 
 We've been negotiating with Eric for months now.  We'll compromise on almost everything else, but our one red line is this:
 
