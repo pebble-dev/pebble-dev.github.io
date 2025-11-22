@@ -36,10 +36,10 @@
   avatar: "sgerli.png"
   bio: "I am a computer engineering student at <a href=\"https://www.tec.ac.cr/\">ITCR</a> that loves technology, programming, design, and Pebble smartwatches.<br>I started The Panic Store project (now Rebble Store) and designed it, but the design ended up being completely different as how it was supposed to be, it ended up being <b>better</b>."
 
-- name: "Jakob Riepler (XDjackieXD)"
+- name: "Jakob (jackie)"
   blurb: "knows his chaos."
   avatar: "xdjackiexd.png"
-  bio: "I'm Jakob, student at the technical university of Vienna in Austria. I'm interested in embedded hardware and software design, RF circuit design, software development and loads of other stuff that is too numerous to name here and love to learn new things."
+  bio: "Doing embedded hardware and software development, always learning new things about black magic (aka RF electronics) and still daily driving my trusty PTS after almost a decade now."
 
 - name: "Miles Kjeller"
   blurb: ", fox in a human outfit. Shh, don't tell anyone."
