@@ -20,6 +20,8 @@ We've been so appreciative of all of the feedback that we've heard.  Many of you
 * We've added two more members to the Board of Directors of the Rebble Foundation!  And **we're improving the Foundation's governance** to be more transparent.
 * **We're ready to figure out what's next**.
 
+*Updated November 24th, 8pm Pacific: The app store archives are now available!* 
+
 # On the Rebble App Store
 
 By far, one of the most common criticisms we heard from Core Devices and the community was:
@@ -40,7 +42,7 @@ We've since edited that section to make our intentions a lot clearer - the part 
 
 **The App Store's apps and watchfaces belong to the community, not to Rebble**. We've always believed this, and we don't intend to change our stance on that anytime soon. In the past, we thought that we could do the best for the community by avoiding fragmentation of the app store.  Former Pebble engineer Lance R. Vick [had an insightful comment thread on Hacker News](https://news.ycombinator.com/item?id=45962008) that meaningfully changed our opinion: we still think that, as a community, we can build the best app store for the Pebbleverse, but we think he's right that other people should get to try out their own "alternative visions" for the Pebble ecosystem.
 
-So on that front, we're **publishing a complete archive of all apps and watchfaces on the Rebble App Store** for everyone to download and use. We'll be making the archive accessible at [auth.rebble.io](https://auth.rebble.io) behind login (thanks to AI scrapers) once it is ready over the next few days; the archive will update each month with the latest export from our database. The archives are free for you to do whatever you want with them - share them around, keep your own backups, anything that you come up with! We only ask that if you do use our archives to make something, **please leave a prominent note saying that you got it from us**, and **provide a link to the archives** so people know where you got them from. You don't *have* to, but we'd be sad if you didn't. :(
+So on that front, we're **publishing a complete archive of all apps and watchfaces on the Rebble App Store** for everyone to download and use.  You can download it right now on the [dev portal](https://dev-portal.rebble.io/profile) (thanks to the modern world of AI scrapers wasting huge amounts of bandwidth, you'll have to log in, but then click on the gear and click on the download link!).  The archive will update each month with the latest export from our database.  The archives are free for you to do whatever you want with them - share them around, keep your own backups, anything that you come up with!  We only ask that if you do use our archives to make something, **please leave a prominent note saying that you got it from us**, and **provide a link to the archives** so people know where you got them from.  You don't *have* to, but we'd be sad if you didn't.  :(
 
 # On Stealing Allegations
 
