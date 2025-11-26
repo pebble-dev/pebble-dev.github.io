@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Core Devices Keeps Stealing Our Work
+title: Core Devices Keeps Taking Advantage Of Our Work
 date: 2025-11-17 07:30:00
 author: Team Rebble
 ---
 
-*Edit (November 26th, 2am Pacific): We've had a bit of time to reflect on this blog post, and we no longer agree with the characterization of Core Devices' actions described here as "stealing". We're keeping the original text as-is to avoid confusion, but we've gone into more detail about why we've changed our stance in [our follow-up blog post here](https://rebble.io/2025/11/24/rebble-in-your-own-world.html).*
+*Edit (November 26th, 2am Pacific): This post was originally titled "Core Devices Keeps Stealing Our Work".  We've had a bit of time to reflect on this blog post, and we no longer agree with the characterization of Core Devices' actions described around automated access to our App Store as "stealing". We're keeping the original text as-is to avoid confusion, but we've gone into more detail about why we've changed our stance on that in [our follow-up blog post here](https://rebble.io/2025/11/24/rebble-in-your-own-world.html).*
 
 This is a post that we don't take any joy in writing.  When we [wrote last month about our agreement with Core Devices](https://rebble.io/2025/10/09/rebbles-in-a-world-with-core.html), we went into it believing that cooperation between Core and Rebble would be the best decision for the Pebble community.  Core would spearhead the development of brand new watches, and we'd be there to provide our Rebble Web Services to go with them.
 
