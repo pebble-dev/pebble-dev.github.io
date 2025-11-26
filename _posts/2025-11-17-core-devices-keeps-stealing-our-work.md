@@ -5,6 +5,8 @@ date: 2025-11-17 07:30:00
 author: Team Rebble
 ---
 
+*Edit (November 26th, 2am Pacific): We've had a bit of time to reflect on this blog post, and we no longer agree with the characterization of Core Devices' actions described here as "stealing". We're keeping the original text as-is to avoid confusion, but we've gone into more detail about why we've changed our stance in [our follow-up blog post here](https://rebble.io/2025/11/24/rebble-in-your-own-world.html).*
+
 This is a post that we don't take any joy in writing.  When we [wrote last month about our agreement with Core Devices](https://rebble.io/2025/10/09/rebbles-in-a-world-with-core.html), we went into it believing that cooperation between Core and Rebble would be the best decision for the Pebble community.  Core would spearhead the development of brand new watches, and we'd be there to provide our Rebble Web Services to go with them.
 
 Unfortunately, our agreement is already breaking down.  We hoped that by putting on a kind face, and publishing an optimistic-sounding blog post along with Eric, that we'd be able to collaborate in a way that met [our responsibilities to you, our users](https://rebble.io/2025/10/09/rebbles-in-a-world-with-core.html#Our-promise-to-you).  We knew that neither of us would be able to get all we wanted, but we thought we had enough common ground that we could serve Pebble users together.
