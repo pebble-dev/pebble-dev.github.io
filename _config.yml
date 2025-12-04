@@ -4,8 +4,6 @@ title: Rebble
 # email: your-email@domain.com
 description: >
   The goal of Rebble is to maintain and advance Pebble functionality in the absence of Pebble Technology Corp.
-baseurl: ""		# no trailing slash
-url: ""	# no trailing slash
 excerpt_separator: <!--more-->
 
 about: >
