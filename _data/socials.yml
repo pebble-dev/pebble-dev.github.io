@@ -1,11 +1,23 @@
 - name: discord
   url: https://discordapp.com/invite/aRUAYFN
-  icon: discord.png
+  icon: discord.svg
 
-- name: twitter
-  url: https://twitter.com/pebble_dev/
-  icon: twitter.png
+- name: forum
+  url: https://forum.rebble.io
+  icon: forum.svg
+
+- name: bluesky
+  url: https://bsky.app/profile/rebble.io/
+  icon: bluesky.svg
+
+- name: mastodon
+  url: https://mastodon.social/@rebble
+  icon: mastodon.svg
 
 - name: email
   url: /contact/
-  icon: email.png
+  icon: email.svg
+
+- name: github
+  url: https://github.com/pebble-dev
+  icon: github.svg
