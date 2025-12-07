@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+ <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <path d="m1 14v4l6 3 2-2h7l2 2 6-3v-4l-3-9-3-1-1 1h-9l-1-1-3 1z" fill="#fff"/>
+  <path d="m7 12h3v3h-3z" fill="none"/>
+  <path d="m15 12h3v3h-3z" fill="none"/>
+ </g>
+</svg>
