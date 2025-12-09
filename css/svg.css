@@ -32,3 +32,23 @@ header .headertext {
 .hour {
   transform: rotate(0deg);
 }
+
+
+/* -- Temporary 'New' for the forum -- */
+li > a[href*="forum.rebble.io"] {
+  position: relative;
+}
+
+li > a[href*="forum.rebble.io"]::before {
+  content: "New!";
+  position: absolute;
+  top: -5px;
+  right: 0;
+  background: transparent;
+  color: rgb(249, 162, 133);
+  font-size: 10px;
+  padding: 0;
+  transform: rotate(15deg);
+  pointer-events: none;
+  white-space: nowrap;
+}

@@ -7,11 +7,11 @@
 - display: "howto"
   permalink: "/howto/"
 
+- display: "forum"
+  permalink: "https://forum.rebble.io"
+
 - display: "faq"
   permalink: "/faq/"
-
-- display: "projects"
-  permalink: "/projects/"
 
 - display: "contact"
   permalink: "/contact/"
