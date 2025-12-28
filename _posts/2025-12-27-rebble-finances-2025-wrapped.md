@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rebble Foundation Finances 2025 #Wrapped!"
-date: 2025-12-29 20:10:00
+date: 2025-12-27 20:10:00
 author: "Joshua Wise"
 ---
 
