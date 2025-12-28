@@ -13,10 +13,19 @@ Anyway, I just finished the QuickBooks review for December, and I am happy to sa
 
 ## Rebble Foundation Finances #Wrapped 2025
 
-<table>
+<style>
+table.argh * { box-sizing: border-box; }
+table.argh {border-radius: 4px; border: 1px solid #aaa; border-spacing: 0; border-collapse: collapse;} // why does this radius work for hackmd but not me?  whatever, argh
+table.argh td, table.argh th { min-width: 1em; border-left: 1px solid #aaa; border-top: 1px solid #aaa; padding: 3px 10px; }
+table.argh thead tr th { border-top: none; border-left: none; }
+table.argh td:first-child, table.argh th:first-child { border-left: none; }
+table.argh tr:nth-child(even) { background: #EEE; }
+table.argh tr:nth-child(odd) { background: #FFF; }
+</style>
+<table class="argh">
     <thead><tr><th colspan="3">Rebble Foundation Financial Report</th></tr></thead>
     <tr><td colspan="2">Starting Cash on Hand</td><td><b>$508,407</b></td></tr>
-    <tr><td colspan="2">Income</td><td><b>+$87,457</b></th></tr>
+    <tr><td colspan="2">Income</td><td><b>+$87,457</b></td></tr>
     <tr><td></td><td><i>Subscription revenue</i></td><td><i>$82,054</i></td></tr>
     <tr><td></td><td><i>Interest income</i></td><td><i>$5,403</i></td></tr>
     <tr><td colspan="2">Program Expenditures</td><td><b>-$37,320</b></td></tr>
