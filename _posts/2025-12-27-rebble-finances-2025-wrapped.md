@@ -11,7 +11,7 @@ Hi everyone!  It's me, Joshua, your friendly Treasurer for the Rebble Foundation
 
 Anyway, I just finished the QuickBooks review for December, and I am happy to say that our financial situation is decently strong. So first off, here’s a table of our cash flow for this calendar year. (There are some notes below.) Our fiscal year closes in June, so this isn’t a formal 'annual report'.  But given this is coming in December, it obviously is a #Wrapped!
 
-## Rebble Foundation Finances #Wrapped 2025
+## Foundation Financial Overview
 
 <style>
 table.argh * { box-sizing: border-box; }
