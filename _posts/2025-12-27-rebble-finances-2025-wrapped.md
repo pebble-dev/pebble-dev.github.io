@@ -15,7 +15,8 @@ Anyway, I just finished the QuickBooks review for December, and I am happy to sa
 
 <style>
 table.argh * { box-sizing: border-box; }
-table.argh {border-radius: 4px; border: 1px solid #aaa; border-spacing: 0; border-collapse: collapse;} // why does this radius work for hackmd but not me?  whatever, argh
+/* why does this radius work for hackmd but not me?  whatever, argh */
+table.argh {border-radius: 4px; border: 1px solid #aaa; border-spacing: 0; border-collapse: collapse;} 
 table.argh td, table.argh th { min-width: 1em; border-left: 1px solid #aaa; border-top: 1px solid #aaa; padding: 3px 10px; }
 table.argh thead tr th { border-top: none; border-left: none; }
 table.argh td:first-child, table.argh th:first-child { border-left: none; }
