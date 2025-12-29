@@ -12,5 +12,5 @@
   icon: bluesky.png
 
 - name: Email
-  url: /contact/
+  url: mailto:support@rebble.io
   icon: email.png
