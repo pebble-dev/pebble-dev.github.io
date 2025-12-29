@@ -5,7 +5,7 @@
     </div>
     <div class="text-content">
       {% for item in site.data.socials %}
-        <a href="{{ item.url }}"><img class="footer-icon" alt="icon-{{ item.name }}" src="/images/social-icons/{{ item.icon }}"></img></a>
+        <a rel="me" href="{{ item.url }}"><img class="footer-icon" alt="icon-{{ item.name }}" src="/images/social-icons/{{ item.icon }}"></img></a>
       {% endfor %}
     </div>
     {% include mailinglist.html %}
