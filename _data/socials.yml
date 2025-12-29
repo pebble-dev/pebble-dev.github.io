@@ -1,16 +1,19 @@
 - name: Discord
   url: https://discordapp.com/invite/aRUAYFN
-  icon: discord.png
+  icon: discord.svg
 
 - name: Bluesky
-  url: https://bsky.app/profile/rebble.io
-  icon: bluesky.png
+  url: https://bsky.app/profile/rebble.io/
+  icon: bluesky.svg
 
 - name: Mastodon
   url: https://mastodon.social/@rebble
-  # TODO: get mastodon icon
-  icon: bluesky.png
+  icon: mastodon.svg
+
+- name: GitHub
+  url: https://github.com/pebble-dev
+  icon: github.svg
 
 - name: Email
   url: mailto:support@rebble.io
-  icon: email.png
+  icon: email.svg
