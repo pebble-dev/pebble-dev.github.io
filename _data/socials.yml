@@ -1,16 +1,16 @@
-- name: discord
+- name: Discord
   url: https://discordapp.com/invite/aRUAYFN
   icon: discord.png
 
-- name: bluesky
+- name: Bluesky
   url: https://bsky.app/profile/rebble.io
   icon: bluesky.png
 
-- name: mastodon
+- name: Mastodon
   url: https://mastodon.social/@rebble
   # TODO: get mastodon icon
   icon: bluesky.png
 
-- name: email
+- name: Email
   url: /contact/
   icon: email.png
